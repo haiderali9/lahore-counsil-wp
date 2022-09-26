@@ -1,4 +1,4 @@
-/*! elementor - v3.7.0 - 08-08-2022 */
+/*! elementor - v3.7.7 - 20-09-2022 */
 @import "//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
 @import "//fonts.googleapis.com/css2?family=DM%20Sans&display=swap";
 @import "//fonts.googleapis.com/css2?family=Source%20Serif%20Pro&display=swap";
@@ -4135,8 +4135,19 @@ h6,
 .e-onboarding__header .eps-button {
   color: #0C0D0E;
 }
-.e-onboarding__header .eps-button .eicon-pro-icon {
-  color: #93003c;
+.e-onboarding__header .eps-button__go-pro-btn {
+  background-color: #871A40;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.e-onboarding__header .eps-button__go-pro-btn:hover {
+  background: #b22254;
 }
 
 .e-onboarding__go-pro {

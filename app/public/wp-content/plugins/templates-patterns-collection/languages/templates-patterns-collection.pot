@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Templates Patterns Collection 1.1.25\n"
+"Project-Id-Version: Templates Patterns Collection 1.1.26\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/templates-patterns-collection\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-07-28T11:07:07+00:00\n"
+"POT-Creation-Date: 2022-09-13T14:36:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: templates-patterns-collection\n"
@@ -56,174 +56,174 @@ msgstr ""
 msgid "Open %s"
 msgstr ""
 
-#: includes/Admin.php:408
+#: includes/Admin.php:409
 msgid "Hi! We've noticed you were using a child theme of Zelle before. To make your transition easier, we can help you keep the same homepage settings you had before but in original Zelle's style, by converting it into an Elementor template."
 msgstr ""
 
-#: includes/Admin.php:438
+#: includes/Admin.php:439
 #: includes/TI_Beaver.php:412
 #: assets/src/Components/StarterSiteCard.js:61
 msgid "Preview"
 msgstr ""
 
-#: includes/Admin.php:439
+#: includes/Admin.php:440
 #: includes/TI_Beaver.php:413
 #: assets/src/Components/PreviewFrame.js:95
 #: assets/src/Components/StarterSiteCard.js:69
 msgid "Import"
 msgstr ""
 
-#: includes/Admin.php:440
+#: includes/Admin.php:441
 msgid "Get the PRO version!"
 msgstr ""
 
-#: includes/Admin.php:441
+#: includes/Admin.php:442
 msgid "Importing"
 msgstr ""
 
-#: includes/Admin.php:442
+#: includes/Admin.php:443
 #: includes/Elementor.php:81
 #: includes/TI_Beaver.php:391
 #: assets/src/Components/Migration.js:165
 msgid "Cancel"
 msgstr ""
 
-#: includes/Admin.php:443
+#: includes/Admin.php:444
 msgid "Loading"
 msgstr ""
 
-#: includes/Admin.php:444
+#: includes/Admin.php:445
 #: assets/src/Components/ImportModal.js:733
 #: assets/src/Components/Migration.js:198
 msgid "View Website"
 msgstr ""
 
-#: includes/Admin.php:445
+#: includes/Admin.php:446
 #: assets/src/Components/ImportModal.js:743
 msgid "Add your own content"
 msgstr ""
 
-#: includes/Admin.php:446
+#: includes/Admin.php:447
 #: assets/src/Components/ImportModal.js:724
 msgid "Back to Sites Library"
 msgstr ""
 
-#: includes/Admin.php:447
+#: includes/Admin.php:448
 msgid "Note"
 msgstr ""
 
-#: includes/Admin.php:448
+#: includes/Admin.php:449
 msgid "Advanced Options"
 msgstr ""
 
-#: includes/Admin.php:449
+#: includes/Admin.php:450
 #: assets/src/Components/ImportModal.js:297
 msgid "Plugins"
 msgstr ""
 
-#: includes/Admin.php:450
+#: includes/Admin.php:451
 msgid "General"
 msgstr ""
 
-#: includes/Admin.php:451
+#: includes/Admin.php:452
 msgid "Keep current layout"
 msgstr ""
 
-#: includes/Admin.php:452
+#: includes/Admin.php:453
 #: includes/Elementor.php:96
 #: includes/TI_Beaver.php:425
 msgid "Search"
 msgstr ""
 
-#: includes/Admin.php:453
+#: includes/Admin.php:454
 #: assets/src/Components/ImportModal.js:195
 msgid "Content"
 msgstr ""
 
-#: includes/Admin.php:454
+#: includes/Admin.php:455
 #: assets/src/Components/ImportModal.js:203
 msgid "Customizer"
 msgstr ""
 
-#: includes/Admin.php:455
+#: includes/Admin.php:456
 #: assets/src/Components/ImportModal.js:207
 msgid "Widgets"
 msgstr ""
 
-#: includes/Admin.php:456
+#: includes/Admin.php:457
 #: assets/src/Components/ImportModal.js:197
 msgid "We recommend you backup your website content before attempting a full site import."
 msgstr ""
 
-#: includes/Admin.php:457
+#: includes/Admin.php:458
 msgid "Due to copyright issues, some of the demo images will not be imported and will be replaced by placeholder images."
 msgstr ""
 
-#: includes/Admin.php:458
+#: includes/Admin.php:459
 msgid "Some of the demo images will not be imported and will be replaced by placeholder images."
 msgstr ""
 
-#: includes/Admin.php:459
+#: includes/Admin.php:460
 msgid "Here is our own collection of related images you can use for your site."
 msgstr ""
 
-#: includes/Admin.php:460
+#: includes/Admin.php:461
 #: assets/src/Components/ImportModal.js:672
 #: assets/src/Components/Migration.js:131
 msgid "Content was successfully imported. Enjoy your new site!"
 msgstr ""
 
-#: includes/Admin.php:461
+#: includes/Admin.php:462
 msgid "Available in the PRO version"
 msgstr ""
 
-#: includes/Admin.php:462
+#: includes/Admin.php:463
 msgid "Copy error code"
 msgstr ""
 
-#: includes/Admin.php:463
+#: includes/Admin.php:464
 msgid "Download error log"
 msgstr ""
 
-#: includes/Admin.php:464
+#: includes/Admin.php:465
 msgid "To import this demo you have to install the following plugins:"
 msgstr ""
 
 #. translators: 1 - 'here'.
-#: includes/Admin.php:467
+#: includes/Admin.php:468
 msgid "It seems that Rest API is not working properly on your website. Read about how you can fix it %1$s."
 msgstr ""
 
-#: includes/Admin.php:468
+#: includes/Admin.php:469
 msgid "here"
 msgstr ""
 
 #. translators: 1 - 'get in touch'.
-#: includes/Admin.php:472
+#: includes/Admin.php:473
 msgid "Hi! It seems there is a configuration issue with your server that's causing the import to fail. Please %1$s with us with the error code below, so we can help you fix this."
 msgstr ""
 
-#: includes/Admin.php:473
-#: includes/Admin.php:483
+#: includes/Admin.php:474
+#: includes/Admin.php:484
 msgid "get in touch"
 msgstr ""
 
 #. translators: 1 - 'troubleshooting guide'.
-#: includes/Admin.php:477
+#: includes/Admin.php:478
 msgid "Hi! It seems there is a configuration issue with your server that's causing the import to fail. Take a look at our %1$s to see if any of the proposed solutions work."
 msgstr ""
 
-#: includes/Admin.php:478
+#: includes/Admin.php:479
 msgid "troubleshooting guide"
 msgstr ""
 
 #. translators: 1 - 'get in touch'.
-#: includes/Admin.php:482
+#: includes/Admin.php:483
 msgid "If none of the solutions in the guide work, please %1$s with us with the error code below, so we can help you fix this."
 msgstr ""
 
 #. translators: %s - 'WP_Filesystem'.
-#: includes/Admin.php:487
+#: includes/Admin.php:488
 msgid "It seems that %s is not available. You can contact your site administrator or hosting provider to help you enable it."
 msgstr ""
 

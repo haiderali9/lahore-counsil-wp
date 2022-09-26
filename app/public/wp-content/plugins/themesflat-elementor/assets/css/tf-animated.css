@@ -1,0 +1,59 @@
+/* themesflat animation
+-------------------------------------------------------------- */
+.tf-animated-twocolumn .item-animated.first {
+  transform: translateX(-25px);
+}
+
+.tf-animated-twocolumn .item-animated.last {
+  transform: translateX(25px);
+}
+
+.tfanimated {
+  opacity: 0;
+  transform: translateY(25px);
+}
+
+.tffadeup {
+  opacity: 1 !important;
+  -webkit-transform: translate(0, 0) !important;
+  transform: translate(0, 0) !important;
+}
+
+.tfanimated-transition {
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+/* hover top */
+.tf-animated-hover-top {
+  transition: all 0.5s;
+  transform: translateY(0);
+}
+
+.tf-animated-hover-top:hover {
+  transform: translateY(-20px);
+}
+
+.tf-animated-hover-top-s2 {
+  transition: all 0.5s;
+  transform: translateY(0);
+}
+
+.tf-animated-hover-top-s2:hover {
+  transform: translateY(-5px);
+}
+
+/*.wrap-bg .bg-first,
+.wrap-bg .bg-last  {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}*/
+
+/*# sourceMappingURL=tf-animated.css.map */

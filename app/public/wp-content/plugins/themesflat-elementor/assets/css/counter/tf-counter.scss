@@ -1,0 +1,52 @@
+.tf-counter {
+    .counter-title {
+        font-weight: 700;
+        font-size: 14px;
+    }
+    
+    .counter-number-prefix {
+        margin-right: 0.1em;
+    }
+    
+    .counter-number-suffix {
+        margin-left: 0.1em;
+    }
+    
+    &.default {
+        text-align: center;
+        
+        .counter-number-wrapper {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1;
+        }
+        
+        .counter-number-wrapper {
+            margin-bottom: 15px;
+        }
+    }
+    
+    &.style1 {
+        .counter-number-wrapper {
+            font-size: 32px;
+            font-weight: 300;
+            line-height: 1;
+        }
+        
+        .counter-number-wrapper {
+            margin-bottom: 10px;
+        }
+    }
+    
+    &.style3 {
+        .counter-number-wrapper {
+            font-size: 72px;
+            line-height: 0.9;
+        }
+        
+        .counter-title {
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+}

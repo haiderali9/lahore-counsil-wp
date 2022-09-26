@@ -1,4 +1,4 @@
-/*! elementor - v3.7.0 - 08-08-2022 */
+/*! elementor - v3.7.7 - 20-09-2022 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["frontend-modules"],{
 
 /***/ "../assets/dev/js/editor/utils/is-instanceof.js":
@@ -2992,10 +2992,10 @@ var store = __webpack_require__(/*! ../internals/shared-store */ "../node_module
 (module.exports = function (key, value) {
   return store[key] || (store[key] = value !== undefined ? value : {});
 })('versions', []).push({
-  version: '3.23.4',
+  version: '3.24.1',
   mode: IS_PURE ? 'pure' : 'global',
   copyright: '© 2014-2022 Denis Pushkarev (zloirock.ru)',
-  license: 'https://github.com/zloirock/core-js/blob/v3.23.4/LICENSE',
+  license: 'https://github.com/zloirock/core-js/blob/v3.24.1/LICENSE',
   source: 'https://github.com/zloirock/core-js'
 });
 

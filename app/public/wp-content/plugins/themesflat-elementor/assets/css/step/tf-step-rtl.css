@@ -1,0 +1,288 @@
+.tf-step .step {
+	display: flex;
+	justify-content: space-between;
+}
+.tf-step .item-step .inner {
+	margin-right: auto;
+	margin-left: auto;
+}
+.tf-step .item-step {
+	width: 100%;
+}
+.tf-step .item-step .image  {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+.tf-step.style1 .item-step .image .number,
+.tf-step.style2 .item-step .image .number {
+	display: flex;
+	justify-content: center;	
+	width: 55px;
+	height: 55px;	
+	position: absolute;
+	top: -20px;
+    left: 2px;
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+}
+.tf-step.style1 .item-step .image .number,
+.tf-step.style2 .item-step .image .number {
+	line-height: 50px !important;
+}
+.tf-step.style2 .item-step .image .number {
+	left: unset;
+	right: 12px;
+	top: -5px;
+}
+.tf-step .step .text p {
+	margin: 0;
+}
+/*style 1*/
+.tf-step.style1 .item-step {
+	text-align: center;
+}
+.tf-step.style1 .item-step .heading {
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+
+.tf-step.style1 .item-step {
+	position: relative;
+}
+
+.tf-step.style1 .item-step-1:before,
+.tf-step.style1 .item-step-2:before {
+	content: "\e91b";
+	font-family: 'bulter';
+	position: absolute;
+	right: 92%;
+	top: 110px;
+	font-size: 77px;
+	color: #fff;
+	-webkit-transform: rotate(-195deg);
+	-moz-transform: rotate(-195deg);
+	-ms-transform: rotate(-195deg);
+	transform: rotate(-195deg);
+}
+.tf-step.style1 .item-step-2:before {
+	right: 95%;
+	top: -4px;
+	-webkit-transform: rotate(-165deg);
+	-moz-transform: rotate(-165deg);
+	-ms-transform: rotate(-165deg);
+	transform: rotate(-165deg);
+}
+.tf-step.style1 .item-step .inner {
+	padding: 40px 0;
+    max-width: 272px;	
+}
+/*style 2*/
+.tf-step.style2 .item-step .image .inner-image {	
+    -webkit-mask-image: url(clip-mask-step.svg); 
+    		mask-image: url(clip-mask-step.svg);   
+    -webkit-mask-position: center center;
+    		mask-position: center center;
+    -webkit-mask-repeat: no-repeat; 
+    		mask-repeat: no-repeat;       
+    -webkit-mask-size: contain;
+    		mask-size: contain;
+    max-width: 272px;
+    transform: rotateY(180deg);
+}
+.tf-step.style2 .item-step .content {
+    background: #fff;
+    padding: 26px 33px;
+    border-top: 4px solid #ff7029;
+    margin-top: -73px;
+    position: relative;
+    z-index: 2;
+    margin-right: 72px;
+    box-shadow: 0px 10px 60px 0px rgba(58, 65, 111, 0.1);
+}
+
+.tf-step.style2 .item-step-1 .content:before,
+.tf-step.style2 .item-step-2 .content:before {
+	content: "\e91b";
+	font-family: 'bulter';
+	position: absolute;
+    left: -40px;
+    top: -73px;
+	font-size: 77px;
+	color: #ff7029;
+	-webkit-transform: rotate(-195deg);
+	-moz-transform: rotate(-195deg);
+	-ms-transform: rotate(-195deg);
+	transform: rotate(-195deg);
+}
+.tf-step.style2 .item-step-2 .content:before {
+	top: -76px;
+	-webkit-transform: rotate(-165deg);
+	-moz-transform: rotate(-165deg);
+	-ms-transform: rotate(-165deg);
+	transform: rotate(-165deg);
+}
+.tf-step.style2 .item-step .inner {
+    max-width: 330px;	
+}
+.tf-step.style2 .item-step .content .heading {
+	margin-bottom: 4px;
+}
+/*style 3*/
+.tf-step.style3 .step {
+	grid-row-gap: 30px;
+	grid-column-gap: 30px;
+}
+.tf-step.style3 .item-step .image,
+.tf-step.style3 .item-step .image img {
+	width: 100%;
+}
+.tf-step.style3 .step .button-step {
+	display: flex;
+	align-items: center;
+}
+.tf-step.style3 .step .button-step i {
+	margin-right: 7px;
+}
+.tf-step.style3 .step .number {
+	font-size: 250px;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(31,36,44,0.07);
+    white-space: nowrap;
+    position: absolute;
+	right: 50%;
+	bottom: 0;
+    -webkit-transform: translateX(50%);
+	-moz-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	transform: translateX(50%);
+}
+.tf-step.style3 .item-step .inner {
+	position: relative;
+}
+.tf-step.style3 .item-step .content,
+.tf-step.style3 .item-step .content .icon,
+.tf-step.style3 .item-step .content .heading,
+.tf-step.style3 .item-step .content .text,
+.tf-step.style3 .item-step .content .button-step,
+.tf-step.style3 .item-step .content .icon i,
+.tf-step.style3 .item-step .content .icon svg {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.tf-step.style3 .item-step .content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	max-width: 72%;
+	background: #ffffff;
+	display: flex;
+	z-index: 1;
+	padding: 15px 30px 1px 20px;
+}
+.tf-step.style3 .item-step .content .icon i {
+	font-size: 40px;
+}
+.tf-step.style3 .item-step .content .icon svg {
+	width: 40px;
+}
+.tf-step.style3 .item-step .content .icon {
+	margin-left: 15px;
+	margin-top: -5px;
+}
+.tf-step .item-step .content .heading {
+	margin-bottom: 0px;
+}
+.tf-step.style3 .item-step:hover .content .icon {
+	margin-top: 5px;
+}
+.tf-step.style3 .item-step:hover .content {
+	background: #ff7029;
+	padding: 20px 30px 20px 20px;
+}
+.tf-step.style3 .item-step:hover .content .heading,
+.tf-step.style3 .item-step:hover .content .text,
+.tf-step.style3 .item-step:hover .content .button-step,
+.tf-step.style3 .item-step:hover .content .icon i,
+.tf-step.style3 .item-step:hover .content .icon svg {
+	color: #ffffff !important;
+	fill: #ffffff !important;
+}
+.tf-step.style3 .item-step .content .inner-content .content-hide {
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+	visibility: hidden;
+    opacity: 0;
+    height: 0;
+}
+.tf-step.style3 .item-step:hover .content .inner-content .content-hide {
+	visibility: visible;
+    opacity: 1;
+	height: auto;
+	-webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.tf-step.style3 .item-step .content .button-step:hover i,
+.tf-step.style3 .item-step .content .button-step:hover svg {
+    -webkit-animation: toRightFromLeft 0.3s forwards;
+    -moz-animation: toRightFromLeft 0.3s forwards;
+    animation: toRightFromLeft 0.3s forwards;
+}
+
+@media (max-width: 1024px) {
+	.tf-step.style1 .item-step-1:before,
+	.tf-step.style1 .item-step-2:before {
+		right: 85%;
+	}
+	.tf-step.style3 .step {
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+
+@media (max-width: 767px) {
+	.tf-step .step {
+		flex-direction: column;
+	    flex-flow: column;
+	    grid-row-gap: 50px;
+	}	
+	.tf-step.style1 .item-step-1:before,
+	.tf-step.style1 .item-step-2:before {
+		right: 50%;
+		top: 100%;
+		-webkit-transform: translate(50%,-35%) rotate(90deg);
+		-moz-transform: translate(50%,-35%) rotate(90deg);
+		-ms-transform: translate(50%,-35%) rotate(90deg);
+		transform: translate(50%,-35%) rotate(90deg);
+	}
+
+	.tf-step.style2 .step {
+	    grid-row-gap: 100px
+	}
+	.tf-step.style2 .item-step-1 .content:before,
+	.tf-step.style2 .item-step-2 .content:before {
+		left: unset;
+		right: 50%;
+    	top: 100%;
+		-webkit-transform: translate(50%,-16%) rotate(90deg);
+		-moz-transform: translate(50%,-16%) rotate(90deg);
+		-ms-transform: translate(50%,-16%) rotate(90deg);
+		transform: translate(50%,-16%) rotate(90deg);
+	}
+	.tf-step.style3 .step {
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+	}
+}

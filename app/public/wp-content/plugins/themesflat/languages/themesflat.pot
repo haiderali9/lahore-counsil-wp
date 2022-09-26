@@ -1,0 +1,1010 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemesFlat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-26 02:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: themesflat"
+
+#: poststype/init-posts-type.php:224 poststype/init-posts-type.php:225
+#: themesflat/poststype/init-posts-type.php:224
+#: themesflat/poststype/init-posts-type.php:225
+msgid "\"></i>"
+msgstr ""
+
+#: poststype/inc/single-practise-area.php:66
+#: themesflat/poststype/inc/single-practise-area.php:66
+#, php-format
+msgid ""
+"<div class=\"tags-links\"><span class=\"themesflat-tags-lable\">Tags : "
+"</span> %1$s</div>"
+msgstr ""
+
+#: includes/options.php:129 themesflat/includes/options.php:129
+msgid "Add file"
+msgstr ""
+
+#: includes/options.php:284 themesflat/includes/options.php:284
+msgid "Add files"
+msgstr ""
+
+#: poststype/register-gallery.php:12
+#: themesflat/poststype/register-gallery.php:12
+msgid "Add New"
+msgstr ""
+
+#: poststype/register-attorneys.php:14
+#: themesflat/poststype/register-attorneys.php:14
+msgid "Add New Attorney"
+msgstr ""
+
+#: poststype/register-case-study.php:13
+#: themesflat/poststype/register-case-study.php:13
+msgid "Add New Case Study"
+msgstr ""
+
+#: poststype/register-attorneys.php:76 poststype/register-case-study.php:75
+#: poststype/register-practise-area.php:75
+#: themesflat/poststype/register-attorneys.php:76
+#: themesflat/poststype/register-case-study.php:75
+#: themesflat/poststype/register-practise-area.php:75
+msgid "Add New Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:78
+#: themesflat/poststype/register-gallery.php:78
+msgid "Add New Category"
+msgstr ""
+
+#: poststype/register-gallery.php:13
+#: themesflat/poststype/register-gallery.php:13
+msgid "Add New Item"
+msgstr ""
+
+#: poststype/register-practise-area.php:14
+#: themesflat/poststype/register-practise-area.php:14
+msgid "Add New Practise Area"
+msgstr ""
+
+#: poststype/register-attorneys.php:105
+#: poststype/register-practise-area.php:104
+#: themesflat/poststype/register-attorneys.php:105
+#: themesflat/poststype/register-practise-area.php:104
+msgid "Add New Tag"
+msgstr ""
+
+#: poststype/register-attorneys.php:79 poststype/register-case-study.php:78
+#: poststype/register-practise-area.php:78
+#: themesflat/poststype/register-attorneys.php:79
+#: themesflat/poststype/register-case-study.php:78
+#: themesflat/poststype/register-practise-area.php:78
+msgid "Add or remove Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:81
+#: themesflat/poststype/register-gallery.php:81
+msgid "Add or remove categories"
+msgstr ""
+
+#: themesflat.php:81 themesflat/themesflat.php:81
+msgid "Add widgets here to appear in your sidebar Case Study Sidebar."
+msgstr ""
+
+#: themesflat.php:66 themesflat/themesflat.php:66
+msgid "Add widgets here to appear in your sidebar Practise Area Sidebar."
+msgstr ""
+
+#: poststype/register-attorneys.php:123 poststype/register-case-study.php:94
+#: themesflat/poststype/register-attorneys.php:123
+#: themesflat/poststype/register-case-study.php:94
+msgid "Addition Information"
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:150
+#: widgets/themesflat_recent_post.php:173
+#: themesflat/widgets/themesflat_latest_news.php:150
+#: themesflat/widgets/themesflat_recent_post.php:173
+msgid "All"
+msgstr ""
+
+#: poststype/register-attorneys.php:18
+#: themesflat/poststype/register-attorneys.php:18
+msgid "All Attorneys"
+msgstr ""
+
+#: poststype/register-case-study.php:17
+#: themesflat/poststype/register-case-study.php:17
+msgid "All Case Study"
+msgstr ""
+
+#: poststype/register-attorneys.php:72 poststype/register-case-study.php:71
+#: poststype/register-gallery.php:74 poststype/register-practise-area.php:71
+#: themesflat/poststype/register-attorneys.php:72
+#: themesflat/poststype/register-case-study.php:71
+#: themesflat/poststype/register-gallery.php:74
+#: themesflat/poststype/register-practise-area.php:71
+msgid "All Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:17
+#: themesflat/poststype/register-gallery.php:17
+msgid "All Items"
+msgstr ""
+
+#: poststype/register-practise-area.php:18
+#: themesflat/poststype/register-practise-area.php:18
+msgid "All Practise Area"
+msgstr ""
+
+#: poststype/register-attorneys.php:104
+#: poststype/register-practise-area.php:103
+#: themesflat/poststype/register-attorneys.php:104
+#: themesflat/poststype/register-practise-area.php:103
+msgid "All Tags"
+msgstr ""
+
+#: poststype/register-attorneys.php:11
+#: themesflat/poststype/register-attorneys.php:11
+msgid "Attorney"
+msgstr ""
+
+#: poststype/register-attorneys.php:68
+#: themesflat/poststype/register-attorneys.php:68
+msgid "Attorney Categories"
+msgstr ""
+
+#: poststype/register-attorneys.php:54
+#: themesflat/poststype/register-attorneys.php:54
+#, php-format
+msgid ""
+"Attorney Draft Updated. <a target=\"_blank\" href=\"%s\">Preview Attorney</a>"
+msgstr ""
+
+#: poststype/register-attorneys.php:50
+#: themesflat/poststype/register-attorneys.php:50
+#, php-format
+msgid "Attorney Published. <a href=\"%s\">View Attorney</a>"
+msgstr ""
+
+#: poststype/register-attorneys.php:49
+#: themesflat/poststype/register-attorneys.php:49
+#, php-format
+msgid "Attorney Restored To Revision From %s"
+msgstr ""
+
+#: poststype/register-attorneys.php:51
+#: themesflat/poststype/register-attorneys.php:51
+msgid "Attorney Saved."
+msgstr ""
+
+#: poststype/register-attorneys.php:53
+#: themesflat/poststype/register-attorneys.php:53
+#, php-format
+msgid ""
+"Attorney Scheduled For: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview Attorney</a>"
+msgstr ""
+
+#: poststype/register-attorneys.php:52
+#: themesflat/poststype/register-attorneys.php:52
+#, php-format
+msgid ""
+"Attorney Submitted. <a target=\"_blank\" href=\"%s\">Preview Attorney</a>"
+msgstr ""
+
+#: poststype/register-attorneys.php:101 poststype/register-attorneys.php:102
+#: themesflat/poststype/register-attorneys.php:101
+#: themesflat/poststype/register-attorneys.php:102
+msgid "Attorney Tags"
+msgstr ""
+
+#: poststype/register-attorneys.php:48
+#: themesflat/poststype/register-attorneys.php:48
+msgid "Attorney Updated."
+msgstr ""
+
+#: poststype/register-attorneys.php:45
+#: themesflat/poststype/register-attorneys.php:45
+#, php-format
+msgid "Attorney Updated. <a href=\"%s\">View Attorney</a>"
+msgstr ""
+
+#: poststype/register-attorneys.php:10 poststype/register-attorneys.php:12
+#: themesflat/poststype/register-attorneys.php:10
+#: themesflat/poststype/register-attorneys.php:12
+msgid "Attorneys"
+msgstr ""
+
+#: poststype/register-case-study.php:9 poststype/register-case-study.php:10
+#: poststype/register-case-study.php:11
+#: themesflat/poststype/register-case-study.php:9
+#: themesflat/poststype/register-case-study.php:10
+#: themesflat/poststype/register-case-study.php:11
+msgid "Case Study"
+msgstr ""
+
+#: poststype/register-case-study.php:67
+#: themesflat/poststype/register-case-study.php:67
+msgid "Case Study Categories"
+msgstr ""
+
+#: poststype/register-case-study.php:53
+#: themesflat/poststype/register-case-study.php:53
+#, php-format
+msgid ""
+"Case Study Draft Updated. <a target=\"_blank\" href=\"%s\">Preview Case "
+"Study</a>"
+msgstr ""
+
+#: poststype/register-case-study.php:49
+#: themesflat/poststype/register-case-study.php:49
+#, php-format
+msgid "Case Study Published. <a href=\"%s\">View Case Study</a>"
+msgstr ""
+
+#: poststype/register-case-study.php:48
+#: themesflat/poststype/register-case-study.php:48
+#, php-format
+msgid "Case Study Restored To Revision From %s"
+msgstr ""
+
+#: poststype/register-case-study.php:50
+#: themesflat/poststype/register-case-study.php:50
+msgid "Case Study Saved."
+msgstr ""
+
+#: poststype/register-case-study.php:52
+#: themesflat/poststype/register-case-study.php:52
+#, php-format
+msgid ""
+"Case Study Scheduled For: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview Case Study</a>"
+msgstr ""
+
+#: poststype/register-case-study.php:51
+#: themesflat/poststype/register-case-study.php:51
+#, php-format
+msgid ""
+"Case Study Submitted. <a target=\"_blank\" href=\"%s\">Preview Case Study</a>"
+msgstr ""
+
+#: poststype/register-case-study.php:47
+#: themesflat/poststype/register-case-study.php:47
+msgid "Case Study Updated."
+msgstr ""
+
+#: poststype/register-case-study.php:44
+#: themesflat/poststype/register-case-study.php:44
+#, php-format
+msgid "Case Study Updated. <a href=\"%s\">View case_study</a>"
+msgstr ""
+
+#: poststype/register-attorneys.php:69 poststype/register-attorneys.php:71
+#: poststype/register-case-study.php:68 poststype/register-case-study.php:70
+#: poststype/register-gallery.php:84 poststype/register-practise-area.php:68
+#: poststype/register-practise-area.php:70
+#: themesflat/poststype/register-attorneys.php:69
+#: themesflat/poststype/register-attorneys.php:71
+#: themesflat/poststype/register-case-study.php:68
+#: themesflat/poststype/register-case-study.php:70
+#: themesflat/poststype/register-gallery.php:84
+#: themesflat/poststype/register-practise-area.php:68
+#: themesflat/poststype/register-practise-area.php:70
+msgid "Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:72
+#: themesflat/poststype/register-gallery.php:72
+msgid "Category"
+msgstr ""
+
+#: widgets/themesflat_categories.php:102
+#: widgets/themesflat_projects_categories.php:103
+#: widgets/themesflat_services_categories.php:103
+#: themesflat/widgets/themesflat_categories.php:102
+#: themesflat/widgets/themesflat_projects_categories.php:103
+#: themesflat/widgets/themesflat_services_categories.php:103
+msgid "Child Of:"
+msgstr ""
+
+#: poststype/register-attorneys.php:80 poststype/register-case-study.php:79
+#: poststype/register-practise-area.php:79
+#: themesflat/poststype/register-attorneys.php:80
+#: themesflat/poststype/register-case-study.php:79
+#: themesflat/poststype/register-practise-area.php:79
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:82
+#: themesflat/poststype/register-gallery.php:82
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: includes/metabox-options.php:72 themesflat/includes/metabox-options.php:72
+msgid "Clip"
+msgstr ""
+
+#: poststype/register-case-study.php:146
+#: widgets/themesflat_case_study_details.php:74
+#: themesflat/poststype/register-case-study.php:146
+#: themesflat/widgets/themesflat_case_study_details.php:74
+msgid "Completed"
+msgstr ""
+
+#: widgets/themesflat_categories.php:94 widgets/themesflat_latest_news.php:166
+#: widgets/themesflat_practise_area.php:101
+#: widgets/themesflat_projects_categories.php:95
+#: widgets/themesflat_recent_post.php:189
+#: widgets/themesflat_services_categories.php:95
+#: themesflat/widgets/themesflat_categories.php:94
+#: themesflat/widgets/themesflat_latest_news.php:166
+#: themesflat/widgets/themesflat_practise_area.php:101
+#: themesflat/widgets/themesflat_projects_categories.php:95
+#: themesflat/widgets/themesflat_recent_post.php:189
+#: themesflat/widgets/themesflat_services_categories.php:95
+msgid "Count:"
+msgstr ""
+
+#: widgets/themesflat_categories.php:98
+#: widgets/themesflat_projects_categories.php:99
+#: widgets/themesflat_services_categories.php:99
+#: themesflat/widgets/themesflat_categories.php:98
+#: themesflat/widgets/themesflat_projects_categories.php:99
+#: themesflat/widgets/themesflat_services_categories.php:99
+msgid "Custom Categories By Ids- EX: 1,2,3"
+msgstr ""
+
+#: poststype/register-attorneys.php:47 poststype/register-case-study.php:46
+#: poststype/register-practise-area.php:47
+#: themesflat/poststype/register-attorneys.php:47
+#: themesflat/poststype/register-case-study.php:46
+#: themesflat/poststype/register-practise-area.php:47
+msgid "Custom Field Deleted."
+msgstr ""
+
+#: poststype/register-gallery.php:48
+#: themesflat/poststype/register-gallery.php:48
+msgid "Custom field deleted."
+msgstr ""
+
+#: poststype/register-attorneys.php:46 poststype/register-case-study.php:45
+#: poststype/register-practise-area.php:46
+#: themesflat/poststype/register-attorneys.php:46
+#: themesflat/poststype/register-case-study.php:45
+#: themesflat/poststype/register-practise-area.php:46
+msgid "Custom Field Updated."
+msgstr ""
+
+#: poststype/register-gallery.php:47
+#: themesflat/poststype/register-gallery.php:47
+msgid "Custom field updated."
+msgstr ""
+
+#: poststype/register-attorneys.php:16
+#: themesflat/poststype/register-attorneys.php:16
+msgid "Edit Attorney Item"
+msgstr ""
+
+#: poststype/register-case-study.php:15
+#: themesflat/poststype/register-case-study.php:15
+msgid "Edit Case Study Item"
+msgstr ""
+
+#: poststype/register-attorneys.php:77 poststype/register-case-study.php:76
+#: poststype/register-practise-area.php:76
+#: themesflat/poststype/register-attorneys.php:77
+#: themesflat/poststype/register-case-study.php:76
+#: themesflat/poststype/register-practise-area.php:76
+msgid "Edit Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:79
+#: themesflat/poststype/register-gallery.php:79
+msgid "Edit Category"
+msgstr ""
+
+#: poststype/register-gallery.php:15
+#: themesflat/poststype/register-gallery.php:15
+msgid "Edit Item"
+msgstr ""
+
+#: poststype/register-practise-area.php:16
+#: themesflat/poststype/register-practise-area.php:16
+msgid "Edit Practise Area Item"
+msgstr ""
+
+#: poststype/register-attorneys.php:107
+#: poststype/register-practise-area.php:106
+#: themesflat/poststype/register-attorneys.php:107
+#: themesflat/poststype/register-practise-area.php:106
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/metabox-options.php:70 themesflat/includes/metabox-options.php:70
+msgid "Envelope open"
+msgstr ""
+
+#: poststype/register-gallery.php:10
+#: themesflat/poststype/register-gallery.php:10
+msgid "Gallery"
+msgstr ""
+
+#: poststype/register-gallery.php:71
+#: themesflat/poststype/register-gallery.php:71
+msgid "Gallery Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:58
+#: themesflat/poststype/register-gallery.php:58
+msgid "Gallery draft updated."
+msgstr ""
+
+#: poststype/register-gallery.php:11
+#: themesflat/poststype/register-gallery.php:11
+msgid "Gallery Item"
+msgstr ""
+
+#: poststype/register-gallery.php:51
+#: themesflat/poststype/register-gallery.php:51
+msgid "Gallery published."
+msgstr ""
+
+#: poststype/register-gallery.php:50
+#: themesflat/poststype/register-gallery.php:50
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: poststype/register-gallery.php:52
+#: themesflat/poststype/register-gallery.php:52
+msgid "Gallery saved."
+msgstr ""
+
+#: poststype/register-gallery.php:55
+#: themesflat/poststype/register-gallery.php:55
+#, php-format
+msgid "Gallery scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: poststype/register-gallery.php:53
+#: themesflat/poststype/register-gallery.php:53
+msgid "Gallery submitted."
+msgstr ""
+
+#: poststype/register-gallery.php:46 poststype/register-gallery.php:49
+#: themesflat/poststype/register-gallery.php:46
+#: themesflat/poststype/register-gallery.php:49
+msgid "Gallery updated."
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:160
+#: widgets/themesflat_recent_post.php:183
+#: themesflat/widgets/themesflat_latest_news.php:160
+#: themesflat/widgets/themesflat_recent_post.php:183
+msgid "Get Post by IDS EX:1,2,3"
+msgstr ""
+
+#: includes/metabox-options.php:71 themesflat/includes/metabox-options.php:71
+msgid "Headphone"
+msgstr ""
+
+#: includes/metabox-options.php:59 themesflat/includes/metabox-options.php:59
+msgid "iframe audio link (https://soundcloud.com/)"
+msgstr ""
+
+#: includes/metabox-options.php:46 themesflat/includes/metabox-options.php:46
+msgid "iframe video link"
+msgstr ""
+
+#: includes/metabox-options.php:33 themesflat/includes/metabox-options.php:33
+msgid "Images"
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:32
+#: themesflat/widgets/themesflat_latest_news.php:32
+msgid "Latest News."
+msgstr ""
+
+#: poststype/init-posts-type.php:227
+#: themesflat/poststype/init-posts-type.php:227
+msgid "Load More"
+msgstr ""
+
+#: poststype/register-attorneys.php:53 poststype/register-case-study.php:52
+#: poststype/register-gallery.php:56 poststype/register-practise-area.php:53
+#: themesflat/poststype/register-attorneys.php:53
+#: themesflat/poststype/register-case-study.php:52
+#: themesflat/poststype/register-gallery.php:56
+#: themesflat/poststype/register-practise-area.php:53
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: poststype/register-attorneys.php:13
+#: themesflat/poststype/register-attorneys.php:13
+msgid "New Attorney"
+msgstr ""
+
+#: poststype/register-attorneys.php:15
+#: themesflat/poststype/register-attorneys.php:15
+msgid "New Attorney Item"
+msgstr ""
+
+#: poststype/register-case-study.php:12
+#: themesflat/poststype/register-case-study.php:12
+msgid "New Case Study"
+msgstr ""
+
+#: poststype/register-case-study.php:14
+#: themesflat/poststype/register-case-study.php:14
+msgid "New Case Study Item"
+msgstr ""
+
+#: poststype/register-attorneys.php:75 poststype/register-case-study.php:74
+#: poststype/register-practise-area.php:74
+#: themesflat/poststype/register-attorneys.php:75
+#: themesflat/poststype/register-case-study.php:74
+#: themesflat/poststype/register-practise-area.php:74
+msgid "New Categories Name"
+msgstr ""
+
+#: poststype/register-gallery.php:77
+#: themesflat/poststype/register-gallery.php:77
+msgid "New Category Name"
+msgstr ""
+
+#: poststype/register-gallery.php:14
+#: themesflat/poststype/register-gallery.php:14
+msgid "New Item"
+msgstr ""
+
+#: poststype/register-practise-area.php:13
+#: themesflat/poststype/register-practise-area.php:13
+msgid "New Practise Area"
+msgstr ""
+
+#: poststype/register-practise-area.php:15
+#: themesflat/poststype/register-practise-area.php:15
+msgid "New Practise Area Item"
+msgstr ""
+
+#: poststype/register-attorneys.php:106
+#: poststype/register-practise-area.php:105
+#: themesflat/poststype/register-attorneys.php:106
+#: themesflat/poststype/register-practise-area.php:105
+msgid "New Tag Name"
+msgstr ""
+
+#: poststype/register-attorneys.php:20
+#: themesflat/poststype/register-attorneys.php:20
+msgid "No Attorney Items Found"
+msgstr ""
+
+#: poststype/register-attorneys.php:21
+#: themesflat/poststype/register-attorneys.php:21
+msgid "No Attorney Items Found In Trash"
+msgstr ""
+
+#: poststype/register-case-study.php:19
+#: themesflat/poststype/register-case-study.php:19
+msgid "No Case Study Items Found"
+msgstr ""
+
+#: poststype/register-case-study.php:20
+#: themesflat/poststype/register-case-study.php:20
+msgid "No Case Study Items Found In Trash"
+msgstr ""
+
+#: poststype/register-gallery.php:83
+#: themesflat/poststype/register-gallery.php:83
+msgid "No Category found."
+msgstr ""
+
+#: poststype/register-gallery.php:21
+#: themesflat/poststype/register-gallery.php:21
+msgid "No items found in Trash."
+msgstr ""
+
+#: poststype/register-gallery.php:20
+#: themesflat/poststype/register-gallery.php:20
+msgid "No items found."
+msgstr ""
+
+#: poststype/register-practise-area.php:20
+#: themesflat/poststype/register-practise-area.php:20
+msgid "No Practise Area Items Found"
+msgstr ""
+
+#: poststype/register-practise-area.php:21
+#: themesflat/poststype/register-practise-area.php:21
+msgid "No Practise Area Items Found In Trash"
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:106
+#: widgets/themesflat_recent_post.php:122
+#: themesflat/widgets/themesflat_latest_news.php:106
+#: themesflat/widgets/themesflat_recent_post.php:122
+msgid "Oops, category not found."
+msgstr ""
+
+#: poststype/register-attorneys.php:22
+#: themesflat/poststype/register-attorneys.php:22
+msgid "Parent Attorney:"
+msgstr ""
+
+#: poststype/register-case-study.php:21
+#: themesflat/poststype/register-case-study.php:21
+msgid "Parent Case Study:"
+msgstr ""
+
+#: poststype/register-attorneys.php:73 poststype/register-case-study.php:72
+#: poststype/register-practise-area.php:72
+#: themesflat/poststype/register-attorneys.php:73
+#: themesflat/poststype/register-case-study.php:72
+#: themesflat/poststype/register-practise-area.php:72
+msgid "Parent Categories"
+msgstr ""
+
+#: poststype/register-attorneys.php:74 poststype/register-case-study.php:73
+#: poststype/register-practise-area.php:73
+#: themesflat/poststype/register-attorneys.php:74
+#: themesflat/poststype/register-case-study.php:73
+#: themesflat/poststype/register-practise-area.php:73
+msgid "Parent Categories:"
+msgstr ""
+
+#: poststype/register-gallery.php:75
+#: themesflat/poststype/register-gallery.php:75
+msgid "Parent Category"
+msgstr ""
+
+#: poststype/register-gallery.php:76
+#: themesflat/poststype/register-gallery.php:76
+msgid "Parent Category:"
+msgstr ""
+
+#: poststype/register-gallery.php:19
+#: themesflat/poststype/register-gallery.php:19
+msgid "Parent Items:"
+msgstr ""
+
+#: poststype/register-practise-area.php:22
+#: themesflat/poststype/register-practise-area.php:22
+msgid "Parent Practise Area:"
+msgstr ""
+
+#: poststype/register-case-study.php:140
+#: widgets/themesflat_case_study_details.php:68
+#: themesflat/poststype/register-case-study.php:140
+#: themesflat/widgets/themesflat_case_study_details.php:68
+msgid "Pending"
+msgstr ""
+
+#: includes/metabox-options.php:14 themesflat/includes/metabox-options.php:14
+msgid "Post Format"
+msgstr ""
+
+#: includes/metabox-options.php:53 themesflat/includes/metabox-options.php:53
+msgid "Post Format: Audio"
+msgstr ""
+
+#: includes/metabox-options.php:26 themesflat/includes/metabox-options.php:26
+msgid "Post Format: Gallery ."
+msgstr ""
+
+#: includes/metabox-options.php:40 themesflat/includes/metabox-options.php:40
+msgid "Post Format: Video ( Embeded video from youtube, vimeo ...)."
+msgstr ""
+
+#: includes/metabox-options.php:9 themesflat/includes/metabox-options.php:9
+msgid "Post settings"
+msgstr ""
+
+#: poststype/register-practise-area.php:10
+#: poststype/register-practise-area.php:11
+#: poststype/register-practise-area.php:12
+#: themesflat/poststype/register-practise-area.php:10
+#: themesflat/poststype/register-practise-area.php:11
+#: themesflat/poststype/register-practise-area.php:12
+msgid "Practise Area"
+msgstr ""
+
+#: poststype/register-practise-area.php:67
+#: themesflat/poststype/register-practise-area.php:67
+msgid "Practise Area Categories"
+msgstr ""
+
+#: poststype/register-practise-area.php:54
+#: themesflat/poststype/register-practise-area.php:54
+#, php-format
+msgid ""
+"Practise Area Draft Updated. <a target=\"_blank\" href=\"%s\">Preview "
+"Practise Area</a>"
+msgstr ""
+
+#: poststype/register-practise-area.php:50
+#: themesflat/poststype/register-practise-area.php:50
+#, php-format
+msgid "Practise Area Published. <a href=\"%s\">View Practise Area</a>"
+msgstr ""
+
+#: poststype/register-practise-area.php:49
+#: themesflat/poststype/register-practise-area.php:49
+#, php-format
+msgid "Practise Area Restored To Revision From %s"
+msgstr ""
+
+#: poststype/register-practise-area.php:51
+#: themesflat/poststype/register-practise-area.php:51
+msgid "Practise Area Saved."
+msgstr ""
+
+#: poststype/register-practise-area.php:53
+#: themesflat/poststype/register-practise-area.php:53
+#, php-format
+msgid ""
+"Practise Area Scheduled For: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview Practise Area</a>"
+msgstr ""
+
+#: poststype/register-practise-area.php:52
+#: themesflat/poststype/register-practise-area.php:52
+#, php-format
+msgid ""
+"Practise Area Submitted. <a target=\"_blank\" href=\"%s\">Preview Practise "
+"Area</a>"
+msgstr ""
+
+#: poststype/register-practise-area.php:100
+#: poststype/register-practise-area.php:101
+#: themesflat/poststype/register-practise-area.php:100
+#: themesflat/poststype/register-practise-area.php:101
+msgid "Practise Area Tags"
+msgstr ""
+
+#: poststype/register-practise-area.php:48
+#: themesflat/poststype/register-practise-area.php:48
+msgid "Practise Area Updated."
+msgstr ""
+
+#: poststype/register-practise-area.php:45
+#: themesflat/poststype/register-practise-area.php:45
+#, php-format
+msgid "Practise Area Updated. <a href=\"%s\">View Practise Area</a>"
+msgstr ""
+
+#: poststype/register-case-study.php:143
+#: widgets/themesflat_case_study_details.php:71
+#: themesflat/poststype/register-case-study.php:143
+#: themesflat/widgets/themesflat_case_study_details.php:71
+msgid "Processing"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:32
+#: themesflat/widgets/themesflat_recent_post.php:32
+msgid "Recent News."
+msgstr ""
+
+#: poststype/inc/single-attorneys.php:210
+#: themesflat/poststype/inc/single-attorneys.php:210
+msgid "Related Attorneys"
+msgstr ""
+
+#: poststype/inc/single-case-study.php:127
+#: themesflat/poststype/inc/single-case-study.php:127
+msgid "Related Case Study"
+msgstr ""
+
+#: poststype/inc/single-practise-area.php:177
+#: themesflat/poststype/inc/single-practise-area.php:177
+msgid "Related Practise Area"
+msgstr ""
+
+#: includes/options.php:133 includes/options.php:288
+#: themesflat/includes/options.php:133 themesflat/includes/options.php:288
+msgid "Remove"
+msgstr ""
+
+#: poststype/register-attorneys.php:19
+#: themesflat/poststype/register-attorneys.php:19
+msgid "Search Attorneys"
+msgstr ""
+
+#: poststype/register-case-study.php:18
+#: themesflat/poststype/register-case-study.php:18
+msgid "Search Case Study"
+msgstr ""
+
+#: poststype/register-attorneys.php:70 poststype/register-case-study.php:69
+#: poststype/register-gallery.php:73 poststype/register-practise-area.php:69
+#: themesflat/poststype/register-attorneys.php:70
+#: themesflat/poststype/register-case-study.php:69
+#: themesflat/poststype/register-gallery.php:73
+#: themesflat/poststype/register-practise-area.php:69
+msgid "Search Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:18
+#: themesflat/poststype/register-gallery.php:18
+msgid "Search Items"
+msgstr ""
+
+#: poststype/register-practise-area.php:19
+#: themesflat/poststype/register-practise-area.php:19
+msgid "Search Practise Area"
+msgstr ""
+
+#: poststype/register-attorneys.php:103
+#: poststype/register-practise-area.php:102
+#: themesflat/poststype/register-attorneys.php:103
+#: themesflat/poststype/register-practise-area.php:102
+msgid "Search Tags"
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:147
+#: widgets/themesflat_recent_post.php:170
+#: themesflat/widgets/themesflat_latest_news.php:147
+#: themesflat/widgets/themesflat_recent_post.php:170
+msgid "Select Category:"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:222
+#: themesflat/widgets/themesflat_recent_post.php:222
+msgid "Show Author ?"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:228
+#: themesflat/widgets/themesflat_recent_post.php:228
+msgid "Show Category ?"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:216
+#: themesflat/widgets/themesflat_recent_post.php:216
+msgid "Show Comment ?"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:204
+#: themesflat/widgets/themesflat_recent_post.php:204
+msgid "Show Content ?"
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:175
+#: themesflat/widgets/themesflat_latest_news.php:175
+msgid "Show Count Post ?"
+msgstr ""
+
+#: widgets/themesflat_categories.php:107
+#: widgets/themesflat_projects_categories.php:108
+#: widgets/themesflat_services_categories.php:108
+#: themesflat/widgets/themesflat_categories.php:107
+#: themesflat/widgets/themesflat_projects_categories.php:108
+#: themesflat/widgets/themesflat_services_categories.php:108
+msgid "Show count?"
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:181
+#: widgets/themesflat_recent_post.php:210
+#: themesflat/widgets/themesflat_latest_news.php:181
+#: themesflat/widgets/themesflat_recent_post.php:210
+msgid "Show Date ?"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:198
+#: themesflat/widgets/themesflat_recent_post.php:198
+msgid "Show Thumbnail ?"
+msgstr ""
+
+#: themesflat.php:79 themesflat/themesflat.php:79
+msgid "Sidebar Case Study"
+msgstr ""
+
+#: themesflat.php:64 themesflat/themesflat.php:64
+msgid "Sidebar Practise Area"
+msgstr ""
+
+#. Description of the plugin
+msgid "The theme's components"
+msgstr ""
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "ThemesFlat"
+msgstr ""
+
+#: widgets/themesflat_case_study_details.php:22
+#: themesflat/widgets/themesflat_case_study_details.php:22
+msgid "Themesflat - Case Study Details"
+msgstr ""
+
+#: widgets/themesflat_categories.php:25
+#: themesflat/widgets/themesflat_categories.php:25
+msgid "Themesflat - Categories"
+msgstr ""
+
+#: widgets/themesflat_latest_news.php:29
+#: themesflat/widgets/themesflat_latest_news.php:29
+msgid "Themesflat - Latest News"
+msgstr ""
+
+#: widgets/themesflat_practise_area.php:26
+#: themesflat/widgets/themesflat_practise_area.php:26
+msgid "Themesflat - Pratise Area"
+msgstr ""
+
+#: widgets/themesflat_projects_categories.php:25
+#: themesflat/widgets/themesflat_projects_categories.php:25
+msgid "Themesflat - Projects Categories"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:29
+#: themesflat/widgets/themesflat_recent_post.php:29
+msgid "Themesflat - Recent News"
+msgstr ""
+
+#: widgets/themesflat_services_categories.php:25
+#: themesflat/widgets/themesflat_services_categories.php:25
+msgid "Themesflat - Services Categories"
+msgstr ""
+
+#: widgets/themesflat_case_study_details.php:102
+#: widgets/themesflat_categories.php:90 widgets/themesflat_latest_news.php:141
+#: widgets/themesflat_projects_categories.php:91
+#: widgets/themesflat_recent_post.php:164
+#: widgets/themesflat_services_categories.php:91
+#: themesflat/widgets/themesflat_case_study_details.php:102
+#: themesflat/widgets/themesflat_categories.php:90
+#: themesflat/widgets/themesflat_latest_news.php:141
+#: themesflat/widgets/themesflat_projects_categories.php:91
+#: themesflat/widgets/themesflat_recent_post.php:164
+#: themesflat/widgets/themesflat_services_categories.php:91
+msgid "Title:"
+msgstr ""
+
+#: poststype/register-attorneys.php:78 poststype/register-case-study.php:77
+#: poststype/register-practise-area.php:77
+#: themesflat/poststype/register-attorneys.php:78
+#: themesflat/poststype/register-case-study.php:77
+#: themesflat/poststype/register-practise-area.php:77
+msgid "Update Categories"
+msgstr ""
+
+#: poststype/register-gallery.php:80
+#: themesflat/poststype/register-gallery.php:80
+msgid "Update Category"
+msgstr ""
+
+#: poststype/register-attorneys.php:108
+#: poststype/register-practise-area.php:107
+#: themesflat/poststype/register-attorneys.php:108
+#: themesflat/poststype/register-practise-area.php:107
+msgid "Update Tag"
+msgstr ""
+
+#: poststype/register-attorneys.php:17
+#: themesflat/poststype/register-attorneys.php:17
+msgid "View Attorney"
+msgstr ""
+
+#: poststype/register-case-study.php:16
+#: themesflat/poststype/register-case-study.php:16
+msgid "View Case Study"
+msgstr ""
+
+#: poststype/register-gallery.php:16
+#: themesflat/poststype/register-gallery.php:16
+msgid "View Item"
+msgstr ""
+
+#: poststype/register-practise-area.php:17
+#: themesflat/poststype/register-practise-area.php:17
+msgid "View Practise Area"
+msgstr ""

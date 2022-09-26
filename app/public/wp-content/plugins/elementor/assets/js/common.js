@@ -1,4 +1,4 @@
-/*! elementor - v3.7.0 - 08-08-2022 */
+/*! elementor - v3.7.7 - 20-09-2022 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -4176,7 +4176,8 @@ var _default = /*#__PURE__*/function (_Backbone$Model) {
         icon: 'settings',
         url: '',
         keywords: [],
-        actions: []
+        actions: [],
+        lock: null
       };
     }
   }]);
@@ -4680,6 +4681,7 @@ exports["default"] = _default;
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
+/* provided dependency */ var __ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n")["__"];
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
@@ -4722,6 +4724,48 @@ var _default = /*#__PURE__*/function (_Marionette$ItemView) {
     key: "getTemplate",
     value: function getTemplate() {
       return '#tmpl-elementor-finder__results__item';
+    }
+  }, {
+    key: "events",
+    value: function events() {
+      this.$el[0].addEventListener('click', this.onClick.bind(this), true);
+    }
+  }, {
+    key: "onClick",
+    value: function onClick(e) {
+      var _this = this;
+
+      var lockOptions = this.model.get('lock');
+
+      if (!(lockOptions !== null && lockOptions !== void 0 && lockOptions.is_locked)) {
+        return;
+      }
+
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      elementorCommon.dialogsManager.createWidget('confirm', {
+        id: 'elementor-finder__lock-dialog',
+        headerMessage: lockOptions.content.heading,
+        message: lockOptions.content.description,
+        position: {
+          my: 'center center',
+          at: 'center center'
+        },
+        strings: {
+          confirm: lockOptions.button.text,
+          cancel: __('Cancel', 'elementor')
+        },
+        onConfirm: function onConfirm() {
+          var link = _this.replaceLockLinkPlaceholders(lockOptions.button.url);
+
+          window.open(link, '_blank');
+        }
+      }).show();
+    }
+  }, {
+    key: "replaceLockLinkPlaceholders",
+    value: function replaceLockLinkPlaceholders(link) {
+      return link.replace(/%%utm_source%%/g, 'finder').replace(/%%utm_medium%%/g, 'wp-dash');
     }
   }]);
   return _default;

@@ -1,0 +1,65 @@
+@import "../mixin";
+
+.tf-accordion {
+	.accordion-title {
+		cursor: pointer;
+		@include d-flex();
+		@include align-items-center();
+		overflow: hidden;
+
+		.title-text {
+			margin-bottom: 0;
+		}
+
+		&.icon_after .accordion-icon {
+			float: right;
+		}
+	}
+
+	.accordion-content {
+		padding: 20px 30px;
+	}
+
+	.tf-accordion-item {
+		&:first-of-type {
+			padding-top: 0 !important;
+		}
+
+		&:last-of-type {
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+.accordion-icon-open,
+.tf-accordion-item.active .accordion-icon-close {
+	display: none;
+}
+
+.accordion-icon-close,
+.tf-accordion-item.active .accordion-icon-open {
+	display: block;
+}
+
+.tf-accordion .accordion-title > span.wrap-accordion-icon {
+	@include d-flex();
+	@include justify-content-center();
+	@include align-items-center();
+}
+
+.wrap-accordion-icon-right {
+	margin-left: auto;
+}
+
+.accordion-title,
+.wrap-accordion-icon {
+	@include transition(all 0.3s ease-in-out)
+}
+
+.tf-accordion .tf-accordion-item.active .accordion-title .title-text {
+	color: #fff;
+}
+
+.accordion-title span {
+	margin-right: 5px;
+}

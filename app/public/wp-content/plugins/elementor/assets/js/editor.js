@@ -1,4 +1,4 @@
-/*! elementor - v3.7.0 - 08-08-2022 */
+/*! elementor - v3.7.7 - 20-09-2022 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -15408,19 +15408,27 @@ module.exports = ControlMediaItemView;
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "../node_modules/@babel/runtime/helpers/defineProperty.js"));
+
 var _scrubbing = _interopRequireDefault(__webpack_require__(/*! ./behaviors/scrubbing */ "../assets/dev/js/editor/controls/behaviors/scrubbing.js"));
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { (0, _defineProperty2.default)(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 var ControlBaseDataView = __webpack_require__(/*! elementor-controls/base-data */ "../assets/dev/js/editor/controls/base-data.js"),
     ControlNumberItemView;
 
 ControlNumberItemView = ControlBaseDataView.extend({
-  behaviors: {
-    Scrubbing: {
-      behaviorClass: _scrubbing.default,
-      scrubSettings: {
-        intentTime: 800
+  behaviors: function behaviors() {
+    return _objectSpread(_objectSpread({}, ControlBaseDataView.prototype.behaviors.apply(this)), {}, {
+      Scrubbing: {
+        behaviorClass: _scrubbing.default,
+        scrubSettings: {
+          intentTime: 800
+        }
       }
-    }
+    });
   },
   registerValidators: function registerValidators() {
     ControlBaseDataView.prototype.registerValidators.apply(this, arguments);
@@ -20191,6 +20199,12 @@ var Paste = /*#__PURE__*/function (_$e$modules$editor$do) {
         data.forEach(function (model) {
           switch (model.elType) {
             case 'container':
+              {
+                // Push the cloned container to the 'document'.
+                result.push(_this.pasteTo([targetContainer], [model]));
+              }
+              break;
+
             case 'section':
               {
                 // If is inner create section for `inner-section`.
@@ -20241,13 +20255,25 @@ var Paste = /*#__PURE__*/function (_$e$modules$editor$do) {
 
             default:
               {
-                // In case it widget:
-                var target; // On trying to paste widget on section, the paste should be at the first column.
+                // The 'default' case is widget.
+                var target;
 
                 if ('section' === targetContainer.model.get('elType')) {
+                  // On trying to paste widget on section, the paste should be at the first column.
                   target = [targetContainer.view.children.findByIndex(0).getContainer()];
+                } else if ('container' === targetContainer.model.get('elType')) {
+                  target = [targetContainer];
+                } else if (elementorCommon.config.experimentalFeatures.container) {
+                  // If the container experiment is active, create a new wrapper container.
+                  target = $e.run('document/elements/create', {
+                    container: targetContainer,
+                    model: {
+                      elType: 'container'
+                    }
+                  });
+                  target = [target];
                 } else {
-                  // Else, create section with one column for element.
+                  // Else, create section with one column for the element.
                   var _section2 = $e.run('document/elements/create', {
                     container: targetContainer,
                     model: {
@@ -20257,7 +20283,7 @@ var Paste = /*#__PURE__*/function (_$e$modules$editor$do) {
                     options: {
                       at: ++index
                     }
-                  }); // Create the element in the column that just was created.
+                  }); // Create the element inside the column that just was created.
 
 
                   target = [_section2.view.children.first().getContainer()];
@@ -36106,7 +36132,7 @@ var WidgetView = _baseWidget.default.extend({
     self.$el.imagesLoaded().always(function () {
       setTimeout(function () {
         // Since 'outerHeight' will not handle hidden elements, and mark them as empty (e.g. nested tabs).
-        var $widgetContainer = self.$el.children('.elementor-widget-container'),
+        var $widgetContainer = self.$el.children('.elementor-widget-container').length ? self.$el.children('.elementor-widget-container') : self.$el,
             shouldHandleEmptyWidget = $widgetContainer.is(':visible') && !$widgetContainer.outerHeight();
 
         if (shouldHandleEmptyWidget) {
@@ -42304,8 +42330,7 @@ var ControlConditions = /*#__PURE__*/function (_Conditions) {
           controlValue; // If the conditioning control is responsive, get the appropriate device's value.
 
       if (!!controlResponsiveProp && (_controls$conditionNa = controls[conditionNameWithoutSubKey]) !== null && _controls$conditionNa !== void 0 && _controls$conditionNa.responsive) {
-        var queryDevice = controlResponsiveProp.max || controlResponsiveProp.min;
-        var deviceSuffix = 'desktop' === queryDevice ? '' : '_' + queryDevice;
+        var deviceSuffix = this.getResponsiveControlDeviceSuffix(controlResponsiveProp);
         conditionNameToCheck = conditionNameWithoutSubKey + deviceSuffix;
 
         if (conditionSubKey) {
@@ -42323,6 +42348,19 @@ var ControlConditions = /*#__PURE__*/function (_Conditions) {
         operator: this.getOperator(conditionValue, isNegativeCondition, controlValue),
         value: conditionValue
       };
+    }
+    /**
+     * Get Responsive Control Device Suffix
+     *
+     * @param {Object} controlResponsiveProp
+     * @return {string|string}
+     */
+
+  }, {
+    key: "getResponsiveControlDeviceSuffix",
+    value: function getResponsiveControlDeviceSuffix(controlResponsiveProp) {
+      var queryDevice = controlResponsiveProp.max || controlResponsiveProp.min;
+      return 'desktop' === queryDevice ? '' : '_' + queryDevice;
     }
     /**
      * Get Condition Value
@@ -42659,9 +42697,17 @@ ControlsCSSParser = elementorModules.ViewModule.extend({
   },
   parsePropertyPlaceholder: function parsePropertyPlaceholder(control, value, controls, values, placeholder, parserControlName) {
     if (parserControlName) {
-      control = _.findWhere(controls, {
-        name: parserControlName
-      });
+      if (control.responsive && controls[parserControlName]) {
+        var deviceSuffix = elementor.conditions.getResponsiveControlDeviceSuffix(control.responsive);
+        control = _.findWhere(controls, {
+          name: parserControlName + deviceSuffix
+        });
+      } else {
+        control = _.findWhere(controls, {
+          name: parserControlName
+        });
+      }
+
       value = this.getStyleControlValue(control, values);
     }
 

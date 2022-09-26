@@ -1,0 +1,386 @@
+.elementor-widget-tfimagebox .elementor-widget-container {
+    overflow: hidden;
+}
+.tf-imagebox .tf-button-container .tf-button {
+	display: inline-block;
+    border: 2px solid #CCF2F2;
+}
+
+.tf-imagebox .tf-button-container.left {
+    text-align: left;
+}
+
+.tf-imagebox .tf-button-container.center {
+    text-align: center;
+}
+
+.tf-imagebox .tf-button-container.right {
+    text-align: right; 
+}
+
+.tf-imagebox .tf-button-container.justify .tf-button {
+    text-align: center;
+    width: 100%;
+}
+
+.tf-imagebox a,
+.tf-imagebox a i,
+.tf-imagebox .image .image-overlay,
+.btn-overlay:after,
+.tf-imagebox .image img,
+.tf-imagebox.style-2 .content,
+.tf-imagebox.style-3 .content,
+.tf-imagebox .content,
+.content-only {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
+}
+
+.btn-overlay {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.btn-overlay:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    z-index: -1;  
+}
+
+.from-top.btn-overlay:after {
+	top: -100%;
+	left: 0;
+}
+
+.from-top.btn-overlay:hover:after {
+	top: 0%;
+}
+
+.from-bottom.btn-overlay:after {
+	top: 100%;
+	left: 0;
+}
+
+.from-bottom.btn-overlay:hover:after {
+	top: 0%;
+}
+
+.from-left.btn-overlay:after {
+	top: 0;
+	left: -100%;
+}
+
+.from-left.btn-overlay:hover:after {
+	left: 0;
+}
+
+.from-right.btn-overlay:after {
+	top: 0;
+	left: 100%;
+}
+
+.from-right.btn-overlay:hover:after {
+	left: 0;
+}
+
+.from-center.btn-overlay:after {
+	width: 0%;
+	top: 50%;
+	left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.from-center.btn-overlay:hover:after {
+	width: 100%;
+	opacity: 1;
+    visibility: visible;
+}
+
+.skew.btn-overlay:after {
+	width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.skew.btn-overlay:hover:after {	
+    height: 260%;
+    opacity: 1;
+}
+
+.default-theme.btn-overlay:after {    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    transition: transform 500ms ease;
+}
+
+.default-theme.btn-overlay:hover:after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.tf-imagebox .image img {
+	display: block;
+	margin: 0 auto;
+}
+
+.tf-imagebox .image {
+	position: relative;
+	overflow: hidden;
+    display: inline-flex;
+}
+
+.tf-imagebox .image .image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.tf-imagebox .image .image-overlay.default {
+    top: 0;
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+}
+
+.tf-imagebox .image .image-overlay.fade-in {
+    top: 0;
+    left: 0;
+}
+
+.tf-imagebox:hover .image .image-overlay.fade-in {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tf-imagebox .image .image-overlay.fade-in-left {
+    top: 0;
+    right: 100%;
+}
+
+.tf-imagebox:hover .image .image-overlay.fade-in-left {
+    visibility: visible;
+    opacity: 1;
+    right: 0;
+}
+
+.tf-imagebox .image .image-overlay.fade-in-right {
+    top: 0;
+    left: 100%;
+}
+
+.tf-imagebox:hover .image .image-overlay.fade-in-right {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+}
+
+.tf-imagebox .image .image-overlay.fade-in-down {
+    bottom: 100%;
+    left: 0;
+}
+
+.tf-imagebox:hover .image .image-overlay.fade-in-down {
+    visibility: visible;
+    opacity: 1;
+    bottom: 0;
+}
+
+.tf-imagebox .image .image-overlay.fade-in-up {
+    top: 100%;
+    left: 0;
+}
+
+.tf-imagebox:hover .image .image-overlay.fade-in-up {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+
+.tf-imagebox {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.tf-imagebox .title {
+	margin-top: 0;
+    font-size: 16px;
+}
+
+.tf-imagebox.style-2,
+.tf-imagebox.style-3 {
+	overflow: hidden;
+    position: relative;
+}
+
+.tf-imagebox.style-2 .image img {
+    width: 100%;
+}
+
+.tf-imagebox.style-2 .content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.tf-imagebox.style-2 .content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.tf-imagebox.style-2:hover .content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tf-imagebox.style-2 .content.fade-in-up {
+    top: 100%;
+}
+
+.tf-imagebox.style-2:hover .content.fade-in-up {
+    top: 0%;
+}
+
+.tf-imagebox.style-2 .content.fade-in-down {
+    top: -100%;
+}
+
+.tf-imagebox.style-2:hover .content.fade-in-down {
+    top: 0%;
+}
+
+.tf-imagebox.style-2 .content.fade-in-left {
+    left: -100%;
+}
+
+.tf-imagebox.style-2:hover .content.fade-in-left {
+    left: 0%;
+}
+
+.tf-imagebox.style-2 .content.fade-in-right {
+    left: 100%;
+}
+
+.tf-imagebox.style-2:hover .content.fade-in-right {
+    left: 0%;
+}
+
+.tf-imagebox.style-3 .content {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.tf-imagebox.style-3:hover .content  {
+    visibility: visible;
+    opacity: 1;
+    bottom: 0;
+}
+
+.content-only {
+    display: none;
+}
+
+.tf-imagebox.style-3 .content-only {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.tf-imagebox.style-3:hover .content-only {
+    visibility: hidden;
+    opacity: 0;
+    bottom: -100%;
+}
+
+.tf-imagebox.style-3 .content-only.has-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tf-imagebox.style-3 .content-only .wrap-icon {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tf-imagebox .content {
+    position: relative;
+}
+
+.tf-imagebox p {
+    margin: 0;
+}
+
+.line-top .tf-imagebox .content {
+    position: relative;
+}
+.line-top .tf-imagebox .content:before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background: #FF7029;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}

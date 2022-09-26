@@ -1,4 +1,4 @@
-/*! elementor - v3.7.0 - 08-08-2022 */
+/*! elementor - v3.7.7 - 20-09-2022 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -3109,12 +3109,7 @@ function Header(props) {
   }), /*#__PURE__*/_react.default.createElement("h1", {
     className: "eps-app__title"
   }, props.title)), /*#__PURE__*/_react.default.createElement(_headerButtons.default, {
-    buttons: props.buttons,
-    onClose: function onClose() {
-      var _props$onClose;
-
-      return (_props$onClose = props.onClose) === null || _props$onClose === void 0 ? void 0 : _props$onClose.call(props);
-    }
+    buttons: props.buttons
   }));
 }
 
@@ -17345,8 +17340,8 @@ module.exports = _unsupportedIterableToArray, module.exports.__esModule = true, 
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
 /******/ 			if (chunkId === "vendors-node_modules_react-query_devtools_index_js") return "edef531b0a4575e08dcf.bundle.js";
-/******/ 			if (chunkId === "kit-library") return "" + chunkId + ".6541ecdc008644261c67.bundle.js";
-/******/ 			if (chunkId === "onboarding") return "" + chunkId + ".2587478fd17618c984e9.bundle.js";
+/******/ 			if (chunkId === "kit-library") return "" + chunkId + ".c5429de58e642ebfda4d.bundle.js";
+/******/ 			if (chunkId === "onboarding") return "" + chunkId + ".20750adf57c00716064b.bundle.js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

@@ -1,0 +1,14 @@
+
+---Downloaded files---
+The import files for: Import Demo Data were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://18.222.28.56
+Data file = /var/www/lahore-council-wp-site/app/public/wp-content/uploads/2022/09/demo-content-import-file_2022-09-26__14-41-02.xml
+Widget file = /var/www/lahore-council-wp-site/app/public/wp-content/uploads/2022/09/demo-widgets-import-file_2022-09-26__14-41-02.json
+Customizer file = /var/www/lahore-council-wp-site/app/public/wp-content/uploads/2022/09/demo-customizer-import-file_2022-09-26__14-41-02.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+

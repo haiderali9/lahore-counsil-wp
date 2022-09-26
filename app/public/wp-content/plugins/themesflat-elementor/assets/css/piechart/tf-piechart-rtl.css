@@ -1,0 +1,56 @@
+.tf-pie-chart .pie-chart { text-align: center; }
+.tf-pie-chart .pie-chart .chart { position: relative; display: inline-block; text-align: center; border-radius: 50%; margin: auto; }
+.tf-pie-chart .pie-chart .chart canvas { position: absolute; top: 0; right: 0; }
+.tf-pie-chart .pie-chart .percent { font-size: 17px; font-weight: 600; display: inline-block; z-index: 2; }
+.tf-pie-chart .percent:after { content: '%'; }
+.tf-pie-chart .pie-chart-content .tf-piechart-title { font-size: 30px; }
+
+.tf-pie-chart.position-top .tf-pie-chart-inner {
+    text-align: center;
+}
+
+.tf-pie-chart.position-left .tf-pie-chart-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    text-align: right;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.tf-pie-chart.position-right .tf-pie-chart-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    text-align: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 425px) {
+    .tf-pie-chart.position-left .tf-pie-chart-inner,
+    .tf-pie-chart.position-right .tf-pie-chart-inner {
+        display: block;
+    }
+
+    .tf-pie-chart.position-left .pie-chart,
+    .tf-pie-chart.position-right .pie-chart {
+        display: inline-block;
+    }
+
+    .tf-pie-chart.position-left .pie-chart-content,
+    .tf-pie-chart.position-right .pie-chart-content {
+        margin-right: 0 !important;
+        margin-top: 20px;
+    }
+}

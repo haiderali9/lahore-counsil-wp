@@ -1,3 +1,27 @@
+##### [Version 3.2.29](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.28...v3.2.29) (2022-09-08)
+
+* Adds compatibility mechanism
+* Adds content utms
+* Adds usage time on uninstall feedback
+
+##### [Version 3.2.28](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.27...v3.2.28) (2022-08-30)
+
+* Adds utm handler
+* Improve promotions
+
+##### [Version 3.2.27](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.26...v3.2.27) (2022-08-23)
+
+- Add Promotion Module
+Add the Promotion module for free plugins
+
+##### [Version 3.2.26](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.25...v3.2.26) (2022-05-12)
+
+- [Fix] Solve rollback sometimes not available
+
+##### [Version 3.2.25](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.24...v3.2.25) (2022-03-28)
+
+- Force update request after rollback
+
 ##### [Version 3.2.24](https://github.com/Codeinwp/themeisle-sdk/compare/v3.2.23...v3.2.24) (2022-02-09)
 
 Fix edge case issue on dismiss

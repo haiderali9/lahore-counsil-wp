@@ -1,0 +1,57 @@
+.tf-pricetable,
+.tf-pricetable .header-price,
+.tf-pricetable .price,
+.tf-pricetable .title,
+.tf-pricetable .number-order,
+.tf-pricetable .icon,
+.tf-pricetable .wrap-icon svg,
+.tf-pricetable .wrap-icon i,
+.tf-pricetable .text,
+.tf-pricetable .time {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.tf-pricetable {
+    position: relative;
+}
+.tf-pricetable .icon {
+    width: 134px;
+    height: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    margin-bottom: 26px;
+    border-bottom-left-radius: 67px;
+    border-bottom-right-radius: 67px;
+}
+.tf-pricetable .header-price {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.tf-pricetable .number-order {
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(255,255,255,0.24);
+    white-space: nowrap;
+    position: absolute;
+    right: 26px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+.tf-pricetable .price {
+    margin-bottom: 23px;
+}
+.tf-pricetable .wrap-button a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}

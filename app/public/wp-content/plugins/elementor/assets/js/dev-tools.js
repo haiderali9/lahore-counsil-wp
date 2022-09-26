@@ -1,4 +1,4 @@
-/*! elementor - v3.7.0 - 08-08-2022 */
+/*! elementor - v3.7.7 - 20-09-2022 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -172,6 +172,85 @@ exports["default"] = Deprecation;
 
 /***/ }),
 
+/***/ "../modules/dev-tools/assets/js/module.js":
+/*!************************************************!*\
+  !*** ../modules/dev-tools/assets/js/module.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", ({
+  value: true
+}));
+exports["default"] = void 0;
+
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "../node_modules/@babel/runtime/helpers/toConsumableArray.js"));
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "../node_modules/@babel/runtime/helpers/slicedToArray.js"));
+
+var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "../node_modules/@babel/runtime/helpers/classCallCheck.js"));
+
+var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "../node_modules/@babel/runtime/helpers/createClass.js"));
+
+var _defineProperty2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "../node_modules/@babel/runtime/helpers/defineProperty.js"));
+
+var _deprecation = _interopRequireDefault(__webpack_require__(/*! ./deprecation */ "../modules/dev-tools/assets/js/deprecation.js"));
+
+/* global elementorDevToolsConfig */
+var Module = /*#__PURE__*/function () {
+  /**
+   * @type {Deprecation}
+   */
+  function Module(deprecation) {
+    (0, _classCallCheck2.default)(this, Module);
+    (0, _defineProperty2.default)(this, "deprecation", void 0);
+    this.deprecation = deprecation;
+  }
+
+  (0, _createClass2.default)(Module, [{
+    key: "notifyBackendDeprecations",
+    value: function notifyBackendDeprecations() {
+      var _this = this;
+
+      var notices = elementorDevToolsConfig.deprecation.soft_notices;
+      Object.entries(notices).forEach(function (_ref) {
+        var _this$deprecation;
+
+        var _ref2 = (0, _slicedToArray2.default)(_ref, 2),
+            key = _ref2[0],
+            notice = _ref2[1];
+
+        (_this$deprecation = _this.deprecation).deprecated.apply(_this$deprecation, [key].concat((0, _toConsumableArray2.default)(notice)));
+      });
+    }
+  }, {
+    key: "consoleWarn",
+    value: function consoleWarn() {
+      var _console;
+
+      var style = "font-size: 12px; background-image: url(\"".concat(elementorDevToolsConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
+
+      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      args.unshift('%c  %c', style, '');
+
+      (_console = console).warn.apply(_console, args); // eslint-disable-line no-console
+
+    }
+  }]);
+  return Module;
+}();
+
+exports["default"] = Module;
+
+/***/ }),
+
 /***/ "../node_modules/@babel/runtime/helpers/arrayLikeToArray.js":
 /*!******************************************************************!*\
   !*** ../node_modules/@babel/runtime/helpers/arrayLikeToArray.js ***!
@@ -264,6 +343,31 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass, module.exports.__esModule = true, module.exports["default"] = module.exports;
+
+/***/ }),
+
+/***/ "../node_modules/@babel/runtime/helpers/defineProperty.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/@babel/runtime/helpers/defineProperty.js ***!
+  \****************************************************************/
+/***/ ((module) => {
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+module.exports = _defineProperty, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
 /***/ }),
 
@@ -461,78 +565,20 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
 "use strict";
-var exports = __webpack_exports__;
-/*!************************************************!*\
-  !*** ../modules/dev-tools/assets/js/module.js ***!
-  \************************************************/
+/*!***********************************************!*\
+  !*** ../modules/dev-tools/assets/js/index.js ***!
+  \***********************************************/
 
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
 
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = void 0;
-
-var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "../node_modules/@babel/runtime/helpers/toConsumableArray.js"));
-
-var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/slicedToArray */ "../node_modules/@babel/runtime/helpers/slicedToArray.js"));
-
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "../node_modules/@babel/runtime/helpers/classCallCheck.js"));
-
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/createClass */ "../node_modules/@babel/runtime/helpers/createClass.js"));
-
 var _deprecation = _interopRequireDefault(__webpack_require__(/*! ./deprecation */ "../modules/dev-tools/assets/js/deprecation.js"));
 
-/* global elementorDevToolsConfig */
-var Module = /*#__PURE__*/function () {
-  function Module() {
-    (0, _classCallCheck2.default)(this, Module);
-    this.notifyBackendDeprecations();
-  }
-
-  (0, _createClass2.default)(Module, [{
-    key: "notifyBackendDeprecations",
-    value: function notifyBackendDeprecations() {
-      var _this = this;
-
-      // eslint-disable-next-line camelcase
-      var notices = elementorDevToolsConfig.deprecation.soft_notices;
-      Object.entries(notices).forEach(function (_ref) {
-        var _this$deprecation;
-
-        var _ref2 = (0, _slicedToArray2.default)(_ref, 2),
-            key = _ref2[0],
-            notice = _ref2[1];
-
-        (_this$deprecation = _this.deprecation).deprecated.apply(_this$deprecation, [key].concat((0, _toConsumableArray2.default)(notice)));
-      });
-    }
-  }, {
-    key: "consoleWarn",
-    value: function consoleWarn() {
-      var _console;
-
-      var style = "font-size: 12px; background-image: url(\"".concat(elementorDevToolsConfig.urls.assets, "images/logo-icon.png\"); background-repeat: no-repeat; background-size: contain;");
-
-      for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-        args[_key] = arguments[_key];
-      }
-
-      args.unshift('%c  %c', style, '');
-
-      (_console = console).warn.apply(_console, args); // eslint-disable-line no-console
-
-    }
-  }]);
-  return Module;
-}();
-
-exports["default"] = Module;
+var _module = _interopRequireDefault(__webpack_require__(/*! ./module */ "../modules/dev-tools/assets/js/module.js"));
 
 if (!window.elementorDevTools) {
-  window.elementorDevTools = new Module();
-  window.elementorDevTools.deprecation = new _deprecation.default();
+  window.elementorDevTools = new _module.default(new _deprecation.default());
+  window.elementorDevTools.notifyBackendDeprecations();
 }
 })();
 

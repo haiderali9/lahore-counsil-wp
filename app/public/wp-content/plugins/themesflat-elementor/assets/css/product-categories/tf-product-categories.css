@@ -1,0 +1,84 @@
+.tf-product-category .products {
+    position: relative;
+    clear: both;
+    list-style: none;
+    margin: 0;
+    display: grid;
+}
+
+.tf-product-category .products li {
+    width: auto !important;
+    padding: 0;
+    margin: 0 !important;
+    float: none !important;
+}
+
+.tf-product-category .products li .inner {
+    border: none;
+    padding: 23px 0px 21px 0px;
+}
+
+.tf-product-category .products li .category-thumbnail {
+    position: relative;
+}
+
+.tf-product-category .products li .category-thumbnail a {
+    display: inline-block;
+}
+
+.tf-product-category .products li .category-thumbnail:before {
+    content: '';
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #dce2ea;
+}
+
+.tf-product-category .products li .category-thumbnail img {
+    position: relative;
+    z-index: 1;
+}
+
+.tf-product-category .products li .woocommerce-loop-category__title {
+    margin: 0;
+}
+
+.tf-product-category .products li .shop_cat_desc {
+    margin-top: 10px;
+}
+
+.tf-product-category ul.products.columns-1 {
+    grid-template-columns: repeat(1,1fr);
+}
+.tf-product-category ul.products.columns-2 {
+    grid-template-columns: repeat(2,1fr);
+}
+.tf-product-category ul.products.columns-3 {
+    grid-template-columns: repeat(3,1fr);
+}
+.tf-product-category ul.products.columns-4 {
+    grid-template-columns: repeat(4,1fr);
+}
+.tf-product-category ul.products.columns-5 {
+    grid-template-columns: repeat(5,1fr);
+}
+
+@media (max-width: 1024px) {
+    .tf-product-category ul.products.columns-4,
+    .tf-product-category ul.products.columns-5 {
+        grid-template-columns: repeat(2,1fr);
+    }
+} 
+
+@media (max-width: 767px) {
+    .tf-product-category ul.products.columns-2,
+    .tf-product-category ul.products.columns-3,
+    .tf-product-category ul.products.columns-4,
+    .tf-product-category ul.products.columns-5 {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

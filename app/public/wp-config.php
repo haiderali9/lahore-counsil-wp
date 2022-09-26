@@ -21,13 +21,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'local' );
+define( 'DB_NAME', 'lahore_council_wp' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'admin' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'admin' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -38,6 +38,8 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define( 'WP_DEBUG', false ); //this line would already exists, please add below
+define( 'FS_METHOD', 'direct' );
 /**#@+
  * Authentication unique keys and salts.
  *

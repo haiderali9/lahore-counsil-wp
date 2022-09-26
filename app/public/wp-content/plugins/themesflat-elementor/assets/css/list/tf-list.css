@@ -1,0 +1,278 @@
+@charset "UTF-8";
+.tf-list-icon {
+  margin-bottom: 0;
+}
+.tf-list-icon.list-inline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.tf-list-icon.list-inline .list-inline-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.tf-list-icon.list-inline .list-inline-item:after {
+  left: 1em;
+}
+.tf-list-icon.list-inline .list-inline-item:not(:first-child) {
+  margin-left: 1em;
+}
+.tf-list-icon.list-inline .list-inline-item:not(:last-child) {
+  margin-right: 1em;
+}
+.tf-list-icon.list-unstyled .list-icon-item {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.tf-list-icon.list-unstyled .list-icon-item:after {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.tf-list-icon.list-unstyled .list-icon-item:not(:first-child) {
+  margin-top: 0.5em;
+}
+.tf-list-icon li:after {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  border-width: 1px;
+  border-color: var(--e-global-color-border);
+}
+.tf-list-icon li:last-child:after {
+  content: none !important;
+}
+.tf-list-icon li i {
+  width: 1em;
+  font-size: 1em;
+}
+.tf-list-icon li:before {
+  font-size: 1em;
+  display: inline-block;
+  padding-right: 10px;
+}
+.tf-list-icon .tf-list-icon-icon {
+  font-style: normal;
+  padding-right: 0.5em;
+}
+.tf-list-icon a, .tf-list-icon a:hover, .tf-list-icon a:active {
+  color: inherit;
+}
+
+.tf-list-icon-icon svg {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.tf-list-icon-square li:before {
+  content: counter(item, square);
+  font-size: 0.6em;
+}
+
+.tf-list-icon-circle li:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 600;
+  font-size: 0.5em;
+  text-align: left;
+}
+
+.tf-list-icon-roman,
+.tf-list-icon-alpha,
+.tf-list-icon-number {
+  counter-reset: item;
+}
+.tf-list-icon-roman li:before,
+.tf-list-icon-alpha li:before,
+.tf-list-icon-number li:before {
+  counter-increment: item;
+}
+
+.tf-list-icon-roman li:before {
+  content: counter(item, upper-roman);
+}
+
+.tf-list-icon-alpha li:before {
+  content: counter(item, lower-alpha);
+}
+
+.tf-list-icon-number li:before {
+  content: counter(item, decimal-leading-zero);
+}
+
+.tf-list-icon-xs {
+  font-size: 14px;
+}
+
+.tf-list-icon-sm {
+  font-size: 16px;
+}
+
+.tf-list-icon-md {
+  font-size: 18px;
+}
+
+.tf-list-icon-lg {
+  font-size: 20px;
+}
+
+.tf-list-icon-xl {
+  font-size: 22px;
+}
+
+@media (min-width: 1025px) {
+  .elementor-align-right .list-icon-item {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .elementor-align-right .list-icon-item:before {
+    text-align: right;
+  }
+  .elementor-align-right .list-inline .tf-list-icon-icon,
+.elementor-align-right .list-inline .list-inline-item:before {
+    float: right;
+    order: 2;
+  }
+  .elementor-align-right .list-inline .list-inline-item:after {
+    order: 3;
+  }
+  .elementor-align-right .tf-list-icon-roman li:before {
+    content: " ." counter(item, upper-roman);
+  }
+  .elementor-align-right .tf-list-icon-alpha li:before {
+    content: " ." counter(item, lower-alpha);
+  }
+  .elementor-align-right .tf-list-icon-number li:before {
+    content: " ." counter(item, decimal-leading-zero);
+  }
+  .elementor-align-right .tf-list-icon-icon {
+    padding-left: 0.5em;
+  }
+  .elementor-align-right li:before {
+    padding-left: 10px;
+  }
+  .elementor-align-right .tf-list-icon-icon,
+.elementor-align-right li:before {
+    padding-right: 0;
+  }
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .list-icon-item {
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .list-icon-item:before {
+  text-align: right;
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .list-inline .tf-list-icon-icon,
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .list-inline .list-inline-item:before {
+  float: right;
+  order: 2;
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .list-inline .list-inline-item:after {
+  order: 3;
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .tf-list-icon-roman li:before {
+  content: " ." counter(item, upper-roman);
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .tf-list-icon-alpha li:before {
+  content: " ." counter(item, lower-alpha);
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .tf-list-icon-number li:before {
+  content: " ." counter(item, decimal-leading-zero);
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .tf-list-icon-icon {
+  padding-left: 0.5em;
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) li:before {
+  padding-left: 10px;
+}
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) .tf-list-icon-icon,
+.elementor-align-right:not(.elementor-tablet-align-center):not(.elementor-tablet-align-left):not(.elementor-mobile-align-center):not(.elementor-mobile-align-left) li:before {
+  padding-right: 0;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .elementor-tablet-align-right .list-icon-item {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .elementor-tablet-align-right .list-icon-item:before {
+    text-align: right;
+  }
+  .elementor-tablet-align-right .list-inline .tf-list-icon-icon,
+.elementor-tablet-align-right .list-inline .list-inline-item:before {
+    float: right;
+    order: 2;
+  }
+  .elementor-tablet-align-right .list-inline .list-inline-item:after {
+    order: 3;
+  }
+  .elementor-tablet-align-right .tf-list-icon-roman li:before {
+    content: " ." counter(item, upper-roman);
+  }
+  .elementor-tablet-align-right .tf-list-icon-alpha li:before {
+    content: " ." counter(item, lower-alpha);
+  }
+  .elementor-tablet-align-right .tf-list-icon-number li:before {
+    content: " ." counter(item, decimal-leading-zero);
+  }
+  .elementor-tablet-align-right .tf-list-icon-icon {
+    padding-left: 0.5em;
+  }
+  .elementor-tablet-align-right li:before {
+    padding-left: 10px;
+  }
+  .elementor-tablet-align-right .tf-list-icon-icon,
+.elementor-tablet-align-right li:before {
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-mobile-align-right .list-icon-item {
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .elementor-mobile-align-right .list-icon-item:before {
+    text-align: right;
+  }
+  .elementor-mobile-align-right .list-inline .tf-list-icon-icon,
+.elementor-mobile-align-right .list-inline .list-inline-item:before {
+    float: right;
+    order: 2;
+  }
+  .elementor-mobile-align-right .list-inline .list-inline-item:after {
+    order: 3;
+  }
+  .elementor-mobile-align-right .tf-list-icon-roman li:before {
+    content: " ." counter(item, upper-roman);
+  }
+  .elementor-mobile-align-right .tf-list-icon-alpha li:before {
+    content: " ." counter(item, lower-alpha);
+  }
+  .elementor-mobile-align-right .tf-list-icon-number li:before {
+    content: " ." counter(item, decimal-leading-zero);
+  }
+  .elementor-mobile-align-right .tf-list-icon-icon {
+    padding-left: 0.5em;
+  }
+  .elementor-mobile-align-right li:before {
+    padding-left: 10px;
+  }
+  .elementor-mobile-align-right .tf-list-icon-icon,
+.elementor-mobile-align-right li:before {
+    padding-right: 0;
+  }
+}
+
+/*# sourceMappingURL=tf-list.css.map */
