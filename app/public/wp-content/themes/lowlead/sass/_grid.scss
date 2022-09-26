@@ -1,0 +1,9 @@
+.sidebar-left {
+	@media only screen and (min-width: 992px)  {
+		.tf-sidebar {
+			order: -1;
+		}
+	}
+
+}
+

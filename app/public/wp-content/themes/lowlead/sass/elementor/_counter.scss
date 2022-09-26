@@ -1,0 +1,101 @@
+.tf-counter {
+    .counter-number-wrapper {
+        font-family: var(--theme-font-primary);
+    }
+    
+    &.default {
+        background-color: #fff;
+        overflow: hidden;
+        padding: 47px 10px;
+        box-shadow: 0 0 4px #e6e6e6;
+        position: relative;
+        
+        &:after {
+            position: absolute;
+            content: "";
+            border: 12px solid #f3f3f4;
+            width: 100px;
+            height: 100px;
+            top: -65px;
+            left: -63px;
+            border-radius: 0 415px 350px 200px;
+            @include transition(all 0.5s ease);
+        }
+        
+        &:hover:after {
+            border: 12px solid var(--theme-secondary-color);
+        }
+        
+        .counter-number-wrapper {
+            color: var(--theme-accent-color);
+        }
+    }
+    
+    &.style1 {
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        border-radius: 60px / 50px;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(255, 117, 6, 0.15)), color-stop(25%, rgba(243, 243, 244, 1)));
+        background: -o-linear-gradient(left, rgba(255, 117, 6, 0.15) 0%, rgba(243, 243, 244, 1) 25%);
+        background: linear-gradient(to right, rgba(255, 117, 6, 0.15) 0%, rgba(243, 243, 244, 1) 25%);
+        
+        .counter-number-wrapper {
+            color: var(--theme-secondary-color);
+        }
+    }
+    
+    &.style2 {
+        .counter-number-wrapper {
+            background-repeat: no-repeat;
+            background-position: -190px -165px;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-weight: bold;
+        }
+        
+        .counter-number-wrapper {
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            font-size: 296px;
+            line-height: 296px;
+            letter-spacing: -12px;
+            margin-left: -11px;
+        }
+        
+        .counter-title {
+            @include transform(rotate(90deg));
+            position: absolute;
+            top: 104px;
+            left: 215px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: bold;
+            height: 50px;
+            width: auto;
+            color: rgba(2, 14, 40, 0.3);
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+        }
+    }
+    
+    &.style3 {
+        .counter-number-wrapper {
+            color: #1C2833;
+            margin-bottom: 16px;
+        }
+        
+        .counter-number-prefix {
+            margin-right: 0;
+        }
+        
+        .counter-number-suffix {
+            margin-left: 0;
+        }
+        
+        .counter-title {
+            font-family: var(--theme-font-primary);
+        }
+    }
+}

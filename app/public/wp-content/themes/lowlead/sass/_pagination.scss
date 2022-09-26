@@ -1,0 +1,244 @@
+/* Pagination
+-------------------------------------------------------------- */
+.posts-navigation {
+	padding-top: 43px;
+
+	.nav-links {
+		padding-left: 0 !important;
+	}
+}
+
+.navigation.paging-navigation {
+	padding-top: 30px;
+}
+
+.navigation.paging-navigation .pagination,
+.navigation.paging-navigation.pager {
+	margin: 0 0;
+	text-align: left;
+	display: inline-flex;
+}
+
+.navigation.paging-navigation.pager .pagination {
+	width: 100%;
+	@include d-flex();
+}
+
+.navigation.paging-navigation.pager a:not(:last-child),
+.navigation.paging-navigation.pager-numeric a:not(:last-child),
+.navigation.paging-navigation.pager span:not(:last-child),
+.navigation.paging-navigation.pager-numeric span:not(:last-child) {
+	margin-right: 10px;
+}
+
+.navigation a,
+.pagination > span,
+.navigation.paging-navigation span,
+.page-links a, .page-links > span {
+	position: relative;
+	color: var(--theme-accent-color);
+	padding: 11px 23px;
+	border: 1px solid #E8E8E8;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.navigation {
+	.prev, .next {
+		background: #F6F6F6;
+		color: var(--theme-accent-color);
+		border: none;
+	}
+}
+
+.navigation.paging-navigation .current, .navigation.paging-navigation a:hover,
+.navigation.paging-navigation a.next:hover {
+	background-color: var(--theme-secondary-color);
+	border-color: var(--theme-secondary-color);
+	color: var(--theme-secondary-foreground-color);
+}
+
+.page-links {
+	margin-top: 30px;
+}
+
+.navigation.paging-navigation.pager a {
+	display: inline-block;
+	background-color: transparent;
+	color: #2d2d2d;
+	padding: 7px 17px 6px 17px;
+	border-radius: 0;
+}
+
+.navigation.paging-navigation.pager a:hover {
+	background-color: transparent;
+	color: #222;
+}
+
+.page-links a:hover, .page-links a:focus,
+.page-links > span {
+	color: #fff;
+	background-color: transparent;
+}
+
+.navigation.paging-navigation a.next i,
+.navigation.paging-navigation a.prev i {
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.navigation.loadmore .pagination {
+	display: inline-flex;
+}
+
+.search .nav-links .nav-previous {
+	float: left;
+}
+
+.search .nav-links .nav-next {
+	float: right;
+}
+
+/* Navigation Loadmore */
+.post-wrap {
+	-webkit-transition: height 0.5s ease;
+	-moz-transition: height 0.5s ease;
+	-ms-transition: height 0.5s ease;
+	-o-transition: height 0.5s ease;
+	transition: height 0.5s ease;
+}
+
+.navigation.loadmore {
+	text-align: center;
+
+}
+
+.navigation.loadmore a svg {
+	margin-right: 10px;
+	margin-top: -3px;
+}
+
+.navigation.loadmore a:hover svg {
+	-webkit-animation: fa-spin 2s infinite linear;
+	animation: fa-spin 2s infinite linear;
+}
+
+.infscr-loading {
+	background: url("images/loading.gif") no-repeat scroll center 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #ccc;
+	left: 50%;
+	margin-left: -90px;
+	padding: 80px 0 10px;
+	position: fixed;
+	text-align: center;
+	width: 180px;
+	z-index: 100;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.infscr-loading.no-ajax {
+	padding: 10px;
+}
+
+.flex-box {
+	display: flex;
+	align-items: center;
+}
+
+.paging-navigation {
+	&.loadmore {
+		a {
+			font-family: var(--theme-btn-font);
+			font-style: var(--theme-btn-font-style);
+			font-size: var(--theme-btn-font-size);
+			letter-spacing: var(--theme-btn-letter-spacing);
+			line-height: 35px;
+			padding: 12px 44px 12px 31px;
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+			z-index: 2;
+			font-weight: 700;
+			border-color: transparent;
+			text-transform: uppercase;
+			border-width: 0;
+			border-radius: 5px;
+			overflow: hidden;
+			background-color: var(--theme-secondary-color);
+			color: #fff;
+			@include transition(all 0.35s ease);
+			width: auto;
+			height: auto;
+			margin-right: 0;
+
+			&::after {
+				content: "\f061";
+				font-family: "Font Awesome 5 Pro";
+				display: inline-block;
+				position: absolute;
+				right: 20px;
+				top: 50%;
+				transform: translateY(-50%);
+				font-size: 10px;
+				margin-top: 1px;
+				margin-left: 6px;
+				color: #ffffff;
+				z-index: 10;
+			}
+
+			&:hover {
+				background-color: var(--theme-accent-color);
+				color: var(--theme-accent-foreground-color);
+				@include transition(all 0.5s ease);
+			}
+
+		}
+	}
+}
+
+.posts-navigation .nav-links {
+	a {
+		font-size: 0;
+		border: 2px solid var(--theme-background-color-main);
+		width: 80px;
+		height: 80px;
+		text-align: center;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+
+		&:before {
+			font-family: var(--theme-icon-font-primary);
+			font-size: 20px;
+		}
+	}
+
+	.nav-next a:before {
+		content: "\f324";
+	}
+
+	.nav-previous a:before {
+		content: "\f323";
+	}
+}
+
+.paging-navigation {
+	&.pager-numeric, .numeric {
+		text-align: center;
+	}
+
+	.next, .prev {
+		font-size: 14px;
+	}
+
+}

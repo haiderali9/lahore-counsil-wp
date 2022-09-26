@@ -1,0 +1,45 @@
+.tf-quote {
+	@include d-flex();
+	position: relative;
+	padding-left: 50px;
+
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 90%;
+		width: 5px;
+		background-color: #F6F6F6;
+	}
+
+	.image {
+		@include flex(0 0 77px);
+		max-width: 77px;
+		margin-right: 22px;
+		margin-top: 10px;
+	}
+
+	.content {
+		text-align: left;
+		@include flex(1 1 auto);
+	}
+
+	.title {
+		font-size: 18px;
+		line-height: 30px;
+		font-family: var(--theme-font-primary);
+		color: var(--theme-secondary-color);
+		margin-bottom: 17px;
+	}
+
+	.description {
+		font-size: 24px;
+		line-height: 30px;
+		font-family: var(--theme-font-primary);
+	}
+
+	@media only screen and (max-width: 575px) {
+		padding-left: 20px;
+	}
+}

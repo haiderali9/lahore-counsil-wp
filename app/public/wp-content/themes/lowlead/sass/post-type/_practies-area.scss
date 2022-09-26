@@ -1,0 +1,419 @@
+.wrap-practise-area-post {
+	.item {
+		margin-bottom: 30px;
+	}
+}
+
+.tf-practise-area-style1 {
+	.featured-post {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 18px;
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-color: $color_secondary;
+			opacity: 0;
+			transition: all 0.4s;
+		}
+
+		.themesflat__entry-thumbnail {
+			transition: all 0.4s;
+			@include transform(scale(1));
+		}
+	}
+
+	.hover-icon {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transition: all 0.5s;
+		@include d-flex();
+		@include justify-content-center();
+		@include align-items-center();
+		@include transform(translateY(100%));
+		z-index: 10;
+
+		.icon {
+			max-width: 50px;
+		}
+	}
+
+	.content {
+		@include d-flex();
+		@include align-items-center();
+		@include flex-wrap();
+		transition: all 0.2s;
+
+		.content-wrap {
+			position: relative;
+			padding-top: 10px;
+			margin-right: auto;
+		}
+
+	}
+
+	.practise-area-meta {
+		position: absolute;
+		top: 8px;
+		width: 100%;
+
+		a {
+			color: var(--theme-color-text-main);
+			font-size: 14px;
+			line-height: 19px;
+			text-transform: capitalize;
+			display: block;
+			transition: all 0.2s;
+
+			&:hover {
+				color: var(--theme-secondary-color);
+			}
+		}
+
+	}
+
+	.practise-area-title, .title {
+		margin-bottom: 0;
+		@include d-flex();
+		@include align-items-end();
+		font-weight: 700;
+
+		a {
+			display: block;
+		}
+
+		.title-rest-letter {
+			font-size: 24px;
+			line-height: 29px;
+			transition: all 0.2s;
+		}
+
+		.title-first-letter {
+			font-size: 72px;
+			line-height: 55px;
+			color: var(--theme-secondary-color);
+			transition: all 0.2s;
+		}
+	}
+
+	.practise-area-view-more {
+		@include d-flex();
+		@include align-items-center();
+		@include justify-content-center();
+		width: 46px;
+		height: 46px;
+		font-size: 18px;
+		background-color: #F6F6F6;
+		transition: all 0.4s;
+
+		&:hover {
+			background-color: var(--theme-secondary-color);
+			color: #fff;
+			@include box-shadow(0 4px 7px var(--theme-secondary-color));
+		}
+	}
+
+	&:hover {
+		.featured-post {
+			&::after {
+				opacity: 0.5;
+			}
+
+			.themesflat__entry-thumbnail {
+				@include transform(scale(1.1));
+			}
+
+			.hover-icon {
+				@include transform(translateY(0));
+			}
+		}
+
+		.practise-area-view-more {
+			background-color: var(--theme-secondary-color);
+			color: #fff;
+		}
+	}
+}
+
+.tf-practise-area-post-style2 {
+	background-color: #FAF2F1;
+	transition: all 0.5s;
+
+	.tf-practise-area-post {
+		@include d-flex();
+		@include align-items-center();
+		width: 100%;
+		transition: all 0.5s;
+
+		.practise-area-icon {
+			font-size: 50px;
+			line-height: 50px;
+			color: var(--theme-secondary-color);
+			width: 100px;
+			height: 100px;
+			@include d-flex();
+			@include align-items-center();
+			@include justify-content-center();
+			transition: all 0.5s;
+			border-right: 3px solid #fff;
+
+			i {
+				transition: all 0.5s;
+			}
+		}
+
+		.content {
+			width: calc(100% - 100px);
+			@include d-flex();
+			@include align-items-center();
+			transition: all 0.5s;
+			padding: 25px;
+		}
+
+		.practise-area-title {
+			font-size: 24px;
+			line-height: 30px;
+			font-family: var(--theme-font-primary);
+			font-weight: 700;
+			transition: all 0.5s;
+		}
+
+		.practise-area-view-more {
+			margin-left: auto;
+			font-size: 18px;
+			transition: all 0.5s;
+			@include transform(translateX(0));
+		}
+
+		&:hover {
+			background-color: var(--theme-secondary-color);
+
+			.practise-area-icon {
+				border-right-color: #fff;
+				color: #fff;
+
+				i {
+					@include transform(rotateY(360deg));
+				}
+			}
+
+			.practise-area-title, .practise-area-view-more {
+				color: #fff;
+			}
+
+			.practise-area-view-more {
+				@include transform(translateX(7px));
+			}
+		}
+	}
+
+}
+
+.tf-practise-area-post-style3 {
+	border: 1px solid var(--theme-color-border);
+	padding: 30px 30px 39px;
+	@include d-flex();
+	@include flex-column();
+	height: 100%;
+	transition: all 0.5s;
+
+	.practise-area-icon {
+		font-size: 50px;
+		line-height: 50px;
+		color: var(--theme-secondary-color);
+		margin-bottom: 42px;
+		transition: all 0.5s;
+	}
+
+	.practise-area-title {
+		font-size: 24px;
+		line-height: 30px;
+		font-family: var(--theme-font-primary);
+		font-weight: 700;
+		margin-bottom: 13px;
+	}
+
+	.desc {
+		font-size: 14px;
+		line-height: 30px;
+		text-transform: capitalize;
+		transition: all 0.5s;
+	}
+
+	&:hover {
+		background-color: var(--theme-secondary-color);
+		border-color: var(--theme-secondary-color);
+
+		.practise-area-icon, .practise-area-title a, .desc {
+			color: #fff;
+		}
+	}
+}
+
+.tf-practise-area-post-style4 {
+	.featured-post {
+		position: relative;
+		overflow: hidden;
+		z-index: 1;
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background-color: $color_secondary;
+			opacity: 0;
+			transition: all 0.4s;
+		}
+
+		.themesflat__entry-thumbnail {
+			transition: all 0.4s;
+			@include transform(scale(1));
+		}
+	}
+
+	.content {
+		position: relative;
+		z-index: 10;
+		text-align: center;
+		margin-top: -43px;
+
+		.practise-area-title{
+			font-size: 28px;
+			max-width: 80%;
+			background-color: #fff;
+			box-shadow: 0 1px 35px rgba(0, 0, 0, 0.1);
+			margin-right: auto;
+			margin-left: auto;
+			padding: 22px;
+			line-height: 1.1;
+		}
+	}
+
+	&:hover {
+		.featured-post {
+			&::after {
+				opacity: 0.5;
+			}
+
+			.themesflat__entry-thumbnail {
+				@include transform(scale(1.1));
+			}
+		}
+	}
+}
+
+.single-practise_area {
+	.featured-post {
+		margin-bottom: 46px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.practise-area-content-top {
+		position: relative;
+		margin-bottom: 38px;
+	}
+
+	.post-title {
+		margin-bottom: 0;
+		@include d-flex();
+		@include align-items-end();
+
+		span {
+			display: block;
+		}
+
+		.title-rest-letter {
+			font-size: 24px;
+			line-height: 24px;
+		}
+
+		.title-first-letter {
+			font-size: 72px;
+			line-height: 55px;
+			color: var(--theme-secondary-color);
+		}
+	}
+
+	.practise-area-meta {
+		position: absolute;
+		top: 0;
+
+		a {
+			color: var(--theme-color-text-main);
+			font-size: 14px;
+			line-height: 19px;
+			text-transform: capitalize;
+			display: block;
+
+			&:hover {
+				color: var(--theme-secondary-color);
+			}
+		}
+
+	}
+}
+
+.wrap-practise-area-post {
+	--tf-practise-area-gap: 30px;
+	margin-left: calc(0px - (var(--tf-practise-area-gap) / 2));
+	margin-right: calc(0px - (var(--tf-practise-area-gap) / 2));
+
+	.slick-slide {
+		padding: 0;
+	}
+
+	.item {
+		padding-left: calc((var(--tf-practise-area-gap) / 2));
+		padding-right: calc((var(--tf-practise-area-gap) / 2));
+		margin-bottom: var(--tf-practise-area-gap);
+	}
+
+}
+
+.themesflat-practise-area-slider {
+	.item {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.single-practise_area .widget_block,
+.image-first-wiget-has-bg .widget:first-child {
+	background: url("images/bg-contact-form.jpg") no-repeat center;
+	background-size: cover;
+	color: #fff;
+
+	p {
+		margin-bottom: 0;
+	}
+
+	input[type="text"], input[type="email"], textarea {
+		background: #272B2E !important;
+		border: 1px solid rgba(255, 255, 255, 0.05);
+		margin-bottom: 0;
+	}
+
+	label {
+		margin-bottom: 10px;
+	}
+
+	.widget-title {
+		color: #fff;
+	}
+}
+    
+

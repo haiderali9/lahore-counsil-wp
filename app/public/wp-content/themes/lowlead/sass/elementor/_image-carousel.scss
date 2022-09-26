@@ -1,0 +1,16 @@
+.elementor-widget-image-carousel {
+	.swiper-slide-image {
+		opacity: 0.7;
+		@include transition(all 0.3s);
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.tf-award-images {
+	.swiper-slide-image {
+		opacity: 1 !important;
+	}
+}

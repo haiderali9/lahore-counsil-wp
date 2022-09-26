@@ -1,0 +1,2295 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lowlead\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-28 07:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: lowlead"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:65
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: inc/customizer/header/header-options.php:118
+msgid " Custom html ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/color/header.php:29
+msgid " Opacity =1 for Background Color"
+msgstr ""
+
+#: 404.php:20
+msgid " That page can’t be found."
+msgstr ""
+
+#: comments.php:66
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: inc/options/controls/dropdown-sidebars.php:14
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: comments.php:25
+msgid "(Edit)"
+msgstr ""
+
+#: inc/sidebar_manage.php:197
+msgid "+ Add Sidebar"
+msgstr ""
+
+#: comments.php:111
+msgid "+55 (121) 234 444"
+msgstr ""
+
+#: comments.php:66
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:66
+msgid "01 Comment"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:63
+#: inc/customizer/content/blog-archive.php:90
+#: inc/customizer/content/post-type.php:129
+#: inc/customizer/content/post-type.php:153
+#: inc/customizer/content/post-type.php:177
+#: inc/customizer/content/post-type.php:608
+#: inc/customizer/content/post-type.php:632
+#: inc/customizer/content/post-type.php:1004
+#: inc/customizer/content/post-type.php:1028
+#: inc/customizer/footer/footer.php:18
+msgid "1 Columns"
+msgstr ""
+
+#: inc/customizer.php:215 inc/customizer/content/blog-archive.php:64
+#: inc/customizer/content/blog-archive.php:91
+#: inc/customizer/content/blog-single.php:160
+#: inc/customizer/content/post-type.php:130
+#: inc/customizer/content/post-type.php:154
+#: inc/customizer/content/post-type.php:178
+#: inc/customizer/content/post-type.php:447
+#: inc/customizer/content/post-type.php:585
+#: inc/customizer/content/post-type.php:609
+#: inc/customizer/content/post-type.php:633
+#: inc/customizer/content/post-type.php:828
+#: inc/customizer/content/post-type.php:981
+#: inc/customizer/content/post-type.php:1005
+#: inc/customizer/content/post-type.php:1029
+#: inc/customizer/content/post-type.php:1225
+#: inc/customizer/content/post-type.php:1375
+#: inc/customizer/footer/footer.php:19
+msgid "2 Columns"
+msgstr ""
+
+#: inc/customizer.php:216 inc/customizer/content/blog-archive.php:65
+#: inc/customizer/content/blog-archive.php:92
+#: inc/customizer/content/blog-single.php:161
+#: inc/customizer/content/post-type.php:131
+#: inc/customizer/content/post-type.php:155
+#: inc/customizer/content/post-type.php:179
+#: inc/customizer/content/post-type.php:448
+#: inc/customizer/content/post-type.php:586
+#: inc/customizer/content/post-type.php:610
+#: inc/customizer/content/post-type.php:634
+#: inc/customizer/content/post-type.php:829
+#: inc/customizer/content/post-type.php:982
+#: inc/customizer/content/post-type.php:1006
+#: inc/customizer/content/post-type.php:1030
+#: inc/customizer/content/post-type.php:1226
+#: inc/customizer/content/post-type.php:1376
+#: inc/customizer/footer/footer.php:20
+msgid "3 Columns"
+msgstr ""
+
+#: inc/customizer.php:217 inc/customizer/content/blog-archive.php:66
+#: inc/customizer/content/blog-archive.php:93
+#: inc/customizer/content/blog-single.php:162
+#: inc/customizer/content/post-type.php:132
+#: inc/customizer/content/post-type.php:156
+#: inc/customizer/content/post-type.php:180
+#: inc/customizer/content/post-type.php:449
+#: inc/customizer/content/post-type.php:587
+#: inc/customizer/content/post-type.php:611
+#: inc/customizer/content/post-type.php:635
+#: inc/customizer/content/post-type.php:830
+#: inc/customizer/content/post-type.php:983
+#: inc/customizer/content/post-type.php:1007
+#: inc/customizer/content/post-type.php:1031
+#: inc/customizer/content/post-type.php:1227
+#: inc/customizer/content/post-type.php:1377
+msgid "4 Columns"
+msgstr ""
+
+#: inc/customizer/footer/footer.php:21
+msgid "4 Columns ( 3 | 2 | 4 | 3 )"
+msgstr ""
+
+#: inc/customizer/footer/footer.php:22
+msgid "4 Columns ( 3 | 3 | 3 | 3 )"
+msgstr ""
+
+#: 404.php:18 inc/helpers.php:1233
+msgid "404"
+msgstr ""
+
+#: inc/breadcrumb.php:28 inc/breadcrumb-trail/breadcrumb-trail.php:275
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "5 Columns"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:73
+#: inc/elementor-options/elementor-options.php:688
+#: inc/elementor-options/elementor-options.php:998
+#: inc/customizer/color/general.php:54
+msgid "Accent Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:769
+msgid "Action Box"
+msgstr ""
+
+#: inc/customizer/footer/action-box.php:13
+msgid "Action Box ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/color/action-box.php:36
+msgid "Action Box Backgound"
+msgstr ""
+
+#: inc/customizer/color/action-box.php:120
+msgid "Action Box Button Background Color"
+msgstr ""
+
+#: inc/customizer/color/action-box.php:99
+msgid "Action Box Button Text Color"
+msgstr ""
+
+#: inc/customizer/color/action-box.php:57
+msgid "Action Box Heading Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:792
+msgid "Action Box Styles"
+msgstr ""
+
+#: inc/customizer/color/action-box.php:78
+msgid "Action Box Text Color"
+msgstr ""
+
+#: inc/sidebar_manage.php:196
+msgid "Add a sidebar"
+msgstr ""
+
+#: functions.php:166
+msgid "Add widgets here to appear in your sidebar Blog Sidebar."
+msgstr ""
+
+#: functions.php:177
+msgid "Add widgets here to appear in your sidebar Footer area 1."
+msgstr ""
+
+#: functions.php:187
+msgid "Add widgets here to appear in your sidebar Footer area 2."
+msgstr ""
+
+#: functions.php:197
+msgid "Add widgets here to appear in your sidebar Footer area 3."
+msgstr ""
+
+#: functions.php:207
+msgid "Add widgets here to appear in your sidebar Footer widget area 4."
+msgstr ""
+
+#: functions.php:217
+msgid "Add widgets here to appear in your sidebar toggler."
+msgstr ""
+
+#: inc/customizer/footer/info.php:51
+msgid "Address"
+msgstr ""
+
+#: demo/import-demo.php:13
+msgid "After you import this demo, you will have to setup the MailChimp form."
+msgstr ""
+
+#: inc/sidebar_manage.php:284
+msgid "Appearance > Sidebars"
+msgstr ""
+
+#: inc/breadcrumb.php:29 inc/breadcrumb-trail/breadcrumb-trail.php:276
+msgid "Archives"
+msgstr ""
+
+#: inc/sidebar_manage.php:175
+msgid "Are you sure you want to remove"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:229
+#: inc/customizer/content/post-type.php:684
+#: inc/customizer/content/post-type.php:1080
+#: inc/customizer/content/post-type.php:1426
+msgid "Assending"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:859
+msgid "ATTORNEYS ARCHIVE"
+msgstr ""
+
+#: inc/options/options-definition.php:314
+msgid "Attorneys Details"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:896
+msgid "Attorneys Name"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1106
+msgid "ATTORNEYS SINGLE"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:878
+msgid "Attorneys Slug"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:206
+#: inc/customizer/content/post-type.php:203
+#: inc/customizer/content/post-type.php:658
+#: inc/customizer/content/post-type.php:1054
+#: inc/customizer/content/post-type.php:1400
+msgid "Author"
+msgstr ""
+
+#: inc/helpers.php:1256
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: 404.php:26 tpl/page-title.php:44
+msgid "Back To Home Page"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:806
+#: inc/elementor-options/elementor-options.php:910
+#: inc/customizer/color/bottom.php:15 inc/customizer/color/footer.php:15
+#: inc/customizer/footer/info.php:187
+msgid "Backgound Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:476
+#: inc/elementor-options/elementor-options.php:589
+#: inc/elementor-options/elementor-options.php:703
+#: inc/elementor-options/elementor-options.php:1011
+#: inc/elementor-options/elementor-options.php:1092
+#: inc/customizer/color/header.php:197 inc/customizer/color/topbar.php:28
+#: inc/customizer/color/topbar.php:119
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:150
+msgid "Background Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:713
+msgid "Background Overlay"
+msgstr ""
+
+#: inc/customizer/typography/body.php:63
+msgid "Blockquote"
+msgstr ""
+
+#: inc/helpers.php:1224 inc/customizer/typography/blog-post.php:4
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:42
+#: inc/customizer/content/blog-single.php:136
+msgid "Blog Grid"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:39
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:41
+#: inc/customizer/content/blog-single.php:135
+msgid "Blog List"
+msgstr ""
+
+#: inc/customizer/typography/blog-post.php:30
+msgid "Blog Meta"
+msgstr ""
+
+#: inc/customizer/typography/blog-post.php:56
+msgid "Blog Single"
+msgstr ""
+
+#: inc/customizer/typography/blog-post.php:82
+msgid "Blog Single Comment Title"
+msgstr ""
+
+#: inc/customizer/typography/body.php:9
+msgid "Body"
+msgstr ""
+
+#: inc/customizer/layout.php:36 inc/elementor-options/elementor-options.php:84
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/customizer/typography/body.php:48
+msgid "Body Color"
+msgstr ""
+
+#: inc/options/controls/typography.php:76
+msgid "Bold 700"
+msgstr ""
+
+#: inc/options/controls/typography.php:77
+msgid "Bold 700 italic"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1022
+msgid "Border"
+msgstr ""
+
+#: inc/customizer/color/header.php:218
+msgid "Border Line"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:945
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/footer/bottom.php:14
+msgid "Bottom ( OFF | ON )"
+msgstr ""
+
+#: functions.php:74
+msgid "Bottom Menu"
+msgstr ""
+
+#: inc/customizer/footer/action-box.php:115
+#: inc/customizer/header/topbar.php:128
+msgid "Box Controls (px)"
+msgstr ""
+
+#: inc/customizer/layout.php:18
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/typography/page-title.php:97
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/page-title/breadcrumb.php:19
+msgid "Breadcrumb 01"
+msgstr ""
+
+#: inc/customizer/page-title/breadcrumb.php:20
+msgid "Breadcrumb 02"
+msgstr ""
+
+#: inc/customizer/page-title/breadcrumb.php:36
+msgid "Breadcrumb Prefix"
+msgstr ""
+
+#: inc/customizer/page-title/breadcrumb.php:56
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: inc/breadcrumb.php:26 inc/breadcrumb-trail/breadcrumb-trail.php:273
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:272
+msgid "Browse:"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:854
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:876
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:843
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:865
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: tpl/entry-content/entry-content-meta.php:13
+msgid "by"
+msgstr ""
+
+#: inc/options/options-definition.php:275
+msgid "Case Study"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:8
+msgid "CASE STUDY ARCHIVE"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:280
+msgid "Case Study Before Heading"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:297
+msgid "Case Study Heading"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:45
+msgid "Case Study Name"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:306
+msgid "CASE STUDY SINGLE"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:27
+msgid "Case Study Slug"
+msgstr ""
+
+#: inc/options/options-definition.php:277
+#: inc/options/options-definition.php:321
+msgid "CASES WE SOLVED"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:208
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:72
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/general.php:55
+msgid "Circle Loaders 1"
+msgstr ""
+
+#: inc/customizer/general.php:59
+msgid "Circle Loaders 2"
+msgstr ""
+
+#: inc/customizer/general.php:63
+msgid "Circle Loaders 3"
+msgstr ""
+
+#: inc/customizer/general.php:67
+msgid "Circle Loaders 4"
+msgstr ""
+
+#: inc/helpers.php:226
+msgid "Classic"
+msgstr ""
+
+#: tpl/partner.php:25
+msgid "Client Logo"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:486
+#: inc/elementor-options/elementor-options.php:675
+#: inc/elementor-options/elementor-options.php:985
+#: inc/customizer/typography/bottom.php:48
+#: inc/customizer/typography/footer.php:34
+msgid "Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:749
+msgid "Color Heading Widget"
+msgstr ""
+
+#: inc/customizer/typography/footer.php:55
+msgid "Color Hover"
+msgstr ""
+
+#: inc/customizer/color/header.php:66 inc/customizer/color/header.php:129
+msgid "Color Hover Navigation"
+msgstr ""
+
+#: inc/customizer/color/header.php:48 inc/customizer/color/header.php:111
+msgid "Color Navigation"
+msgstr ""
+
+#: inc/customizer/footer/footer.php:16
+msgid "Columns Footer"
+msgstr ""
+
+#: inc/customizer/content/blog-single.php:158
+msgid "Columns Of Related Posts"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:445
+#: inc/customizer/content/post-type.php:826
+#: inc/customizer/content/post-type.php:1223
+msgid "Columns Related"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:209
+msgid "Comment"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:206
+#: inc/customizer/content/post-type.php:661
+#: inc/customizer/content/post-type.php:1057
+#: inc/customizer/content/post-type.php:1403
+msgid "Comment Count"
+msgstr ""
+
+#: comments.php:73
+msgid "Comment navigation"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb.php:35 inc/breadcrumb-trail/breadcrumb-trail.php:282
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/plugins/plugins.php:31
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer/layout.php:54
+msgid "Content Box Controls (px)"
+msgstr ""
+
+#: inc/customizer/footer/action-box.php:96
+msgid "Content Right"
+msgstr ""
+
+#: inc/customizer/footer/bottom.php:97 inc/customizer/typography/bottom.php:10
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Cover"
+msgstr ""
+
+#: inc/helpers.php:348
+msgid "Create a Menu"
+msgstr ""
+
+#: inc/sidebar_manage.php:203
+msgid "CSS class"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:232
+#: inc/customizer/header/header-options.php:134
+msgid "Custom HTML"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:132
+msgid "Custom Logo"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:147
+msgid "Custom Logo Mobile"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:140
+msgid "Custom Logo Sticky"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1125
+msgid "Customize Attorneys Featured Title"
+msgstr ""
+
+#: inc/customizer/content/blog-single.php:14
+msgid "Customize Blog Featured Title"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:325
+msgid "Customize Case Study Featured Title"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:729
+msgid "Customize Practise area Featured Title"
+msgstr ""
+
+#: inc/options/controls/typography.php:89
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/options/controls/typography.php:85
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:807
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1253
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/helpers.php:1259
+#, php-format
+msgid "Daily: %s"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:207
+#: inc/customizer/content/post-type.php:201
+#: inc/customizer/content/post-type.php:656
+#: inc/customizer/content/post-type.php:1052
+#: inc/customizer/content/post-type.php:1398
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:50
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:228
+#: inc/customizer/content/post-type.php:683
+#: inc/customizer/content/post-type.php:1079
+#: inc/customizer/content/post-type.php:1425
+msgid "Descending"
+msgstr ""
+
+#: inc/helpers.php:33
+msgid "Design Options"
+msgstr ""
+
+#: inc/customizer/color/topbar.php:9
+msgid "Desktop"
+msgstr ""
+
+#: inc/options/options-definition.php:245
+msgid "Discover More"
+msgstr ""
+
+#: inc/customizer/footer/bottom.php:32
+msgid "Divider ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:134
+#: inc/customizer/content/blog-archive.php:202
+msgid "Drag and drop elements to re-order."
+msgstr ""
+
+#: inc/plugins/plugins.php:8
+msgid "Elementor"
+msgstr ""
+
+#: tpl/share.php:65 inc/customizer/header/info.php:5
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/header/info.php:39
+msgid "email Number"
+msgstr ""
+
+#: inc/customizer/header/header-mobile.php:48
+msgid "Enable ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/header/header-mobile.php:21
+msgid "Enable Search Box ( OFF | ON )"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:450
+msgid "Enable Topbar"
+msgstr ""
+
+#: inc/customizer/header/topbar.php:14
+msgid "Enable Topbar ( OFF | ON )"
+msgstr ""
+
+#: inc/helpers.php:908 inc/helpers.php:914
+msgid "English"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:246
+msgid "Enter Custom HTML"
+msgstr ""
+
+#: inc/customizer/header/topbar.php:69
+msgid "Enter info Left Topbar"
+msgstr ""
+
+#: inc/customizer/header/topbar.php:108
+msgid "Enter info Right  Topbar"
+msgstr ""
+
+#: comments.php:114
+msgid "Enter Your Address"
+msgstr ""
+
+#: inc/customizer/content/blog-single.php:95
+msgid "Entry Footer ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:140
+msgid "Excerpt"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:370
+#: inc/elementor-options/elementor-options.php:612
+#: inc/elementor-options/elementor-options.php:1046
+msgid "Extra Classes"
+msgstr ""
+
+#: inc/options/controls/typography.php:78
+msgid "Extra-bold 800"
+msgstr ""
+
+#: inc/options/controls/typography.php:79
+msgid "Extra-bold 800 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:64
+msgid "Extra-light 200"
+msgstr ""
+
+#: inc/options/controls/typography.php:65
+msgid "Extra-light 200 italic"
+msgstr ""
+
+#: tpl/share.php:39
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:116
+msgid "Fill Screen"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:115
+msgid "Fit to Screen"
+msgstr ""
+
+#: inc/options/controls/typography.php:237
+msgid "Font Color"
+msgstr ""
+
+#: inc/options/controls/typography.php:108
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/typography/blog-post.php:20
+#: inc/customizer/typography/blog-post.php:46
+#: inc/customizer/typography/blog-post.php:72
+#: inc/customizer/typography/blog-post.php:98
+#: inc/customizer/typography/body.php:27
+#: inc/customizer/typography/bottom.php:27
+#: inc/customizer/typography/bottom.php:123
+#: inc/customizer/typography/button.php:13
+#: inc/customizer/typography/footer-widget-title.php:13
+#: inc/customizer/typography/footer.php:13
+#: inc/customizer/typography/heading.php:12
+#: inc/customizer/typography/menu.php:27 inc/customizer/typography/menu.php:60
+#: inc/customizer/typography/page-title.php:27
+#: inc/customizer/typography/page-title.php:81
+#: inc/customizer/typography/page-title.php:114
+#: inc/customizer/typography/pagination.php:13
+#: inc/customizer/typography/sidebar-widget-title.php:13
+#: inc/customizer/typography/topbar.php:13
+msgid "Font name/style/sets"
+msgstr ""
+
+#: inc/options/controls/typography.php:195
+msgid "Font Size (px)"
+msgstr ""
+
+#: inc/options/controls/typography.php:167
+msgid "Font subsets"
+msgstr ""
+
+#: inc/options/controls/typography.php:133
+msgid "Font Weight & Style"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:636
+msgid "Footer"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:778
+msgid "Footer Action Box"
+msgstr ""
+
+#: inc/customizer/footer/footer.php:38
+msgid "Footer Box Controls (px)"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:888
+#: inc/elementor-options/elementor-options.php:896
+msgid "Footer Info"
+msgstr ""
+
+#: functions.php:175
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:185
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:195
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: functions.php:205
+msgid "Footer Widget Area 4"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "footer_default"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Four"
+msgstr ""
+
+#: inc/helpers.php:919
+msgid "French"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page"
+msgstr ""
+
+#: inc/customizer/layout.php:78
+#: inc/elementor-options/elementor-options.php:1081
+#: inc/customizer/content/blog-archive.php:19
+#: inc/customizer/content/blog-single.php:38
+#: inc/customizer/content/post-type.php:68
+#: inc/customizer/content/post-type.php:348
+#: inc/customizer/content/post-type.php:523
+#: inc/customizer/content/post-type.php:751
+#: inc/customizer/content/post-type.php:919
+#: inc/customizer/content/post-type.php:1147
+#: inc/customizer/content/post-type.php:1316
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer.php:139
+msgid "Full width (no sidebar)"
+msgstr ""
+
+#: inc/customizer/layout.php:80
+#: inc/elementor-options/elementor-options.php:1083
+#: inc/customizer/content/blog-archive.php:21
+#: inc/customizer/content/blog-single.php:40
+#: inc/customizer/content/post-type.php:70
+#: inc/customizer/content/post-type.php:525
+#: inc/customizer/content/post-type.php:921
+#: inc/customizer/content/post-type.php:1318
+msgid "Full Width Center"
+msgstr ""
+
+#: inc/customizer/layout.php:79
+#: inc/elementor-options/elementor-options.php:1082
+#: inc/customizer/content/blog-archive.php:20
+#: inc/customizer/content/blog-single.php:39
+#: inc/customizer/content/post-type.php:69
+#: inc/customizer/content/post-type.php:524
+#: inc/customizer/content/post-type.php:920
+#: inc/customizer/content/post-type.php:1317
+msgid "Full Width Small"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1256
+msgid "GALLERY ARCHIVE"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1475
+msgid "Gallery Before Heading"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1492
+msgid "Gallery Heading"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1293
+msgid "Gallery Name"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1275
+msgid "Gallery Slug"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:116
+msgid "Gap Image"
+msgstr ""
+
+#: inc/helpers.php:924
+msgid "German"
+msgstr ""
+
+#: inc/customizer/general.php:138
+msgid "Go To Button ( OFF | ON )"
+msgstr ""
+
+#: inc/options/controls/typography.php:86
+msgid "Greek"
+msgstr ""
+
+#: inc/options/controls/typography.php:87
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:127
+#: inc/customizer/content/post-type.php:583
+#: inc/customizer/content/post-type.php:979
+#: inc/customizer/content/post-type.php:1373
+msgid "Grid Columns"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:175
+#: inc/customizer/content/post-type.php:630
+#: inc/customizer/content/post-type.php:1026
+msgid "Grid Columns Mobile"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:151
+#: inc/customizer/content/post-type.php:606
+#: inc/customizer/content/post-type.php:1002
+msgid "Grid Columns Tablet"
+msgstr ""
+
+#: inc/customizer/typography/heading.php:32
+msgid "H1 font size (px)"
+msgstr ""
+
+#: inc/customizer/typography/heading.php:53
+msgid "H2 font size (px)"
+msgstr ""
+
+#: inc/customizer/typography/heading.php:74
+msgid "H3 font size (px)"
+msgstr ""
+
+#: inc/customizer/typography/heading.php:95
+msgid "H4 font size (px)"
+msgstr ""
+
+#: inc/customizer/typography/heading.php:116
+msgid "H5 font size (px)"
+msgstr ""
+
+#: inc/customizer/typography/heading.php:137
+msgid "H6 font size (px)"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:109
+#: inc/customizer/color/header.php:10
+msgid "Header"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:123
+#: inc/customizer/header/header-options.php:23
+msgid "Header 01"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:124
+#: inc/customizer/header/header-options.php:27
+msgid "Header 02"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:175
+msgid "Header Absolute"
+msgstr ""
+
+#: inc/customizer/header/header-options.php:46
+msgid "Header Absolute ( OFF | ON )"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:258
+#: inc/customizer/color/header.php:28 inc/customizer/color/header.php:93
+msgid "Header Background"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:270
+msgid "Header Background Sticky"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:122
+#: inc/customizer/header/header-options.php:19
+msgid "Header Default"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:331
+msgid "Header Height"
+msgstr ""
+
+#: inc/customizer/header/header-mobile.php:3
+msgid "Header Mobile"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:294
+msgid "Header Navigation Hover Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:189
+#: inc/customizer/color/header.php:74
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/customizer/header/header-options.php:64
+msgid "Header Sticky ( OFF | ON )"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:306
+msgid "Header Sticky Navigation Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:318
+msgid "Header Sticky Navigation Hover Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:117
+#: inc/customizer/header/header-options.php:16
+msgid "Header Style"
+msgstr ""
+
+#: inc/helpers.php:227
+msgid "Header style 02"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:14
+msgid "Heading ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/footer/action-box.php:55
+msgid "Heading Action Box"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:817
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer/typography/page-title.php:48
+msgid "Heading Text Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:208
+#: inc/elementor-options/elementor-options.php:222
+#: inc/elementor-options/elementor-options.php:237
+#: inc/elementor-options/elementor-options.php:389
+#: inc/elementor-options/elementor-options.php:412
+#: inc/elementor-options/elementor-options.php:455
+#: inc/elementor-options/elementor-options.php:784
+#: inc/elementor-options/elementor-options.php:902
+msgid "Hide"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:644
+msgid "Hide Footer"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:544
+msgid "Hide Page Title"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:954
+msgid "Hide?"
+msgstr ""
+
+#: inc/breadcrumb.php:27 inc/breadcrumb-trail/breadcrumb-trail.php:274
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:788
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/customizer/color/header.php:177
+msgid "Hover & Active"
+msgstr ""
+
+#. URI of the theme
+msgid "https://lowleadwp.themesflat.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/themesflat/portfolio"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:921
+#: inc/customizer/footer/info.php:208
+msgid "Icon Color"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:202
+#: inc/customizer/content/post-type.php:657
+#: inc/customizer/content/post-type.php:1053
+#: inc/customizer/content/post-type.php:1399
+msgid "Id"
+msgstr ""
+
+#: inc/customizer/header/logo.php:39
+msgid "If there is no sticky logo. The site logo will be displayed"
+msgstr ""
+
+#: inc/customizer/header/logo.php:16 inc/customizer/header/logo.php:61
+msgid ""
+"If you don't display logo please remove it your website display \n"
+"            Site Title default in General"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "In - "
+msgstr ""
+
+#: inc/customizer/footer/info.php:13
+msgid "Info Box ( OFF | ON )"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:384
+#: inc/customizer/header/topbar.php:51
+msgid "Info Left ( OFF | ON )"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:398
+msgid "info Left Topbar"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:421
+msgid "info Right  Topbar"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:407
+#: inc/customizer/header/topbar.php:90
+msgid "Info Right ( OFF | ON )"
+msgstr ""
+
+#: comments.php:108
+msgid "info.lawlead@gmail.com"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:49
+msgid "Inline Heading & Breadcrumbs"
+msgstr ""
+
+#: content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/customizer/header/info.php:22 inc/customizer/header/info.php:65
+msgid "Label"
+msgstr ""
+
+#: inc/options/controls/typography.php:91
+msgid "Latin"
+msgstr ""
+
+#: inc/options/controls/typography.php:88
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Layout Style"
+msgstr ""
+
+#: inc/customizer/layout.php:15
+msgid "Layout version"
+msgstr ""
+
+#: comments.php:96
+msgid "Leave Comments"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:71
+msgid "Left"
+msgstr ""
+
+#: inc/options/controls/typography.php:223
+msgid "Letter Spacing ( Value in px or em )"
+msgstr ""
+
+#: inc/options/controls/typography.php:66
+msgid "Light 300"
+msgstr ""
+
+#: inc/options/controls/typography.php:67
+msgid "Light 300 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:209
+msgid "Line height ( ex: 25px or 1.8 or 150% )"
+msgstr ""
+
+#: inc/customizer/general.php:83
+msgid "Line Loaders"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:496
+#: inc/customizer/color/topbar.php:69 inc/customizer/color/topbar.php:159
+#: inc/customizer/typography/bottom.php:69
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/color/topbar.php:91 inc/customizer/color/topbar.php:180
+#: inc/customizer/typography/bottom.php:90
+msgid "Link Color Hover"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:506
+msgid "Link Hover Color"
+msgstr ""
+
+#: tpl/share.php:49
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:114
+#: inc/customizer/content/blog-single.php:58
+#: inc/customizer/content/post-type.php:88
+#: inc/customizer/content/post-type.php:366
+#: inc/customizer/content/post-type.php:543
+#: inc/customizer/content/post-type.php:769
+#: inc/customizer/content/post-type.php:939
+#: inc/customizer/content/post-type.php:1165
+#: inc/customizer/content/post-type.php:1336
+msgid "List Sidebar"
+msgstr ""
+
+#: tpl/pagination.php:47 inc/customizer/content/blog-archive.php:233
+msgid "Load More"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:154
+msgid "Logo Width"
+msgstr ""
+
+#. Name of the theme
+msgid "Lowlead"
+msgstr ""
+
+#: inc/options/options-definition.php:93
+msgid "Lowlead Gmail Here"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Lowlead is responsive multipurpose WordPress theme – truly a versatile theme "
+"perfect for any type of website you want. It provides multiple pre-built "
+"demos which can be imported in seconds using One Click Demo Import Plugin. "
+"The theme fully integrates with ThemesFlat By Themesflat.com and Elementor "
+"Page Builder Plugin that makes theme more user-friendly and easy. "
+"Additionally, theme features multiple blog layouts,  multiple header styles, "
+"multiple color options etc."
+msgstr ""
+
+#: inc/customizer/footer/info.php:168
+msgid "Mail"
+msgstr ""
+
+#: inc/plugins/plugins.php:36
+msgid "Mailchimp"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1103
+msgid "Main Content"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:574
+#: inc/elementor-options/elementor-options.php:1125
+msgid "Margin"
+msgstr ""
+
+#: inc/options/controls/typography.php:72
+msgid "Medium 500"
+msgstr ""
+
+#: inc/options/controls/typography.php:73
+msgid "Medium 500 italic"
+msgstr ""
+
+#: inc/customizer/typography/bottom.php:106
+#: inc/customizer/typography/menu.php:10
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/header/header-mobile.php:66
+msgid "Menu ( OFF | ON )"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:350
+msgid "Menu Item Spacing"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:207
+#: inc/customizer/content/post-type.php:662
+#: inc/customizer/content/post-type.php:1058
+#: inc/customizer/content/post-type.php:1404
+msgid "Menu Order"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:138
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:201
+msgid "Meta Elements"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumb.php:37 inc/breadcrumb-trail/breadcrumb-trail.php:284
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:752
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:770
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/customizer/color/topbar.php:101
+#: inc/customizer/typography/page-title.php:63
+msgid "Mobile"
+msgstr ""
+
+#: inc/helpers.php:228
+msgid "Modern"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:205
+#: inc/customizer/content/post-type.php:660
+#: inc/customizer/content/post-type.php:1056
+#: inc/customizer/content/post-type.php:1402
+msgid "Modified"
+msgstr ""
+
+#: inc/options/options-definition.php:91
+msgid "Mon - Fri 8:00 - 19:00"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:806
+#: inc/breadcrumb-trail/breadcrumb-trail.php:865
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1250
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/helpers.php:1261
+#, php-format
+msgid "Monthly: %s"
+msgstr ""
+
+#: inc/sidebar_manage.php:202
+msgid "Name"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:282
+msgid "Navigation Color"
+msgstr ""
+
+#: comments.php:76
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: tpl/pagination.php:45
+msgid "Next"
+msgstr ""
+
+#: tpl/pagination.php:32
+msgid "Next <i class=\"fal fa-plus\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:103
+msgid "Next Post"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:180
+#: inc/elementor-options/elementor-options.php:194
+#: inc/elementor-options/elementor-options.php:549
+#: inc/elementor-options/elementor-options.php:649
+#: inc/elementor-options/elementor-options.php:959
+msgid "No"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1078
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/sidebar_manage.php:227
+msgid "No Sidebars defined"
+msgstr ""
+
+#: inc/options/controls/typography.php:68
+#: inc/options/controls/typography.php:70
+msgid "Normal 400"
+msgstr ""
+
+#: inc/options/controls/typography.php:69
+#: inc/options/controls/typography.php:71
+msgid "Normal 400 italic"
+msgstr ""
+
+#: inc/sidebar_manage.php:283
+msgid "Note:"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/customizer/content/blog-single.php:182
+#: inc/customizer/content/post-type.php:422
+#: inc/customizer/content/post-type.php:847
+#: inc/customizer/content/post-type.php:1244
+msgid "Number Of Related Posts"
+msgstr ""
+
+#: inc/customizer.php:153 inc/customizer/content/blog-archive.php:231
+msgid "Numeric"
+msgstr ""
+
+#: comments.php:125
+msgid "Nunc velit metus, volutpat elementum euismod eget, cursus nec nunc."
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "One"
+msgstr ""
+
+#: inc/plugins/plugins.php:41
+msgid "One Click Demo Import"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops!"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:197
+#: inc/customizer/content/post-type.php:652
+#: inc/customizer/content/post-type.php:1048
+#: inc/customizer/content/post-type.php:1394
+msgid "Order By"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:224
+#: inc/customizer/content/post-type.php:679
+#: inc/customizer/content/post-type.php:1075
+#: inc/customizer/content/post-type.php:1421
+msgid "Order Direction"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:114
+msgid "Original"
+msgstr ""
+
+#: inc/options/options-definition.php:322
+msgid "Our <mark>Photo</mark> Gallery"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:599
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:464
+#: inc/elementor-options/elementor-options.php:560
+#: inc/elementor-options/elementor-options.php:661
+#: inc/elementor-options/elementor-options.php:1031
+#: inc/elementor-options/elementor-options.php:1112
+msgid "Padding"
+msgstr ""
+
+#. %s is the page number.
+#: inc/breadcrumb.php:33 inc/helpers.php:476
+#: inc/breadcrumb-trail/breadcrumb-trail.php:280
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/customizer/layout.php:74
+msgid "Page Sidebar Position"
+msgstr ""
+
+#: inc/customizer/typography/page-title.php:9
+msgid "Page Title"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:69
+msgid "Page Title Alignment"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:132
+msgid "Page Title Background Video URL"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:192
+msgid "Page Title Controls (px)"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:210
+msgid "Page Title Controls Mobile (px)"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:112
+msgid "Page Title Image Size"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:27
+#: inc/customizer/page-title/page-title.php:47
+msgid "Page Title Style"
+msgstr ""
+
+#: inc/customizer.php:152 inc/customizer/content/blog-archive.php:230
+msgid "Pager"
+msgstr ""
+
+#: inc/customizer.php:154 inc/customizer/content/blog-archive.php:232
+msgid "Pager & Numeric"
+msgstr ""
+
+#: content-page.php:14 content-single.php:17
+#: tpl/entry-content/entry-content-body.php:6
+#: tpl/entry-content/entry-content-body.php:21
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:228
+msgid "Pagination Style"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:14
+msgid "Partner Box ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:160
+msgid "Partner Box Backgound"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:137
+msgid "Partner Box Controls (px)"
+msgstr ""
+
+#: inc/customizer/footer/info.php:90 inc/customizer/footer/info.php:129
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer/header/info.php:82 inc/customizer/header/info.php:101
+msgid "Phone Number"
+msgstr ""
+
+#: inc/options/options-definition.php:37
+msgid "Phone: +55 (121) 234 444"
+msgstr ""
+
+#: tpl/share.php:60
+msgid "Pinterest"
+msgstr ""
+
+#: inc/sidebar_manage.php:98
+msgid "Please input sidebar name and try again."
+msgstr ""
+
+#: inc/sidebar_manage.php:282
+msgid "Please select the sidebar you would like to display."
+msgstr ""
+
+#: comments.php:98
+msgid "Post Comment"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:133
+msgid "Post Content Elements"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:61
+msgid "Post Grid Columns"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:88
+msgid "Post Grid Columns Tablet"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1160
+msgid "Post Icon"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:246
+#: inc/customizer/content/post-type.php:701
+#: inc/customizer/content/post-type.php:1097
+#: inc/customizer/content/post-type.php:1443
+msgid "Post Ids Will Be Inorged. Ex: 1,2,3"
+msgstr ""
+
+#: inc/template-tags.php:96
+msgid "Post navigation"
+msgstr ""
+
+#: inc/customizer/content/blog-single.php:77
+msgid "Post Navigator ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:463
+msgid "PRACTISE AREA ARCHIVE"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:500
+msgid "Practise area Name"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1152
+msgid "Practise Area Post"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:710
+msgid "PRACTISE AREA SINGLE"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:482
+msgid "Practise area Slug"
+msgstr ""
+
+#: inc/customizer/general.php:52
+msgid "Preload"
+msgstr ""
+
+#: inc/customizer/general.php:32
+msgid "Preload ( OFF | ON )"
+msgstr ""
+
+#: tpl/pagination.php:31
+msgid "Prev <i class=\"fal fa-plus\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:102
+msgid "Prev Post"
+msgstr ""
+
+#: tpl/pagination.php:46
+msgid "Previous"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:63
+#: inc/customizer/color/general.php:14
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:72
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "Published In"
+msgstr ""
+
+#: inc/customizer/general.php:75
+msgid "Pulse Loaders"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:141
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:183
+msgid "Read More Text"
+msgstr ""
+
+#: inc/options/options-definition.php:278
+msgid "Recent <mark>Case</mark> Studies"
+msgstr ""
+
+#: inc/customizer/color/header.php:157
+msgid "Regular"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:1203
+msgid "Related attorneys ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:404
+msgid "Related Case Study ( OFF | ON )"
+msgstr ""
+
+#: tpl/related-post.php:75
+msgid "Related Post"
+msgstr ""
+
+#: inc/customizer/content/blog-single.php:113
+msgid "Related Posts ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/content/blog-single.php:133
+msgid "Related Posts Style"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:806
+msgid "Related practise_area ( OFF | ON )"
+msgstr ""
+
+#: inc/sidebar_manage.php:204
+msgid "Remove"
+msgstr ""
+
+#: inc/sidebar_manage.php:218
+msgid "remove"
+msgstr ""
+
+#: inc/sidebar_manage.php:218
+msgid "Remove this sidebar"
+msgstr ""
+
+#: inc/plugins/plugins.php:25
+msgid "Revslider"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:73
+msgid "Right"
+msgstr ""
+
+#: inc/options/options-definition.php:90
+msgid "Sat - Sun Off Day."
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:203
+msgid "Search Box"
+msgstr ""
+
+#: inc/customizer/header/header-options.php:82
+msgid "Search Box ( OFF | ON )"
+msgstr ""
+
+#: inc/helpers.php:1235 inc/helpers.php:1265
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. %s is the search query.
+#: inc/breadcrumb.php:31 inc/breadcrumb-trail/breadcrumb-trail.php:278
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/helpers.php:1142
+msgid "Search…"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:52
+#: inc/customizer/color/general.php:34
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer/page-title/breadcrumb.php:16
+msgid "Select Breadcrumb Type"
+msgstr ""
+
+#: inc/options/controls/typography.php:74
+msgid "Semi-bold 600"
+msgstr ""
+
+#: inc/options/controls/typography.php:75
+msgid "Semi-bold 600 italic"
+msgstr ""
+
+#: inc/helpers.php:1183
+msgid "Share :"
+msgstr ""
+
+#: tpl/share.php:27
+msgid "Share:"
+msgstr ""
+
+#: inc/customizer/footer/action-box.php:97
+msgid ""
+"shorcode or button link ex: [mc4wp_form id=\"237\"] or <a href=\"#\" "
+"class=\"themesflat-button\">Read More</a>"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:209
+#: inc/elementor-options/elementor-options.php:223
+#: inc/elementor-options/elementor-options.php:238
+#: inc/elementor-options/elementor-options.php:390
+#: inc/elementor-options/elementor-options.php:413
+#: inc/elementor-options/elementor-options.php:456
+#: inc/elementor-options/elementor-options.php:783
+#: inc/elementor-options/elementor-options.php:901
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:263
+#: inc/customizer/content/post-type.php:1459
+msgid "Show Heading ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:56
+msgid "Show Number Image (Desktop)"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:96
+msgid "Show Number Image (Mobile)"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:76
+msgid "Show Number Image (Tablet)"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:107
+#: inc/customizer/content/post-type.php:563
+#: inc/customizer/content/post-type.php:959
+#: inc/customizer/content/post-type.php:1353
+msgid "Show Number Posts"
+msgstr ""
+
+#: inc/sidebar_manage.php:102
+msgid "Sidebar already exists, please use a different name."
+msgstr ""
+
+#: functions.php:164
+msgid "Sidebar Blog"
+msgstr ""
+
+#: inc/sidebar_manage.php:189
+msgid "Sidebar Generator"
+msgstr ""
+
+#: inc/customizer/layout.php:77
+#: inc/elementor-options/elementor-options.php:1080
+#: inc/customizer/content/blog-archive.php:18
+#: inc/customizer/content/blog-single.php:37
+#: inc/customizer/content/post-type.php:67
+#: inc/customizer/content/post-type.php:347
+#: inc/customizer/content/post-type.php:522
+#: inc/customizer/content/post-type.php:750
+#: inc/customizer/content/post-type.php:918
+#: inc/customizer/content/post-type.php:1146
+#: inc/customizer/content/post-type.php:1315
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Sidebar left"
+msgstr ""
+
+#: inc/sidebar_manage.php:184
+msgid "Sidebar Name:"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1074
+#: inc/customizer/content/blog-archive.php:15
+#: inc/customizer/content/blog-single.php:34
+#: inc/customizer/content/post-type.php:64
+#: inc/customizer/content/post-type.php:344
+#: inc/customizer/content/post-type.php:519
+#: inc/customizer/content/post-type.php:747
+#: inc/customizer/content/post-type.php:915
+#: inc/customizer/content/post-type.php:1143
+#: inc/customizer/content/post-type.php:1312
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer/layout.php:76
+#: inc/elementor-options/elementor-options.php:1079
+#: inc/customizer/content/blog-archive.php:17
+#: inc/customizer/content/blog-single.php:36
+#: inc/customizer/content/post-type.php:66
+#: inc/customizer/content/post-type.php:346
+#: inc/customizer/content/post-type.php:521
+#: inc/customizer/content/post-type.php:749
+#: inc/customizer/content/post-type.php:917
+#: inc/customizer/content/post-type.php:1145
+#: inc/customizer/content/post-type.php:1314
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Sidebar right"
+msgstr ""
+
+#: functions.php:215 inc/elementor-options/elementor-options.php:217
+msgid "Sidebar Toggler"
+msgstr ""
+
+#: inc/customizer/header/header-options.php:100
+msgid "Sidebar Toggler ( OFF | ON )"
+msgstr ""
+
+#: inc/sidebar_manage.php:278
+msgid "Sidebars"
+msgstr ""
+
+#: inc/sidebar_manage.php:165
+msgid "Sidebars Manager"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Simple List"
+msgstr ""
+
+#: inc/customizer/content/post-type.php:386
+#: inc/customizer/content/post-type.php:788
+#: inc/customizer/content/post-type.php:1185
+msgid "Single Navigator ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/general.php:14
+msgid "Smooth Scroll ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/header/header-mobile.php:85
+#: inc/customizer/header/topbar.php:32
+msgid "Social ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/general.php:119
+msgid "Social Share  ( OFF | ON )"
+msgstr ""
+
+#: inc/customizer/general.php:120
+msgid "Social share only visible on detail pages"
+msgstr ""
+
+#: content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer/general.php:71
+msgid "Spinner Loaders"
+msgstr ""
+
+#: inc/customizer/general.php:79
+msgid "Square Loaders"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:730
+#: inc/elementor-options/elementor-options.php:797
+#: inc/elementor-options/elementor-options.php:975
+#: inc/customizer/footer/action-box.php:35 inc/customizer/footer/bottom.php:53
+msgid "Style 1"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:731
+#: inc/elementor-options/elementor-options.php:798
+#: inc/elementor-options/elementor-options.php:976
+#: inc/customizer/footer/action-box.php:36 inc/customizer/footer/bottom.php:54
+msgid "Style 2"
+msgstr ""
+
+#: inc/customizer/footer/bottom.php:55
+msgid "Style 3"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:725
+#: inc/elementor-options/elementor-options.php:970
+#: inc/customizer/footer/action-box.php:33 inc/customizer/footer/bottom.php:51
+msgid "Styles"
+msgstr ""
+
+#: inc/customizer/color/header.php:137 inc/customizer/typography/menu.php:43
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/customizer/header/button.php:16
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/footer/action-box.php:75
+msgid "Text Action Box"
+msgstr ""
+
+#: inc/customizer/footer/info.php:31
+msgid "Text Address"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:828
+#: inc/elementor-options/elementor-options.php:932
+#: inc/customizer/color/topbar.php:48 inc/customizer/color/topbar.php:138
+#: inc/customizer/footer/info.php:229
+#: inc/customizer/typography/page-title.php:135
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/footer/info.php:148
+msgid "Text Mail"
+msgstr ""
+
+#: inc/customizer/footer/info.php:70 inc/customizer/footer/info.php:109
+msgid "Text Phone"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:44
+msgid "TF Color"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:628
+msgid "TF Footer"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:101
+msgid "TF Header"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1065
+msgid "TF Page"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:536
+msgid "TF Page Title"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:1144
+msgid "TF Practise Area"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:433
+msgid "TF Topbar"
+msgstr ""
+
+#: inc/sidebar_manage.php:191
+msgid ""
+"The sidebar name is for your use only. It will not be visible to any of your "
+"visitors. A CSS class is assigned to each of your sidebar, use this styling "
+"to customize the sidebars."
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:121
+#: inc/elementor-options/elementor-options.php:179
+#: inc/elementor-options/elementor-options.php:193
+#: inc/elementor-options/elementor-options.php:207
+#: inc/elementor-options/elementor-options.php:221
+#: inc/elementor-options/elementor-options.php:236
+#: inc/elementor-options/elementor-options.php:388
+#: inc/elementor-options/elementor-options.php:411
+#: inc/elementor-options/elementor-options.php:454
+#: inc/elementor-options/elementor-options.php:729
+#: inc/elementor-options/elementor-options.php:782
+#: inc/elementor-options/elementor-options.php:796
+#: inc/elementor-options/elementor-options.php:900
+#: inc/elementor-options/elementor-options.php:974
+msgid "Theme Setting"
+msgstr ""
+
+#: inc/plugins/plugins.php:13
+msgid "ThemesFlat"
+msgstr ""
+
+#. Author of the theme
+msgid "Themesflat"
+msgstr ""
+
+#: inc/plugins/plugins.php:19
+msgid "Themesflat Elementor"
+msgstr ""
+
+#: inc/options/controls/typography.php:62
+msgid "Thin 100"
+msgstr ""
+
+#: inc/options/controls/typography.php:63
+msgid "Thin 100 italic"
+msgstr ""
+
+#: inc/sidebar_manage.php:175
+msgid "This will remove any widgets you have assigned to this sidebar."
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Three"
+msgstr ""
+
+#: inc/customizer/header/info.php:48
+msgid "Time"
+msgstr ""
+
+#: inc/customizer/content/blog-archive.php:139
+#: inc/customizer/content/post-type.php:204
+#: inc/customizer/content/post-type.php:659
+#: inc/customizer/content/post-type.php:1055
+#: inc/customizer/content/post-type.php:1401
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/typography/footer-widget-title.php:34
+msgid "Title Widget Color"
+msgstr ""
+
+#: inc/customizer/header/header-mobile.php:29
+msgid "TopBar"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:441
+msgid "Topbar"
+msgstr ""
+
+#: tpl/share.php:54
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer/page-title/breadcrumb.php:18
+msgid "Turn Off"
+msgstr ""
+
+#: tpl/share.php:44
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Two"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:520
+msgid "Typography"
+msgstr ""
+
+#: inc/options/controls/typography.php:80
+msgid "Ultra-bold 900"
+msgstr ""
+
+#: inc/options/controls/typography.php:81
+msgid "Ultra-bold 900 italic"
+msgstr ""
+
+#: inc/customizer/color/footer.php:36
+#: inc/customizer/page-title/page-title.php:91
+msgid "Upload Background Image"
+msgstr ""
+
+#: inc/customizer/color/action-box.php:15
+msgid "Upload Your Background Image"
+msgstr ""
+
+#: inc/customizer/footer/bottom.php:75
+msgid "Upload Your Logo"
+msgstr ""
+
+#: inc/customizer/header/logo.php:15
+msgid "Upload Your Logo "
+msgstr ""
+
+#: inc/customizer/header/logo.php:60
+msgid "Upload Your Logo On Mobile"
+msgstr ""
+
+#: inc/customizer/header/logo.php:38
+msgid "Upload Your Logo Sticky"
+msgstr ""
+
+#: inc/customizer/footer/partner-box.php:34
+msgid "Upload Your Partner Image"
+msgstr ""
+
+#: inc/customizer/header/button.php:33
+msgid "Url"
+msgstr ""
+
+#: inc/customizer/page-title/page-title.php:51
+msgid "Video"
+msgstr ""
+
+#: inc/options/controls/typography.php:90
+msgid "Vietnamese"
+msgstr ""
+
+#: tpl/entry-content/entry-content-meta.php:15
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumb.php:39 inc/breadcrumb-trail/breadcrumb-trail.php:286
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:835
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/options/options-definition.php:35
+msgid ""
+"Welcome Drop The Card. <span class=\"tf-secondary-color\">Free Case "
+"Evaluation.</span>"
+msgstr ""
+
+#: tpl/share.php:75
+msgid "Whats App"
+msgstr ""
+
+#: inc/customizer/layout.php:17
+msgid "Wide"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:740
+msgid "Widget"
+msgstr ""
+
+#: comments.php:121
+msgid "Write your comment here..."
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:805
+#: inc/breadcrumb-trail/breadcrumb-trail.php:834
+#: inc/breadcrumb-trail/breadcrumb-trail.php:864
+#: inc/breadcrumb-trail/breadcrumb-trail.php:891
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1247
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/helpers.php:1263
+#, php-format
+msgid "Yearly: %s"
+msgstr ""
+
+#: inc/elementor-options/elementor-options.php:181
+#: inc/elementor-options/elementor-options.php:195
+#: inc/elementor-options/elementor-options.php:548
+#: inc/elementor-options/elementor-options.php:648
+#: inc/elementor-options/elementor-options.php:958
+msgid "Yes"
+msgstr ""
+
+#: inc/sidebar_manage.php:283
+msgid "You must first create the sidebar under"
+msgstr ""
+
+#: comments.php:30
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:105
+msgid "Your Full Name"
+msgstr ""
+
+#: tpl/footer/bottom.php:7
+msgid "© 2022 @Themesflat  All Rights Reserved."
+msgstr ""

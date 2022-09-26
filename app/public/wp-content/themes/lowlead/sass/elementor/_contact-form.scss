@@ -1,0 +1,118 @@
+.tf-contact-form {
+	input[type=text], input[type=email], input[type=number],
+	input[type=tel], input[type=week], textarea, select {
+		width: 100%;
+	}
+
+	.wpcf7-not-valid-tip {
+		display: none;
+	}
+
+	.wpcf7-not-valid {
+		border-color: #dc3545 !important;
+	}
+
+	& ~ div.wpcf7-response-output {
+		text-align: center;
+		color: #fff;
+		background: #dc3545;
+		border: none;
+		@include border-radius(4px);
+		padding: 10px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.ajax-loader, .wpcf7-spinner {
+		position: absolute;
+	}
+
+	.tf-contact-form-item:not(:last-child) {
+		margin-bottom: 10px;
+	}
+
+	.tf-contact-form-submit {
+		margin-top: 43px;
+
+		button[type="submit"] {
+			min-width: 170px;
+		}
+	}
+}
+
+.tf-contact-form-01 {
+	input[type=text], input[type=email], input[type=number],
+	input[type=tel], input[type=week], textarea, select {
+		background: #FFFFFF;
+		border: 1px solid rgba(22, 34, 47, 0.07);
+	}
+}
+
+.tf-contact-form-02 {
+	input[type=text], input[type=email], input[type=number],
+	input[type=tel], input[type=week], textarea, select {
+		background: rgba(255, 255, 255, 0.02);
+		border-color: #516565;
+		@include input-placeholder() {
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+}
+
+.tf-contact-form-03 {
+	input[type=text], input[type=email], input[type=number],
+	input[type=tel], input[type=week], textarea, select {
+		background: var(--theme-accent-color);
+		border-color: #2E3134;
+		color: rgba(255, 255, 255, 0.6);
+		@include input-placeholder() {
+			color: rgba(255, 255, 255, 0.6);
+		}
+	}
+
+	textarea {
+		height: 93px;
+	}
+
+	.tf-contact-form-submit {
+		margin-top: 10px;
+	}
+
+}
+
+.tf-contact-form-04 {
+	input[type=text], input[type=email], input[type=number],
+	input[type=tel], input[type=week], textarea, select {
+		background: #fff;
+		border: 1px solid rgba(22, 34, 47, 0.07);
+		color: rgba(119, 119, 119, 0.8);
+		@include input-placeholder() {
+			color: rgba(119, 119, 119, 0.8);
+		}
+	}
+
+	.tf-contact-form-submit {
+		margin-top: 40px;
+	}
+}
+
+.tf-contact-form-05 {
+	input[type=text], input[type=email], input[type=number],
+	input[type=tel], input[type=week], textarea, select {
+		background: rgba(255, 255, 255, 0.02);;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		color: #fff;
+		@include input-placeholder() {
+			color: rgba(255, 255, 255, 0.5);
+		}
+	}
+
+	.tf-contact-form-item p {
+		color: #fff;
+		text-transform: capitalize;
+	}
+
+	.tf-contact-form-submit {
+		margin-top: 41px;
+	}
+}

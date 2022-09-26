@@ -1,0 +1,295 @@
+.comments-area {
+	--color-rating: #f6b500;
+	--color-rating-empty: #ededed;
+	margin-top: 50px;
+
+	fieldset {
+		margin-bottom: 10px;
+	}
+}
+
+.comment-respond {
+	font-size: 14px;
+
+	&:not(:first-child) {
+		margin-top: 35px;
+	}
+
+	form {
+		@include d-flex();
+		@include flex-flow-column();
+	}
+
+	.comment-form-cookies-consent {
+		order: 4;
+		margin-bottom: 10px;
+	}
+
+	.tf-comment-note-after {
+		margin-bottom: 0;
+		order: 5;
+
+		span {
+			color: var(--theme-secondary-color);
+		}
+	}
+
+	.comment-right {
+		order: 3;
+	}
+
+	.tf-comment-note-before {
+		margin-bottom: 41px;
+	}
+
+}
+
+.comment-left {
+	@include d-flex();
+	@include flex-wrap();
+	margin: 0 -15px;
+
+	fieldset {
+		@include flex(0 0 50%);
+		max-width: 50%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	@media only screen and (max-width: 576px) {
+		@include flex(1 1 100%);
+		max-width: 100%;
+
+	}
+}
+
+.comment_wrap_input {
+	order: 2;
+}
+
+.comment-reply-title {
+	margin-bottom: 21px;
+	font-size: 32px;
+	line-height: 32px;
+	color: var(--theme-primary-color);;
+	text-transform: capitalize;
+
+	#cancel-comment-reply-link {
+		font-size: 14px;
+	}
+}
+
+.themesflat-rating-container {
+	margin-top: 5px;
+	margin-bottom: 41px;
+	order: 1;
+
+	.themesflat-rating-label {
+		margin-right: 10px;
+	}
+}
+
+.themesflat-button-submit {
+	order: 6;
+	margin-top: 20px;
+
+	.submit {
+		padding: 0 30px;
+		line-height: 50px;
+	}
+}
+
+.comment-list .comment:not(:first-child), .comment-list .children .comment {
+	border-top: 1px solid var(--theme-color-border);
+	padding-top: 37px;
+	margin-top: 37px;
+}
+
+.comment-list .comment_wrap {
+	.gravatar {
+		margin-right: 29px;
+		padding-top: 5px;
+		border-radius: 0;
+		@include flex(0 0 70px);
+		max-width: 70px;
+
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	.comment_content {
+		@include flex(1 1 auto);
+		max-width: 100%;
+	}
+
+	.comment_author {
+		font-size: 16px;
+		line-height: 30px;
+		display: inline-block;
+		color: var(--theme-primary-color);;
+		font-weight: 700;
+		margin-bottom: 0;
+		text-transform: capitalize;
+	}
+
+	.comment-edit-link {
+		font-size: 0;
+
+		&::after {
+			content: "\f304";
+			font-family: "Font Awesome 5 Pro";
+			font-size: 14px;
+			margin-left: 5px;
+			color: var(--theme-color-text-main);
+		}
+	}
+
+	.themesflat-comment-rating {
+		@include d-flex();
+	}
+
+	.themesflat-comment-rating .themesflat-star {
+		font-size: 14px;
+
+		&.active {
+			color: #ffa800;
+
+		}
+	}
+
+	.comment_text {
+		margin-top: 10px;
+		margin-bottom: 0;
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	.themesflat-comment-footer {
+		margin-top: 12px;
+
+		.comement_reply {
+			margin-top: 0;
+			color: #59606d;
+			font-weight: 600;
+			font-size: 13px;
+			@include transition(all 0.2s);
+			margin-right: 17px;
+
+			a {
+				color: inherit;
+				@include transition(all 0.2s);
+
+				&:hover {
+					color: var(--theme-secondary-color) !important;
+				}
+			}
+
+			&:hover {
+				color: var(--theme-secondary-color);
+			}
+		}
+
+		.comment_time {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 13px;
+			line-height: 32px;
+			font-weight: 600;
+			color: #59606d;
+
+		}
+	}
+}
+
+.comment-list-wrap {
+	.comment-title {
+		margin-bottom: 21px;
+		font-size: 24px;
+		line-height: 29px;
+		color: var(--theme-primary-color);;
+		text-transform: capitalize;
+	}
+
+	.children {
+		margin-left: 0;
+		list-style: none;
+
+	}
+
+	li {
+		.comment-respond {
+			margin-bottom: 15px;
+			margin-top: 43px;
+		}
+	}
+
+	.children .comment {
+		margin: 41px 0 0 40px;
+
+		.comment_wrap {
+			padding: 0;
+		}
+
+		.themesflat-comment-rating {
+			display: none;
+		}
+	}
+
+	.themesflat-rating-container {
+		display: none;
+	}
+
+	@media only screen and (max-width: 1199px) {
+		.children .comment {
+			margin-left: 30px;
+		}
+	}
+	@media only screen and (max-width: 991px) {
+		.children {
+			padding-left: 0;
+		}
+		.children .comment {
+			margin: 0;
+		}
+	}
+
+}
+
+.comment-list .children {
+	margin-top: 0;
+
+	.comment-respond {
+		margin-top: 32px;
+	}
+
+	.logged-in-as, .tf-comment-note-before {
+		margin-bottom: 30px !important;
+	}
+
+	.comment-form-cookies-consent {
+		margin-bottom: 20px;
+	}
+
+	.themesflat-button-submit {
+		margin-top: 30px;
+	}
+}
+
+.comment-list {
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+		margin-bottom: 10px;
+	}
+
+	li > ul, li > ol {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	ul, ol {
+		padding-left: 15px;
+	}
+}
+
+.no-comments {
+	margin-top: 41px;
+}

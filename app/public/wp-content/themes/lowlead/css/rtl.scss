@@ -1,0 +1,511 @@
+@import "../sass/mixin";
+@import "../sass/variables";
+@import "../sass/root";
+
+/* Topbar
+-------------------------------------------------------------- */
+.themesflat-top {
+	position: relative;
+
+	.themesflat-socials li {
+		+ li {
+			border-right: 1px solid currentColor;
+			border-left: none;
+		}
+
+		&:not(:last-child) {
+			padding-left: 25px;
+			padding-right: 0;
+		}
+
+		&:not(:first-child) {
+			padding-right: 25px;
+		}
+	}
+
+	ul li {
+		padding-right: 2.85em;
+		padding-left: 0;
+		text-align: left;
+	}
+
+	.content-left ul li > i {
+		margin-left: 5px;
+		margin-right: 0;
+	}
+
+	.content-left ul {
+		padding-right: 0;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.header-default .themesflat-top .content-item:not(:last-child) {
+		margin-left: 45px;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.header-default .themesflat-top .content-item:not(:last-child) {
+		margin-left: 140px;
+		margin-right: 0;
+	}
+}
+
+
+.header-customize-mobile {
+	> div {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.topbar-mobile {
+		ul li {
+			padding-right: 1.5em;
+			padding-left: 0;
+		}
+	}
+}
+
+.header-style-01, .header-style-02 {
+	.themesflat-top {
+		.btn-header {
+			margin-right: 50px;
+			margin-left: 0;
+		}
+	}
+}
+
+
+/* Header
+-------------------------------------------------------------- */
+
+/* header-default */
+header.header-default {
+	.header-wrap .nav-wrap {
+		margin-left: 20px;
+		margin-right: 0;
+	}
+
+}
+
+
+/* button header */
+.btn-topbar,
+.btn-header {
+	i {
+		padding-right: 5px;
+		padding-left: 0;
+	}
+
+}
+
+.wrap-btn-topbar .btn-topbar,
+.wrap-btn-header .btn-header {
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+//header-customize
+#header .header-customize {
+	.header-customize-item {
+		margin-right: 20px;
+		margin-left: 0;
+	}
+}
+
+//header-info
+.themesflat-header-info {
+
+	.header-info-item:not(.wrap-btn-header) {
+		.info-label {
+			margin-left: 5px;
+			margin-right: 0;
+		}
+
+		+ .header-info-item {
+			padding-right: 30px;
+			padding-left: 0;
+		}
+	}
+}
+
+/* submenu */
+#mainnav ul.sub-menu {
+	padding: 0;
+	text-align: right;
+	left: auto;
+	right: 0;
+}
+
+
+#mainnav ul.sub-menu li ul.sub-menu {
+	right: 100%;
+	left: auto;
+}
+
+#mainnav ul.sub-menu li ul.sub-menu ul.sub-menu ul.sub-menu {
+	right: 0;
+}
+
+#mainnav ul.sub-menu li ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu {
+	right: -100%;
+	left: auto;
+}
+
+#mainnav ul.sub-menu > li.sub-parent:hover::after {
+	left: 18px;
+	right: 0;
+}
+
+/* Page Title
+-------------------------------------------------------------- */
+.page-title {
+
+	&.inline .page-title-container h1 {
+		text-align: right;
+	}
+
+	&.inline .breadcrumbs {
+		text-align: left;
+	}
+}
+
+
+/* widget
+-------------------------------------------------------------- */
+
+.widget_archive ul ul, .widget_categories ul ul, .widget_meta ul ul, .widget_nav_menu ul ul, .widget_pages ul ul, .widget_recent_comments ul ul, .widget_recent_entries ul ul, .widget_rss ul ul, .widget.widget_block ul ul {
+	padding-left: 0;
+	padding-right: 16px;
+}
+
+.widget-title, .wp-block-search__label, .widgettitle, .widget_block h2 {
+	text-align: right;
+
+	&::after {
+		right: 0;
+		left: auto;
+	}
+}
+
+.widget_search, .widget_product_search, .wp-block-search {
+
+
+	.search-submit, .wp-block-search__button {
+		left: 0;
+		right: auto;
+	}
+
+
+	.wp-block-search__button {
+		&::after {
+
+			left: 17px;
+			right: auto;
+		}
+	}
+}
+
+
+.widget_latest_news {
+	text-align: right;
+
+	.recent-news {
+		padding-right: 0;
+	}
+
+	.thumb {
+		margin-left: 24px;
+		margin-right: 0;
+	}
+
+	.item-count-post {
+		margin-right: 25px;
+		margin-left: auto;
+
+		&:before {
+			right: -14px;
+			left: auto;
+		}
+	}
+}
+
+.widget-recent-news {
+	text-align: right;
+
+	ul {
+		padding-right: 0;
+	}
+
+	.thumb {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+
+	.title, h6 {
+		margin-bottom: 3px;
+
+		a {
+
+			padding-right: 0;
+			padding-left: 100px;
+		}
+	}
+
+}
+
+.widget_categories, .widget_product_categories, .widget_archive, .widget_pages, .wp-block-archives, .wp-block-categories-list {
+	ul {
+		padding-right: 0;
+	}
+
+	.children {
+		padding-left: 0 !important;
+	}
+
+}
+
+.widget_categories li::before, .widget_product_categories li::before, .widget_archive li::before, .widget_pages li::before, .wp-block-archives li::before, .wp-block-categories-list li::before {
+	right: 0;
+}
+
+.widget_categories li a, .widget_product_categories li a, .widget_archive li a, .widget_pages li a, .wp-block-archives li a, .wp-block-categories-list li a {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+.widget_rss ul {
+	padding-right: 0;
+
+	li {
+		text-align: right;
+	}
+
+}
+
+.widget_recent_comments {
+	ul {
+		text-align: right;
+	}
+
+	li {
+		text-align: right;
+	}
+
+}
+
+.widget_meta {
+	ul {
+		text-align: right;
+	}
+
+	text-align: right;
+
+}
+
+.widget_nav_menu {
+	.menu {
+		text-align: right;
+	}
+}
+
+.widget_text {
+	.textwidget {
+		text-align: right;
+	}
+}
+
+.widget_tag_cloud {
+	.tagcloud {
+		text-align: right;
+	}
+}
+.wp-block-latest-comments{
+	padding-right: 0;
+	text-align: right;
+}
+.wp-block-group__inner-container{
+	text-align: right;
+}
+/* Testimonial
+-------------------------------------------------------------- */
+
+
+.tf-testimonial-carousel {
+	.name {
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.position {
+		font-size: 14px;
+		line-height: 1.3;
+	}
+
+	.description {
+		font-size: 14px;
+		font-weight: 300;
+	}
+
+	.item-testimonial {
+		background-color: #fff;
+		line-height: 2;
+	}
+
+	&.style1 {
+		.item-testimonial {
+			padding: 38px 30px 30px 37px;
+		}
+
+		.description {
+			margin-top: 10px;
+		}
+	}
+
+	&.style2 {
+		.item-testimonial {
+			padding: 52px 40px 28px 40px;
+		}
+
+		.name {
+			margin-top: 10px;
+		}
+	}
+
+	&.style3 {
+		.description {
+			margin-bottom: 33px;
+		}
+
+		.item-testimonial {
+			padding: 40px 50px 45px;
+		}
+
+		.wrap-author {
+			@include d-flex();
+			@include justify-content-between();
+		}
+	}
+}
+
+
+/* Post
+-------------------------------------------------------------- */
+
+.blog-grid .blog-post:not(.blog-single), .related-post .post, .tf-posts .blog-post {
+	.content-post {
+		text-align: right;
+	}
+}
+
+.blog-archive .blog-post:not(.blog-single) .content-post, .related-post .post .content-post, .tf-posts .blog-post .content-post, .blog-list .blog-post .content-post {
+	.entry-title {
+		text-align: right;
+	}
+
+	.post-excerpt {
+		text-align: right;
+	}
+
+	.themesflat-button-container {
+		text-align: right;
+	}
+
+	.item-meta:not(:last-child) {
+		margin-left: 20px;
+		padding-left: 20px;
+		border-left: 1px solid var(--theme-color-border);
+		margin-right: 0;
+		padding-right: 0;
+		border-right: 0;
+	}
+
+}
+
+
+/* Footer
+-------------------------------------------------------------- */
+
+.footer {
+	.widget_nav_menu {
+		text-align: right;
+
+		.menu {
+			padding-right: 0;
+		}
+
+	}
+}
+
+/*Comments
+ -----------------------------------------------------------------*/
+.comments-area {
+	.gravatar {
+		margin-right: 0;
+		margin-left: 29px;
+	}
+
+	.comment_content {
+		text-align: right;
+	}
+
+	.comment-respond {
+		text-align: right;
+	}
+
+	.comment-reply-title {
+		padding-right: 0;
+	}
+
+	#cancel-comment-reply-link {
+		left: 0 !important;
+		right: auto !important;
+	}
+}
+/*
+Practise area
+-------------------------------------------------
+ */
+
+.tf-practise-area-post{
+	.content-wrap{
+		margin-left: auto;
+		margin-right: 0;
+	}
+}
+/**
+Attorney
+-----------------------------------
+ */
+.tf-single-attorney-information{
+	text-align: right;
+}
+/**
+Case Study
+ */
+.case-study-post {
+	.content{
+		text-align: right;
+	}
+}
+.widget_case_study_details{
+	.case-study-details{
+		text-align: right;
+		padding-right: 0;
+	}
+}
+.single-case_study{
+	.entry-content{
+		text-align: right;
+	}
+}
+
+.related-post{
+	.box-title{
+		text-align: right;
+	}
+}

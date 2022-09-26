@@ -1,0 +1,66 @@
+@import "elementor/elementor";
+
+body.elementor-page #themesflat-content > .container {
+    max-width: 1200px;
+}
+
+.elementor-section.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1200px;
+}
+
+.image-100 img {
+    width: 100%;
+}
+
+.col-full-left, .col-full-right {
+    .elementor-widget-wrap.elementor-element-populated:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 50vw;
+        background: inherit;
+        top: 0;
+        z-index: 0;
+    }
+}
+
+.col-full-left {
+    .elementor-widget-wrap.elementor-element-populated:before {
+        right: 0;
+    }
+}
+
+.col-full-right {
+    .elementor-widget-wrap.elementor-element-populated:before {
+        left: 0;
+    }
+}
+
+.col-hover-border-secondary .elementor-element-populated:hover {
+    border-color: var(--theme-secondary-color) !important;
+}
+
+.col-hover-border-secondary .elementor-element-populated:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    bottom: -0.5px;
+    background-color: var(--theme-secondary-color) !important;
+    transform: scale(0, 1);
+    transform-origin: center center;
+    transition: transform 500ms ease;
+}
+
+
+.col-hover-border-secondary .elementor-element-populated:hover:after {
+    transform: scale(1, 1);
+    transform-origin: center center;
+}
+
+@media only screen and (min-width: 768px) {
+    .position-md-absolute {
+        position: absolute !important;
+    }
+}

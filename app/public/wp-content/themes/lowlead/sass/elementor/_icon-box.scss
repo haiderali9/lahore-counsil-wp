@@ -1,0 +1,25 @@
+.tficonbox {
+	.title {
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	.description {
+		margin-top: 10px;
+	}
+
+	.wrap-icon-inner {
+		color: var(--theme-secondary-color);
+	}
+
+	&.left {
+		@include d-flex(important);
+		@include align-items-center();
+
+		.wrap-icon {
+			margin-right: 25px;
+		}
+	}
+}

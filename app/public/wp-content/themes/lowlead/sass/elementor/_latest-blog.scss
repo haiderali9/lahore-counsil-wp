@@ -1,0 +1,7 @@
+.tf-latest-blog-item {
+    .title a:hover,
+    .link-post:hover {
+        color: var(--theme-secondary-color);
+        text-decoration: underline;
+    }
+}

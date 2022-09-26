@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'tf-law';
+  src:  url('../fonts/tf-law.eot?r7gqgk');
+  src:  url('../fonts/tf-law.eot?r7gqgk#iefix') format('embedded-opentype'),
+    url('../fonts/tf-law.ttf?r7gqgk') format('truetype'),
+    url('../fonts/tf-law.woff?r7gqgk') format('woff'),
+    url('../fonts/tf-law.svg?r7gqgk#tf-law') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.tf-icon-law {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tf-law' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tf-icon-law-constitution:before {
+  content: "\e900";
+}
+.tf-icon-law-man:before {
+  content: "\e901";
+}
+.tf-icon-law-constitution1:before {
+  content: "\e902";
+}
+.tf-icon-law-lawyer3:before {
+  content: "\e903";
+}
+.tf-icon-law-conflict:before {
+  content: "\e904";
+}
+.tf-icon-law-diploma:before {
+  content: "\e905";
+}
+.tf-icon-law-jury:before {
+  content: "\e906";
+}
+.tf-icon-law-diploma1:before {
+  content: "\e907";
+}
+.tf-icon-law-graduate:before {
+  content: "\e908";
+}
+.tf-icon-law-document:before {
+  content: "\e909";
+}
+.tf-icon-law-scales3:before {
+  content: "\e90a";
+}
+.tf-icon-law-lawsuit1:before {
+  content: "\e90b";
+}
+.tf-icon-law-witness:before {
+  content: "\e90c";
+}
+.tf-icon-law-destruction:before {
+  content: "\e90d";
+}
+.tf-icon-law-lawsuit2:before {
+  content: "\e90e";
+}
+.tf-icon-law-contract:before {
+  content: "\e90f";
+}
+.tf-icon-law-judge:before {
+  content: "\e910";
+}
+.tf-icon-law-document4:before {
+  content: "\e911";
+}
+.tf-icon-law-scales5:before {
+  content: "\e912";
+}
+.tf-icon-law-jury1:before {
+  content: "\e913";
+}
+.tf-icon-law-website:before {
+  content: "\e914";
+}
+.tf-icon-law-letter:before {
+  content: "\e915";
+}
+.tf-icon-law-strategy:before {
+  content: "\e916";
+}
+.tf-icon-law-counseling:before {
+  content: "\e917";
+}
+.tf-icon-law-hand:before {
+  content: "\e918";
+}
+.tf-icon-law-courthouse:before {
+  content: "\e919";
+}
+.tf-icon-law-lawyer26:before {
+  content: "\e91a";
+}
+.tf-icon-law-judge1:before {
+  content: "\e91b";
+}
+.tf-icon-law-themis:before {
+  content: "\e91c";
+}
+.tf-icon-law-laurel:before {
+  content: "\e91d";
+}
+.tf-icon-law-hand1:before {
+  content: "\e91e";
+}
+.tf-icon-law-decision1:before {
+  content: "\e91f";
+}
+.tf-icon-law-case2:before {
+  content: "\e920";
+}
+.tf-icon-law-witness1:before {
+  content: "\e921";
+}
+.tf-icon-law-shield:before {
+  content: "\e922";
+}
+.tf-icon-law-magnifier:before {
+  content: "\e923";
+}
+.tf-icon-law-deal:before {
+  content: "\e924";
+}
+.tf-icon-law-bribe:before {
+  content: "\e925";
+}
+.tf-icon-law-witness2:before {
+  content: "\e926";
+}
+.tf-icon-law-folder1:before {
+  content: "\e927";
+}
+.tf-icon-law-sword:before {
+  content: "\e928";
+}
+.tf-icon-law-location:before {
+  content: "\e929";
+}
+.tf-icon-law-penalty:before {
+  content: "\e92a";
+}
+.tf-icon-law-witness3:before {
+  content: "\e92b";
+}
+.tf-icon-law-judge4:before {
+  content: "\e92c";
+}
+.tf-icon-law-bible:before {
+  content: "\e92d";
+}
+.tf-icon-law-idea:before {
+  content: "\e92e";
+}
+.tf-icon-law-study:before {
+  content: "\e92f";
+}
+.tf-icon-law-money4:before {
+  content: "\e930";
+}
+.tf-icon-law-typewriter:before {
+  content: "\e931";
+}
+.tf-icon-law-strategy1:before {
+  content: "\e932";
+}
+.tf-icon-law-idea1:before {
+  content: "\e933";
+}

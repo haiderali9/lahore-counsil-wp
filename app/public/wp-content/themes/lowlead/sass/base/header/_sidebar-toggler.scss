@@ -1,0 +1,168 @@
+.modal-menu__panel-footer {
+    overflow-y: auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 20px 30px 20px 60px;
+    background: #f4f4f4;
+    min-height: 100px;
+    justify-content: center;
+    
+    .logo-panel a {
+        display: inline-block;
+    }
+}
+
+.modal-menu__close {
+    position: absolute;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    display: -ms-flexbox;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 2;
+    border: none;
+    padding: 0;
+    fill: currentColor;
+    transition: background-color .15s, color .15s;
+    color: #fff;
+    left: 10px;
+    font-size: 24px;
+}
+
+.modal-menu__body .modal-menu__close {
+    color: #fff;
+}
+
+.modal-menu__panel {
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #ffffff;
+    z-index: 1;
+    transition: transform .25s cubic-bezier(.25, .46, .45, .94);
+}
+
+.modal-menu__panel-back,
+.modal-menu__panel-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.modal-menu__panel-header {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 90px;
+    padding: 10px 100px 10px 10px;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: #f4f4f4;
+}
+
+.modal-menu__panel-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-menu__panel-body {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow-y: auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding: 60px 60px 60px 60px;
+    min-height: 60vh;
+}
+
+.modal-menu__panel-body .widget .widget-title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.modal-menu__panel-body .widget .gallery-item {
+    padding: 0 5px;
+    margin: 0 0 10px 0;
+}
+
+.modal-menu__panel-body .widget > .gallery {
+    margin: 0 -5px;
+}
+
+.modal-menu__panel-body .widget {
+    margin-bottom: 30px;
+}
+
+.modal-menu__panel-body .widget ul li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.modal-menu__panel-body .widget > ul > li {
+    padding-left: 0px;
+}
+
+.modal-menu__panel-body .widget_block ul,
+.modal-menu__panel-body .widget_block ul.wp-block-categories {
+    margin: 0;
+}
+
+.modal-menu__panel-body .widget.widget_media_gallery ul li {
+    padding: 0;
+}
+
+.modal-menu__panel-body .widget.widget_categories ul li {
+    font-size: 14px;
+}
+
+.modal-menu__panel-body .widget.widget-recent-news .text h6 {
+    font-weight: 500;
+}
+
+.modal-menu__panel-body .widget.widget-recent-news .text h6 a,
+.modal-menu__panel-body .widget.widget-recent-news li .text .post-date {
+    color: #fff;
+}
+
+.modal-menu__panel-body .widget.widget-recent-news .text h6 {
+    margin-bottom: 0;
+}
+
+.modal-menu__panel-body .widget_search .widget-title {
+    margin-bottom: 20px;
+}
+
+.modal-menu__panel-body .widget.widget_tag_cloud .tagcloud a {
+    margin-bottom: 4px;
+}
+
+.modal-menu__panel-body .widget_calendar nav span {
+    color: #fff;
+}
+
+.modal-menu__panel-body .widget_calendar table td,
+.modal-menu__panel-body .widget_calendar table tr,
+.modal-menu__panel-body .widget_calendar table th,
+.modal-menu__panel-body .widget_calendar table > caption {
+    font-size: 14px;
+}

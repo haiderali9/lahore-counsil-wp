@@ -1,0 +1,11 @@
+.tf-list-icon {
+	padding-left: 0 !important;
+
+	.list-icon-item {
+		line-height: 1.5;
+	}
+
+	.list-icon-item:hover {
+		color: var(--theme-secondary-color);
+	}
+}

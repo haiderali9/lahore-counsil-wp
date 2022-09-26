@@ -1,0 +1,55 @@
+.tf-primary-color {
+    color: var(--theme-primary-color) !important;
+}
+
+.tf-bg-primary {
+    background-color: var(--theme-primary-color) !important;
+}
+
+.tf-accent-color {
+    color: var(--theme-accent-color) !important;
+}
+
+.tf-bg-accent {
+    background-color: var(--theme-accent-color) !important;
+}
+
+.tf-bg-hover-accent:hover {
+    background-color: var(--theme-accent-color) !important;
+}
+
+.tf-secondary-color {
+    color: var(--theme-secondary-color) !important;
+}
+
+.tf-secondary-hover-color:hover {
+    color: var(--theme-secondary-color) !important;
+}
+
+.tf-font-primary {
+    font-family: var(--theme-font-primary);
+}
+
+.tf-bg-secondary {
+    background-color: var(--theme-secondary-color) !important;
+}
+
+.tf-bg-hover-secondary:hover {
+    background-color: var(--theme-secondary-color) !important;
+}
+
+.tf-color-light {
+    color: var(--theme-light-color) !important;
+}
+
+.tf-color-hover-light:hover {
+    color: var(--theme-light-color) !important;
+}
+
+.tf-bg-light {
+    background-color: var(--theme-light-color) !important;
+}
+
+.tf-bg-hover-light:hover {
+    background-color: var(--theme-light-color) !important;
+}

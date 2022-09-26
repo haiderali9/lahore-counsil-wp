@@ -1,0 +1,23 @@
+a:4:{s:8:"template";s:7:"lowlead";s:4:"mods";a:27:{i:0;b:0;s:18:"nav_menu_locations";a:2:{s:7:"primary";i:16;s:6:"bottom";N;}s:18:"custom_css_post_id";i:4052;s:14:"topbar_enabled";i:1;s:18:"header_custom_html";s:65:"<a href="/contact-us/" class="btn btn-accent">Free consultant</a>";s:13:"social_topbar";i:1;s:15:"breadcrumb_type";s:13:"breadcrumb-01";s:27:"page_title_background_image";s:77:"https://lowleadwp.themesflat.com/wp-content/uploads/2022/07/bg-page-title.jpg";s:35:"page_title_background_color_opacity";s:1:"0";s:27:"practise_area_single_layout";s:13:"sidebar-right";s:24:"case_study_single_layout";s:13:"sidebar-right";s:21:"single_sidebar_layout";s:9:"fullwidth";s:14:"sidebar_layout";s:13:"sidebar-right";s:12:"show_heading";i:1;s:19:"blog_archive_layout";s:9:"blog-list";s:17:"blog_grid_columns";s:0:"";s:21:"post_content_elements";s:19:"meta,title,readmore";s:16:"content_controls";s:245:"{"margin-top":"","margin-bottom":"","margin-left":"","margin-right":"","padding-top":"120","padding-bottom":"120","padding-left":"","padding-right":"","border-top-width":"","border-bottom-width":"","border-left-width":"","border-right-width":""}";s:12:"gallery_name";s:9:"Galleries";s:24:"blog_grid_columns_tablet";s:0:"";s:9:"site_logo";s:70:"https://lowleadwp.themesflat.com/wp-content/uploads/2022/07/logo-1.png";s:16:"site_logo_mobile";s:70:"https://lowleadwp.themesflat.com/wp-content/uploads/2022/07/logo-1.png";s:16:"site_logo_sticky";s:70:"https://lowleadwp.themesflat.com/wp-content/uploads/2022/07/logo-1.png";s:18:"bread_crumb_prefix";s:0:"";s:15:"case_study_name";s:10:"Case Study";s:21:"menu_distance_between";s:2:"18";s:16:"topbar_textcolor";s:7:"#b3b4b5";}s:7:"options";a:2:{s:9:"site_icon";s:4:"4260";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:494:".tf-bg-hover-accent:hover {
+    background-color: var(--theme-accent-color) !important;
+}
+
+.tf-color-light {
+    color: var(--theme-light-color) !important;
+}
+
+.tf-color-hover-light:hover {
+    color: var(--theme-light-color) !important;
+}
+
+.tf-bg-light {
+    background-color: var(--theme-light-color) !important;
+}
+
+.tf-bg-hover-light:hover {
+    background-color: var(--theme-light-color) !important;
+}
+
+.tf-secondary-hover-color:hover {
+    color: var(--theme-secondary-color) !important;
+}";}

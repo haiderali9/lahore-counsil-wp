@@ -1,0 +1,53 @@
+:root {
+    //color
+    --theme-accent-color: #{$color_accent};
+    --theme-accent-foreground-color: #{$color_accent_foreground};
+    --theme-accent-brightness-color: #{$color_accent_brightness};
+    
+    --theme-secondary-color: #{$color_secondary};
+    --theme-secondary-foreground-color: #{$color_secondary_foreground};
+    --theme-secondary-brightness-color: #{$color_secondary_brightness};
+    
+    --theme-primary-color: #{$color_primary};
+    --theme-primary-foreground-color: #{$color_primary_foreground};
+    --theme-primary-brightness-color: #{$color_primary_brightness};
+    
+    --theme-gray-color: #{$color_gray};
+    --theme-gray-foreground-color: #{$color_gray_foreground};
+    
+    --theme-dark-color: #{$color_dark};
+    --theme-dark-foreground-color: #{$color_dark_foreground};
+    --theme-dark-brightness-color: #{$color_dark_brightness};
+    
+    --theme-light-color: #{$color_light};
+    --theme-light-foreground-color: #{$color_light_foreground};
+    
+    --theme-color-text-main: #777777;
+    --theme-background-color-main: #f3f3f4;
+    --theme-color-border: #e2e2e3;
+    
+    --theme-color-main-navigation: #{$color_accent};
+    --theme-color-hover-main-navigation: var(--theme-secondary-color);
+    --theme-header-sticky-color-main-navigation: #{$color_accent};
+    --theme-header-sticky-color-hover-main-navigation: var(--theme-secondary-color);
+    
+    --theme-color-border-input: #{$color_border_input};
+    --theme-color-text-input: #{$color_text_input};
+    --theme-color-bg-input: #{$color_background_input};
+    --theme-color-border-focus-input: #{$color_border_input_focus};
+    --theme-color-placeholder-input: #{$color_placeholder};
+    
+    
+    //typography
+    --theme-font-body: 'Open Sans';
+    --theme-font-primary: 'Cormorant';
+    --theme-icon-font-primary: 'Font Awesome 5 Pro';
+    
+    //button
+    --theme-btn-font: --theme-font-primary;
+    --theme-btn-font-style: normal;
+    --theme-btn-font-size: 14px;
+    --theme-btn-font-weight: 700;
+    --theme-btn-letter-spacing: normal;
+    
+}

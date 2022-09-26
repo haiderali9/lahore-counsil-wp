@@ -1,0 +1,99 @@
+/* Page Title
+-------------------------------------------------------------- */
+.page-title {
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .overlay {
+        background-color: var(--theme-accent-color);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    h1 {
+        margin: 0;
+        position: relative;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+    }
+    
+    &.text-center .sub-title-heading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    &.text-end .sub-title-heading {
+        margin-left: auto;
+    }
+    
+    &.text-left .sub-title-heading {
+        margin-right: auto;
+    }
+    
+    &.default {
+        .page-title-heading {
+            margin-bottom: 0;
+        }
+        
+        .sub-title-heading {
+            margin-top: 5px;
+        }
+        
+        .breadcrumbs {
+            margin-top: 11px;
+        }
+        
+    }
+    
+    &.inline .page-title-container {
+        display: table;
+    }
+    
+    &.inline .page-title-container h1,
+    &.inline .breadcrumbs {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    &.inline .page-title-container h1 {
+        text-align: left;
+    }
+    
+    &.inline .breadcrumbs {
+        text-align: right;
+    }
+    
+    .wrap-button-page-title {
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.breadcrumbs {
+    span.sep {
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 10px;
+        font-size: 12px;
+    }
+    
+    a {
+        @include transition(all .3s);
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    span, span a, a, span i {
+        color: #fff;
+    }
+}

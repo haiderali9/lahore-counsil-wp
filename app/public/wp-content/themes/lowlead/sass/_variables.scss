@@ -1,0 +1,42 @@
+$color_accent: #232629;
+$color_accent_foreground: contrast-color($color_accent);
+$color_accent_brightness: adjust-brightness-color($color_accent, 7.5%);
+
+$color_primary: #091D3E;
+$color_primary_foreground: contrast-color($color_primary);
+$color_primary_brightness: adjust-brightness-color($color_primary, 7.5%);
+
+$color_secondary: #B14233;
+$color_secondary_foreground: contrast-color($color_secondary);
+$color_secondary_brightness: adjust-brightness-color($color_secondary, 7.5%);
+
+$color_light: #fff;
+$color_light_foreground: contrast-color($color_light);
+$color_light_brightness: adjust-brightness-color($color_light, 7.5%);
+
+$color_dark: #000;
+$color_dark_foreground: contrast-color($color_dark);
+$color_dark_brightness: adjust-brightness-color($color_dark, 7.5%);
+
+$color_gray: #8f8f8f;
+$color_gray_foreground: contrast-color($color_gray);
+$color_gray_brightness: adjust-brightness-color($color_gray, 7.5%);
+
+$margin_element: 1em;
+
+// Input
+$color_text_input: #000;
+$color_background_input: #f3f3f4;
+$color_border_input: #f3f3f4;
+$color_border_input_focus: $color_secondary;
+$color_placeholder: #777;
+$height__input: 44px;
+$font_size_base: 14px;
+
+
+
+
+
+
+
+

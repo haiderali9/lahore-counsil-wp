@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*
+Theme Name: Lowlead
+Theme URI: https://lowleadwp.themesflat.com/
+Author: Themesflat
+Author URI: https://themeforest.net/user/themesflat/portfolio
+Description:Lowlead is responsive multipurpose WordPress theme – truly a versatile theme perfect for any type of website you want. It provides multiple pre-built demos which can be imported in seconds using One Click Demo Import Plugin. The theme fully integrates with ThemesFlat By Themesflat.com and Elementor Page Builder Plugin that makes theme more user-friendly and easy. Additionally, theme features multiple blog layouts,  multiple header styles, multiple color options etc.
+Version: 1.0.0
+Tested up to: 5.9
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lowlead
+Tags: accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Variable
+# Typography
+# Header
+# Navigation
+# Top Bar
+# Layout
+# Elementor
+# Pagination
+# Footer
+# Widgets
+# Page Title
+# Editor Blog
+# Responsive
+
+-------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Variable
+--------------------------------------------------------------*/
+@import "sass/mixin";
+@import "sass/variables";
+@import "sass/root";
+/*--------------------------------------------------------------
+## Typography
+--------------------------------------------------------------*/
+@import "sass/typography";
+@import "sass/button";
+/*--------------------------------------------------------------
+/*--------------------------------------------------------------
+## Grid
+--------------------------------------------------------------*/
+@import "sass/grid";
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@import "sass/header";
+/*--------------------------------------------------------------
+## Navigation
+--------------------------------------------------------------*/
+@import "sass/navigation";
+
+/*--------------------------------------------------------------
+## Top Bar
+--------------------------------------------------------------*/
+@import "sass/topbar";
+
+/*--------------------------------------------------------------
+## Layout
+--------------------------------------------------------------*/
+@import "sass/layout";
+
+/*--------------------------------------------------------------
+## Elementor
+--------------------------------------------------------------*/
+@import "sass/elementor";
+/*--------------------------------------------------------------
+## Pagination
+--------------------------------------------------------------*/
+@import "sass/pagination";
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "sass/footer";
+/*--------------------------------------------------------------
+## Widgets
+--------------------------------------------------------------*/
+@import "sass/widgets";
+@import "sass/component";
+/*--------------------------------------------------------------
+## Page Title
+--------------------------------------------------------------*/
+@import "sass/page-title";
+/*--------------------------------------------------------------
+## Editor Blog
+--------------------------------------------------------------*/
+@import "sass/editor-block";
+/*--------------------------------------------------------------
+## Responsive
+--------------------------------------------------------------*/
+@import "sass/responsive";
+@import "sass/post-type";
+/*--------------------------------------------------------------
+## Extend
+--------------------------------------------------------------*/
+@import "sass/extend";

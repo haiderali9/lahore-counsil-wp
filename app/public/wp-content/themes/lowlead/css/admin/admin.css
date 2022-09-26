@@ -1,0 +1,14 @@
+.edit-post-meta-boxes-area input {
+	width: 100%;
+}
+
+.themesflat-options-container .themesflat-options-control-inputs textarea,
+.edit-post-meta-boxes-area textarea {
+	width: 100%;
+	height: 100px;
+}
+
+.edit-post-meta-boxes-area textarea {
+	width: 100%;
+	height: 100px;
+}

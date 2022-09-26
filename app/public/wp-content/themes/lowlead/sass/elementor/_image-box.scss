@@ -1,0 +1,47 @@
+.themesflat-custom-image-box {
+	.tf-imagebox {
+		position: relative;
+
+		.title {
+			margin-bottom: 0.5rem;
+		}
+
+		.content {
+			position: absolute;
+			right: -19%;
+			top: 38%;
+			transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			text-align: right;
+			@media only screen and (max-width: 1300px) {
+				right: 17px;
+				a {
+					color: #fff !important;
+				}
+
+			}
+			@media only screen and (max-width: 1019px) {
+				left: 430px;
+				right: auto;
+				a {
+					color: var(--theme-accent-color) !important;
+				}
+
+			}
+			@media only screen and (max-width: 992px) {
+				display: none;
+
+			}
+
+		}
+
+		@media only screen and (max-width: 991px) {
+			.image {
+				width: 100%;
+			}
+		}
+	}
+}

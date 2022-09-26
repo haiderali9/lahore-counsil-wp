@@ -1,0 +1,61 @@
+.tf-team {
+	&.default {
+		text-align: center;
+
+		.social {
+			border-color: var(--theme-background-color-main) !important;
+
+			> a {
+				color: #c2c2c2;
+
+				&:hover {
+					background-color: var(--theme-secondary-color);
+					color: var(--theme-secondary-foreground-color);
+				}
+			}
+		}
+
+		.title {
+			padding-top: 30px;
+			font-size: 20px;
+			font-weight: 600;
+			margin-bottom: 0.5rem;
+		}
+
+		.image-team {
+			position: relative;
+			z-index: 10;
+		}
+
+		.position {
+			font-size: 14px;
+			padding-bottom: 25px;
+		}
+
+		.content {
+			background-color: #fff;
+			position: relative;
+
+			&:before {
+				content: "";
+				position: absolute;
+				width: 100px;
+				height: 100px;
+				top: -30px;
+				left: -70px;
+				background-color: rgba(255, 255, 255, 0);
+				border: 10px solid var(--theme-background-color-main);
+				border-radius: 335px 600px 432px 10px;
+				@include transition(all 0.3s ease);
+			}
+		}
+
+		&:hover {
+			.content {
+				&:before {
+					border-color: var(--theme-secondary-color);
+				}
+			}
+		}
+	}
+}

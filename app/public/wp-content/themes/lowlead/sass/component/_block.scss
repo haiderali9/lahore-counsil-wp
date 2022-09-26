@@ -1,0 +1,25 @@
+.wp-block-cover {
+	&:not(:last-child) {
+		margin-bottom: 1.5em;
+	}
+}
+
+.wp-block-gallery.alignleft {
+	@media only screen and (min-width: 447px) {
+		margin-right: 1em;
+	}
+}
+
+.wp-block-latest-comments {
+	.wp-block-latest-comments__comment {
+		@include d-flex();
+		.wp-block-latest-comments__comment-meta,.wp-block-latest-comments__comment-excerpt{
+			margin-left: 0;
+		}
+	}
+}
+.wp-block-latest-posts__list{
+	li:not(:last-child){
+		margin-bottom: 10px;
+	}
+}

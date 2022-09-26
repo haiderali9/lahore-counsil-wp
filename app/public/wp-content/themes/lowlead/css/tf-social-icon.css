@@ -1,0 +1,306 @@
+@font-face {
+	font-family: 'tf-social-icon';
+	src: url('../fonts/tf-social-icon.eot?o7tm4m');
+	src: url('../fonts/tf-social-icon.eot?o7tm4m#iefix') format('embedded-opentype'),
+	url('../fonts/tf-social-icon.ttf?o7tm4m') format('truetype'),
+	url('../fonts/tf-social-icon.woff?o7tm4m') format('woff'),
+	url('../fonts/tf-social-icon.svg?o7tm4m#tf-social-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="tf_social_icon-"], [class*=" tf_social_icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'tf-social-icon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.tf_social_icon-credit-card:before {
+	content: "\f09d";
+}
+
+.tf_social_icon-credit-card-blank:before {
+	content: "\f389";
+}
+
+.tf_social_icon-credit-card-front:before {
+	content: "\f38a";
+}
+
+.tf_social_icon-check:before {
+	content: "\f00c";
+}
+
+.tf_social_icon-chevron-up:before {
+	content: "\f077";
+}
+
+.tf_social_icon-credit-card1:before {
+	content: "\f09e";
+}
+
+.tf_social_icon-credit-card-blank1:before {
+	content: "\f38b";
+}
+
+.tf_social_icon-credit-card-front1:before {
+	content: "\f38c";
+}
+
+.tf_social_icon-credit-card2:before {
+	content: "\f09f";
+}
+
+.tf_social_icon-credit-card-blank2:before {
+	content: "\f38d";
+}
+
+.tf_social_icon-credit-card-front2:before {
+	content: "\f38e";
+}
+
+.tf_social_icon-credit-card-blank-primary:before {
+	content: "\f38f";
+}
+
+.tf_social_icon-credit-card-front-primary:before {
+	content: "\f390";
+}
+
+.tf_social_icon-credit-card-secondary:before {
+	content: "\10f09d";
+}
+
+.tf_social_icon-twitter-square:before {
+	content: "\f081";
+}
+
+.tf_social_icon-facebook-square:before {
+	content: "\f082";
+}
+
+.tf_social_icon-linkedin:before {
+	content: "\f08c";
+}
+
+.tf_social_icon-github-square:before {
+	content: "\f092";
+}
+
+.tf_social_icon-twitter:before {
+	content: "\f099";
+}
+
+.tf_social_icon-facebook:before {
+	content: "\f09a";
+}
+
+.tf_social_icon-github:before {
+	content: "\f09b";
+}
+
+.tf_social_icon-pinterest:before {
+	content: "\f0d2";
+}
+
+.tf_social_icon-pinterest-square:before {
+	content: "\f0d3";
+}
+
+.tf_social_icon-google-plus-square:before {
+	content: "\f0d4";
+}
+
+.tf_social_icon-google-plus-g:before {
+	content: "\f0d5";
+}
+
+.tf_social_icon-linkedin-in:before {
+	content: "\f0e1";
+}
+
+.tf_social_icon-github-alt:before {
+	content: "\f113";
+}
+
+.tf_social_icon-youtube:before {
+	content: "\f167";
+}
+
+.tf_social_icon-stack-overflow:before {
+	content: "\f16c";
+}
+
+.tf_social_icon-instagram:before {
+	content: "\f16d";
+}
+
+.tf_social_icon-flickr:before {
+	content: "\f16e";
+}
+
+.tf_social_icon-bitbucket:before {
+	content: "\f171";
+}
+
+.tf_social_icon-tumblr:before {
+	content: "\f173";
+}
+
+.tf_social_icon-tumblr-square:before {
+	content: "\f174";
+}
+
+.tf_social_icon-dribbble:before {
+	content: "\f17d";
+}
+
+.tf_social_icon-skype:before {
+	content: "\f17e";
+}
+
+.tf_social_icon-foursquare:before {
+	content: "\f180";
+}
+
+.tf_social_icon-stack-exchange:before {
+	content: "\f18d";
+}
+
+.tf_social_icon-vimeo-square:before {
+	content: "\f194";
+}
+
+.tf_social_icon-slack:before {
+	content: "\f198";
+}
+
+.tf_social_icon-google:before {
+	content: "\f1a0";
+}
+
+.tf_social_icon-reddit:before {
+	content: "\f1a1";
+}
+
+.tf_social_icon-reddit-square:before {
+	content: "\f1a2";
+}
+
+.tf_social_icon-stumbleupon-circle:before {
+	content: "\f1a3";
+}
+
+.tf_social_icon-stumbleupon:before {
+	content: "\f1a4";
+}
+
+.tf_social_icon-delicious:before {
+	content: "\f1a5";
+}
+
+.tf_social_icon-digg:before {
+	content: "\f1a6";
+}
+
+.tf_social_icon-behance:before {
+	content: "\f1b4";
+}
+
+.tf_social_icon-behance-square:before {
+	content: "\f1b5";
+}
+
+.tf_social_icon-steam:before {
+	content: "\f1b6";
+}
+
+.tf_social_icon-steam-square:before {
+	content: "\f1b7";
+}
+
+.tf_social_icon-spotify:before {
+	content: "\f1bc";
+}
+
+.tf_social_icon-deviantart:before {
+	content: "\f1bd";
+}
+
+.tf_social_icon-soundcloud:before {
+	content: "\f1be";
+}
+
+.tf_social_icon-codepen:before {
+	content: "\f1cb";
+}
+
+.tf_social_icon-jsfiddle:before {
+	content: "\f1cc";
+}
+
+.tf_social_icon-pinterest-p:before {
+	content: "\f231";
+}
+
+.tf_social_icon-vimeo-v:before {
+	content: "\f27d";
+}
+
+.tf_social_icon-reddit-alien:before {
+	content: "\f281";
+}
+
+.tf_social_icon-google-plus:before {
+	content: "\f2b3";
+}
+
+.tf_social_icon-bitcoin:before {
+	content: "\f379";
+}
+
+.tf_social_icon-dribbble-square:before {
+	content: "\f397";
+}
+
+.tf_social_icon-facebook-f:before {
+	content: "\f39e";
+}
+
+.tf_social_icon-facebook-messenger:before {
+	content: "\f39f";
+}
+
+.tf_social_icon-slack-hash:before {
+	content: "\f3ef";
+}
+
+.tf_social_icon-steam-symbol:before {
+	content: "\f3f6";
+}
+
+.tf_social_icon-vimeo:before {
+	content: "\f40a";
+}
+
+.tf_social_icon-youtube-square:before {
+	content: "\f431";
+}
+
+.tf_social_icon-instagram-square:before {
+	content: "\f955";
+}
+
+.tf_social_icon-shopify:before {
+	content: "\f957";
+}

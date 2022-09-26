@@ -1,0 +1,72 @@
+.owl-carousel.owl-loaded:not(.testimonial-group) {
+	.owl-nav {
+		> button {
+			width: 74px;
+			height: 74px;
+			line-height: 74px;
+			border: 2px solid currentColor;
+			color: var(--theme-secondary-color);
+			border-radius: 50%;
+			font-size: 40px;
+			@include d-flex();
+			@include align-items-center();
+			@include justify-content-center();
+			@include transform(translateY(-50%));
+			position: absolute;
+			top: 50%;
+
+			&:hover {
+				background-color: var(--theme-secondary-color);
+				border-color: var(--theme-secondary-color);
+				color: var(--theme-secondary-foreground-color);
+			}
+
+			&:before {
+				display: none;
+			}
+
+			i {
+				font-weight: 200;
+				padding: 0;
+			}
+		}
+
+		.owl-prev {
+			left: -100px;
+		}
+
+		.owl-next {
+			right: -100px;
+		}
+	}
+
+	.owl-dots {
+		text-align: center;
+
+		> .owl-dot {
+			width: 16px;
+			height: 16px;
+			margin: 0 5px;
+			@include d-inline-flex();
+			@include align-items-center();
+			@include justify-content-center();
+			@include transition(all 0.3s ease-in-out);
+			border: 2px solid var(--theme-secondary-color);
+			border-radius: 50%;
+
+			span {
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+			}
+
+			&:before {
+				display: none;
+			}
+
+			&.active span {
+				background-color: var(--theme-secondary-color);
+			}
+		}
+	}
+}

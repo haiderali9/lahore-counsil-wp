@@ -1,0 +1,37 @@
+.tf-accordion {
+	.tf-accordion-item {
+		background: #FDFDFD;
+		border: 1px solid #F0F0F0;
+
+		&:not(:last-child) {
+			border-bottom: none;
+		}
+	}
+
+	.accordion-title {
+		font-size: 18px;
+		line-height: 30px;
+		font-weight: 700;
+		font-family: var(--theme-font-primary);
+		padding: 9px 28px 9px 31px;
+		color: #272B2E;
+		.accordion-icon{
+			color:  #E8E8E8;
+			font-size: 12px;
+		}
+
+		&.active {
+			background-color: var(--theme-secondary-color);
+			color: #fff;
+
+			.accordion-icon-close {
+				display: none;
+			}
+		}
+	}
+
+	.accordion-content {
+		font-size: 14px;
+		line-height: 30px;
+	}
+}

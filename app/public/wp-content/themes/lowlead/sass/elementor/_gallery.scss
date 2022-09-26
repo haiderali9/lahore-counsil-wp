@@ -1,0 +1,17 @@
+.tf-widget-gallery {
+	padding-bottom: 26px!important;
+	.widget-title {
+		margin-bottom: 26px;
+	}
+
+	.tf-gallery-list {
+		--tf-gallery-gap: 30px;
+		margin-left: calc(0px - (var(--tf-gallery-gap) / 2));
+		margin-right: calc(0px - (var(--tf-gallery-gap) / 2));
+	}
+	.tf-gallery-item {
+		padding-left: calc((var(--tf-gallery-gap) / 2));
+		padding-right: calc((var(--tf-gallery-gap) / 2));
+		margin-bottom: var(--tf-gallery-gap);
+	}
+}
